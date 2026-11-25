@@ -223,7 +223,7 @@ leadout/
 │   ├── test_visuals.py
 │   └── test_stats.py
 ├── README.md                       S6
-├── docs/                         SPEC.md, commands.md, rules.md, audits/, images
+├── docs/                         SPEC.md, commands.md, rules.md, audits/, cover, demo, social preview
 ├── CHANGELOG.md
 ├── LICENSE                         MIT
 └── .gitignore
@@ -1444,7 +1444,8 @@ Details fixed in S2:
 ## 14. Plugin README (S6)
 
 Must score ≥ 90 on its own audit (`audit.py .` on this repo, online). Contents in order:
-1. First screen, nothing else above the fold: name, one sentence, the demo
+1. First screen, nothing else above the fold: the cover (`docs/cover.png`, name and
+   tagline on the logo colours), one sentence, the demo
    (`docs/demo.png`, or the GIF once it exists: a real `/leadout:audit` run, no SVG-only
    demo since the rubric gives SVG 0.5) and the install command
    `claude plugin marketplace add cc-forge/leadout && claude plugin install leadout@leadout`.

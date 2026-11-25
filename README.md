@@ -1,4 +1,4 @@
-# leadout
+![leadout: from finished code to launched and measured.](docs/cover.png)
 
 A Claude Code plugin that takes a GitHub repository from finished code to launched and measured: audit, fixes, visuals, launch kit and post-launch stats.
 
