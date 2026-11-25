@@ -6,6 +6,25 @@ and the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+- `docs/audits/2026-11-25/`: audits of ten well-known public repositories of different
+  types, published in the README with date and rubric version.
+- `docs/commands.md` (flags and outputs of every command) and `docs/rules.md` (project
+  rules and privacy).
+
+### Changed
+- README: first screen with name, one sentence, demo and install only; short sections
+  that link to `docs/`. The case study waits for real numbers.
+- `SPEC.md` moved to `docs/SPEC.md`.
+
+### Fixed
+- `fix.py topics` proposed fewer topics than the audit asks for: it now reads keywords
+  from `.claude-plugin/plugin.json` and `Cargo.toml` and fills up to the rubric minimum
+  with words from the description.
+- Project type: `skills/*/SKILL.md` alone no longer turns a CLI or an app into a Claude
+  Code plugin (`cli/cli`), and a Python package whose README imports it is a library
+  even when it also installs a command (`pallets/flask`).
+
 ## [0.1.0] - 2026-11-25
 
 ### Added

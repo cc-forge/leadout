@@ -1,0 +1,414 @@
+{
+  "as_of": "2026-11-25",
+  "categories": [
+    {
+      "id": "readme",
+      "max": 35.0,
+      "points": 24.0,
+      "title": "README"
+    },
+    {
+      "id": "metadata",
+      "max": 20.0,
+      "points": 17.3,
+      "title": "Metadata"
+    },
+    {
+      "id": "distribution",
+      "max": 15.0,
+      "points": 10.0,
+      "title": "Distribution"
+    },
+    {
+      "id": "community",
+      "max": 15.0,
+      "points": 11.0,
+      "title": "Community"
+    },
+    {
+      "id": "health",
+      "max": 15.0,
+      "points": 14.5,
+      "title": "Health"
+    }
+  ],
+  "checks": [
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "README.md found.",
+      "id": "readme.exists",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README file exists"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "First paragraph is 183 characters.",
+      "id": "readme.tagline",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README opens with one sentence that says what the project does"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "Media in the first 50 lines: banner.png (line 4).",
+      "id": "readme.visual_demo",
+      "lost": 0.0,
+      "phase": "visuals",
+      "points": 7.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README shows a demo GIF, video or screenshot near the top"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "No install section (Installation, Getting started, Quick start...).",
+      "id": "readme.install",
+      "lost": 6.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "README installs in one command"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "No usage or example section.",
+      "id": "readme.usage",
+      "lost": 5.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "README has a usage section with an example"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "Section \"How do I contribute to tldr-pages?\".",
+      "id": "readme.contributing",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README tells people how to contribute"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "841 words.",
+      "id": "readme.length",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README length is between 300 and 5000 words"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "Description is 49 characters.",
+      "id": "meta.description",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository description is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "20 topics (want 5), 15 pertinent; not pertinent: documentation, hacktoberfest, manual, osx, terminal.",
+      "id": "meta.topics",
+      "lost": 1.3,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 0.75,
+      "status": "partial",
+      "title": "Repository has at least 5 pertinent topics"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "Homepage: https://tldr.sh.",
+      "id": "meta.homepage",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository homepage URL is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "medium",
+      "evidence": "A custom social preview is set.",
+      "id": "meta.social_preview",
+      "lost": 0.0,
+      "phase": "visuals",
+      "points": 4.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository has a custom social preview image"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "LICENSE.md exists but GitHub does not recognise the license.",
+      "id": "meta.license",
+      "lost": 1.5,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 0.5,
+      "status": "partial",
+      "title": "License is recognised by GitHub"
+    },
+    {
+      "category": "distribution",
+      "effort": "medium",
+      "evidence": "The README installs from a registry: pipx install tldr.",
+      "id": "dist.release",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project is installable from a release or a package registry"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "No semver tag (v2.3).",
+      "id": "dist.semver",
+      "lost": 5.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Releases use semantic version tags"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "Release v2.3 has notes (2685 characters).",
+      "id": "dist.changelog",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 4.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Changes are documented in a changelog or release notes"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "CONTRIBUTING.md found.",
+      "id": "comm.contributing",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "CONTRIBUTING file exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No CODE_OF_CONDUCT found.",
+      "id": "comm.code_of_conduct",
+      "lost": 2.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Code of conduct exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": ".github/ISSUE_TEMPLATE/lets-document.yml found.",
+      "id": "comm.issue_templates",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Issue templates exist"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": ".github/PULL_REQUEST_TEMPLATE.md found.",
+      "id": "comm.pr_template",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Pull request template exists"
+    },
+    {
+      "category": "community",
+      "effort": "medium",
+      "evidence": "40 open issue(s) labelled \"good first issue\".",
+      "id": "comm.good_first_issue",
+      "lost": 0.0,
+      "phase": "manual",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Open issues are labelled for first-time contributors"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No SECURITY.md found.",
+      "id": "comm.security",
+      "lost": 2.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Security policy exists"
+    },
+    {
+      "category": "health",
+      "effort": "high",
+      "evidence": "Last commit 0 days ago (2026-11-25).",
+      "id": "health.recent_commit",
+      "lost": 0.0,
+      "phase": "manual",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project had a commit in the last 90 days"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "The latest default-branch run succeeded (2026-11-25).",
+      "id": "health.ci",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "CI runs and passes on the default branch"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "1 of 8 open issues have no reply after 7 days.",
+      "id": "health.issue_response",
+      "lost": 0.5,
+      "phase": "manual",
+      "points": 4.0,
+      "score": 0.88,
+      "status": "partial",
+      "title": "Open issues get an answer within 7 days"
+    }
+  ],
+  "coverage": 100,
+  "detection": {
+    "evidence": [],
+    "frameworks": [],
+    "language": "Markdown",
+    "overridden": false,
+    "type": "other"
+  },
+  "fixes": [
+    {
+      "effort": "low",
+      "gain": 6.0,
+      "id": "readme.install",
+      "phase": "fix",
+      "rank": 1,
+      "text": "Add an Installation section whose first code block is a single command. No install section (Installation, Getting started, Quick start...)."
+    },
+    {
+      "effort": "low",
+      "gain": 5.0,
+      "id": "dist.semver",
+      "phase": "fix",
+      "rank": 2,
+      "text": "Tag releases with semantic versions such as v1.2.0. No semver tag (v2.3)."
+    },
+    {
+      "effort": "medium",
+      "gain": 5.0,
+      "id": "readme.usage",
+      "phase": "fix",
+      "rank": 3,
+      "text": "Add a Usage section with a runnable example, a table of commands or a screenshot. No usage or example section."
+    },
+    {
+      "effort": "low",
+      "gain": 2.0,
+      "id": "comm.code_of_conduct",
+      "phase": "fix",
+      "rank": 4,
+      "text": "Add a CODE_OF_CONDUCT.md (for example the Contributor Covenant). No CODE_OF_CONDUCT found."
+    },
+    {
+      "effort": "low",
+      "gain": 2.0,
+      "id": "comm.security",
+      "phase": "fix",
+      "rank": 5,
+      "text": "Add a SECURITY.md that says how to report a vulnerability privately. No SECURITY.md found."
+    },
+    {
+      "effort": "low",
+      "gain": 1.5,
+      "id": "meta.license",
+      "phase": "fix",
+      "rank": 6,
+      "text": "Add a standard LICENSE file (for example MIT or Apache-2.0) that GitHub recognises. LICENSE.md exists but GitHub does not recognise the license."
+    },
+    {
+      "effort": "low",
+      "gain": 1.3,
+      "id": "meta.topics",
+      "phase": "fix",
+      "rank": 7,
+      "text": "Add at least 5 topics that match the language, type and domain of the project. 20 topics (want 5), 15 pertinent; not pertinent: documentation, hacktoberfest, manual, osx, terminal."
+    },
+    {
+      "effort": "medium",
+      "gain": 0.5,
+      "id": "health.issue_response",
+      "phase": "manual",
+      "rank": 8,
+      "text": "Answer or label the open issues that have no reply. 1 of 8 open issues have no reply after 7 days."
+    }
+  ],
+  "grade": "B",
+  "project_type": "other",
+  "rubric": {
+    "name": "leadout default",
+    "sha256": "40da5f042ee03076a92d7ef95b9963ae00a7b7dd7c46e9f4006cf4f432f69dd0",
+    "version": "1.0.0"
+  },
+  "schema": 1,
+  "score": 77,
+  "target": {
+    "kind": "remote",
+    "path": null,
+    "slug": "tldr-pages/tldr"
+  },
+  "warnings": []
+}

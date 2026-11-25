@@ -26,7 +26,8 @@ README_CAP = 200 * 1024
 GFI_LABELS = ("good first issue", "good-first-issue", "first-timers-only", "beginner", "easy")
 ROOT_MANIFESTS = ("package.json", "pyproject.toml", "setup.py", "setup.cfg", "Cargo.toml",
                   "go.mod", "composer.json", "Package.swift", "pubspec.yaml", "hugo.toml",
-                  "config.toml", "wrangler.toml", "wrangler.json", "wrangler.jsonc")
+                  "config.toml", "wrangler.toml", "wrangler.json", "wrangler.jsonc",
+                  ".claude-plugin/plugin.json")
 OTHER_CI = (".gitlab-ci.yml", ".circleci/config.yml", ".travis.yml", "azure-pipelines.yml",
             "Jenkinsfile")
 WALK_SKIP = {".git", "node_modules", "__pycache__", ".venv", "venv"}
@@ -183,7 +184,12 @@ def reduce_manifest(path: str, text: str) -> dict:
         t = toml_load(text)
         pkg = t.get("package") or {}
         return {"name": pkg.get("name"), "version": pkg.get("version"),
-                "bin": bool(t.get("bin")), "lib": "lib" in t}
+                "bin": bool(t.get("bin")), "lib": "lib" in t,
+                "keywords": [k for k in pkg.get("keywords") or [] if isinstance(k, str)]}
+    if name == "plugin.json":
+        d = _json(text)
+        return {"name": d.get("name"), "version": d.get("version"),
+                "keywords": [k for k in d.get("keywords") or [] if isinstance(k, str)]}
     if name == "go.mod":
         m = re.search(r"(?m)^module\s+(\S+)", text)
         return {"module": m.group(1) if m else None}

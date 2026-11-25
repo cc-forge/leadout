@@ -380,6 +380,20 @@ def normalize_topic(raw: str) -> str | None:
     return t if re.fullmatch(r"[a-z0-9][a-z0-9-]{0,49}", t or "") else None
 
 
+_STOPWORDS = set("""about after also been before being both build built code each every
+easy fast from have into just like made make makes more most much need only other over
+same simple some such take takes than that their them then there these they this those
+tool tools under used uses using very what when where which while will with without your
+""".split())
+
+
+def _min_topics() -> int:
+    """meta.topics min_count from the bundled rubric (fix.py never imports audit.py)."""
+    rubric = json.loads((Path(__file__).parent / "rubric.json").read_text(encoding="utf-8"))
+    check = next((c for c in rubric["checks"] if c["id"] == "meta.topics"), {})
+    return int((check.get("params") or {}).get("min_count", 5))
+
+
 def propose_topics(facts: dict, detection: dict) -> list:
     repo = facts.get("repo") or {}
     ptype = detection["type"]
@@ -392,14 +406,26 @@ def propose_topics(facts: dict, detection: dict) -> list:
                     repo.get("primary_language") or "", detection.get("language") or "", ptype,
                     " ".join(detection.get("frameworks") or [])]).lower()
     have = {str(t).lower() for t in repo.get("topics") or []}
+    # Few manifests carry keywords: fill up to the audit's minimum with words of the
+    # description, most used in the README first. They are pertinent by construction.
+    readme = ((facts.get("readme") or {}).get("text") or "").lower()
+    freq = {w: readme.count(w) for w in re.findall(r"[a-z][a-z0-9]{3,}",
+                                                    (repo.get("description") or "").lower())}
+    text_terms = sorted((w for w in freq if w not in _STOPWORDS), key=lambda w: -freq[w])
     out = []
-    for c in cands:
+
+    def add(c):
         t = normalize_topic(c)
-        if not t or t in have or t in out or t == "other":
-            continue
-        if not any(len(tok) >= 3 and tok in hay for tok in t.split("-")):
-            continue
-        out.append(t)
+        if t and t not in have and t not in out and t != "other" and any(
+                len(tok) >= 3 and tok in hay for tok in t.split("-")):
+            out.append(t)
+
+    for c in cands:  # manifests, language and type first
+        add(c)
+    for c in text_terms:  # description words only to reach the minimum
+        if len(have) + len(out) >= _min_topics():
+            break
+        add(c)
     return out[:max(0, 20 - len(have))]
 
 

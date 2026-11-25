@@ -1,0 +1,402 @@
+{
+  "as_of": "2026-11-25",
+  "categories": [
+    {
+      "id": "readme",
+      "max": 35.0,
+      "points": 25.5,
+      "title": "README"
+    },
+    {
+      "id": "metadata",
+      "max": 20.0,
+      "points": 15.0,
+      "title": "Metadata"
+    },
+    {
+      "id": "distribution",
+      "max": 15.0,
+      "points": 15.0,
+      "title": "Distribution"
+    },
+    {
+      "id": "community",
+      "max": 15.0,
+      "points": 12.0,
+      "title": "Community"
+    },
+    {
+      "id": "health",
+      "max": 15.0,
+      "points": 13.5,
+      "title": "Health"
+    }
+  ],
+  "checks": [
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "README.md found.",
+      "id": "readme.exists",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README file exists"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "No prose paragraph in the first 15 lines.",
+      "id": "readme.tagline",
+      "lost": 6.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "README opens with one sentence that says what the project does"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "Media only after line 50 (line 386).",
+      "id": "readme.visual_demo",
+      "lost": 3.5,
+      "phase": "visuals",
+      "points": 7.0,
+      "score": 0.5,
+      "status": "partial",
+      "title": "README shows a demo GIF, video or screenshot near the top"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "\"Installing\": the first code block is 1 command.",
+      "id": "readme.install",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README installs in one command"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "\"Example\" has a code block, table or image.",
+      "id": "readme.usage",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README has a usage section with an example"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "Section \"Contributing\".",
+      "id": "readme.contributing",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README tells people how to contribute"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "4924 words.",
+      "id": "readme.length",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README length is between 300 and 5000 words"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "Description is 53 characters.",
+      "id": "meta.description",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository description is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "5 topics (want 5), 4 pertinent; not pertinent: hacktoberfest.",
+      "id": "meta.topics",
+      "lost": 1.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 0.8,
+      "status": "partial",
+      "title": "Repository has at least 5 pertinent topics"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "Homepage: https://axios-http.com.",
+      "id": "meta.homepage",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository homepage URL is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "medium",
+      "evidence": "GitHub shows the default social preview.",
+      "id": "meta.social_preview",
+      "lost": 4.0,
+      "phase": "visuals",
+      "points": 4.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Repository has a custom social preview image"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "License: MIT.",
+      "id": "meta.license",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "License is recognised by GitHub"
+    },
+    {
+      "category": "distribution",
+      "effort": "medium",
+      "evidence": "The README installs from a registry: npm install axios.",
+      "id": "dist.release",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project is installable from a release or a package registry"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "Latest release v1.21.1 is semver.",
+      "id": "dist.semver",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Releases use semantic version tags"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "CHANGELOG.md found.",
+      "id": "dist.changelog",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 4.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Changes are documented in a changelog or release notes"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "CONTRIBUTING.md found.",
+      "id": "comm.contributing",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "CONTRIBUTING file exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "CODE_OF_CONDUCT.md found.",
+      "id": "comm.code_of_conduct",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Code of conduct exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": ".github/ISSUE_TEMPLATE.md found.",
+      "id": "comm.issue_templates",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Issue templates exist"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": ".github/PULL_REQUEST_TEMPLATE.md found.",
+      "id": "comm.pr_template",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Pull request template exists"
+    },
+    {
+      "category": "community",
+      "effort": "medium",
+      "evidence": "No good-first-issue label.",
+      "id": "comm.good_first_issue",
+      "lost": 3.0,
+      "phase": "manual",
+      "points": 3.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Open issues are labelled for first-time contributors"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "SECURITY.md found.",
+      "id": "comm.security",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Security policy exists"
+    },
+    {
+      "category": "health",
+      "effort": "high",
+      "evidence": "Last commit 1 days ago (2026-11-24).",
+      "id": "health.recent_commit",
+      "lost": 0.0,
+      "phase": "manual",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project had a commit in the last 90 days"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "The latest default-branch run succeeded (2026-11-25).",
+      "id": "health.ci",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "CI runs and passes on the default branch"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "10 of 26 open issues have no reply after 7 days.",
+      "id": "health.issue_response",
+      "lost": 1.5,
+      "phase": "manual",
+      "points": 4.0,
+      "score": 0.62,
+      "status": "partial",
+      "title": "Open issues get an answer within 7 days"
+    }
+  ],
+  "coverage": 100,
+  "detection": {
+    "evidence": [
+      "package.json main/exports"
+    ],
+    "frameworks": [
+      "express"
+    ],
+    "language": "JavaScript",
+    "overridden": false,
+    "type": "library"
+  },
+  "fixes": [
+    {
+      "effort": "low",
+      "gain": 6.0,
+      "id": "readme.tagline",
+      "phase": "fix",
+      "rank": 1,
+      "text": "Open the README with a single sentence: what it is, for whom, and the main benefit. No prose paragraph in the first 15 lines."
+    },
+    {
+      "effort": "medium",
+      "gain": 4.0,
+      "id": "meta.social_preview",
+      "phase": "visuals",
+      "rank": 2,
+      "text": "Upload a 1280x640 social preview image in the repository settings. GitHub shows the default social preview."
+    },
+    {
+      "effort": "medium",
+      "gain": 3.5,
+      "id": "readme.visual_demo",
+      "phase": "visuals",
+      "rank": 3,
+      "text": "Add a demo GIF or screenshot in the first screen of the README. Media only after line 50 (line 386)."
+    },
+    {
+      "effort": "medium",
+      "gain": 3.0,
+      "id": "comm.good_first_issue",
+      "phase": "manual",
+      "rank": 4,
+      "text": "Create a 'good first issue' label and apply it to a few small, well-described issues. No good-first-issue label."
+    },
+    {
+      "effort": "low",
+      "gain": 1.0,
+      "id": "meta.topics",
+      "phase": "fix",
+      "rank": 5,
+      "text": "Add at least 5 topics that match the language, type and domain of the project. 5 topics (want 5), 4 pertinent; not pertinent: hacktoberfest."
+    },
+    {
+      "effort": "medium",
+      "gain": 1.5,
+      "id": "health.issue_response",
+      "phase": "manual",
+      "rank": 6,
+      "text": "Answer or label the open issues that have no reply. 10 of 26 open issues have no reply after 7 days."
+    }
+  ],
+  "grade": "B",
+  "project_type": "library",
+  "rubric": {
+    "name": "leadout default",
+    "sha256": "40da5f042ee03076a92d7ef95b9963ae00a7b7dd7c46e9f4006cf4f432f69dd0",
+    "version": "1.0.0"
+  },
+  "schema": 1,
+  "score": 81,
+  "target": {
+    "kind": "remote",
+    "path": null,
+    "slug": "axios/axios"
+  },
+  "warnings": []
+}

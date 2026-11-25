@@ -267,6 +267,24 @@ class TopicTests(unittest.TestCase):
         facts["manifests"]["Cargo.toml"]["keywords"] = ["clean", "charts-two"]
         self.assertEqual(len(fix.propose_topics(facts, CLI)), 1)
 
+    def test_reaches_the_audit_minimum_without_manifest_keywords(self):
+        facts = deep(load_facts("base"))
+        facts["repo"]["topics"] = []
+        facts["manifests"] = {}
+        facts["repo"]["description"] = "Fast benchmarking tool for shell commands, with statistics"
+        facts["readme"]["text"] = "Benchmarking shell commands. Statistics for every benchmarking run."
+        topics = fix.propose_topics(facts, CLI)
+        self.assertGreaterEqual(len(topics), fix._min_topics())
+        self.assertIn("benchmarking", topics)
+        self.assertNotIn("fast", topics)  # stopword
+        self.assertNotIn("tool", topics)
+
+    def test_plugin_manifest_keywords_are_candidates(self):
+        import facts as facts_mod
+        m = facts_mod.reduce_manifest(".claude-plugin/plugin.json",
+                                      '{"name": "x", "keywords": ["audit", 3, "launch"]}')
+        self.assertEqual(m["keywords"], ["audit", "launch"])
+
     def test_claude_plugin_topic(self):
         facts = deep(load_facts("base"))
         facts["repo"]["topics"] = []

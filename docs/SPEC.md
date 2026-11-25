@@ -223,7 +223,7 @@ leadout/
 │   ├── test_visuals.py
 │   └── test_stats.py
 ├── README.md                       S6
-├── SPEC.md
+├── docs/                         SPEC.md, commands.md, rules.md, audits/, images
 ├── CHANGELOG.md
 ├── LICENSE                         MIT
 └── .gitignore
@@ -1444,21 +1444,19 @@ Details fixed in S2:
 ## 14. Plugin README (S6)
 
 Must score ≥ 90 on its own audit (`audit.py .` on this repo, online). Contents in order:
-1. Title, badges (real), one-sentence tagline.
-2. Demo: a PNG or GIF of a real `/leadout:audit` run in the first screen (made with
-   `visuals.py`; no SVG-only demo, since the rubric gives SVG 0.5).
-3. Install in one command:
-   `claude plugin marketplace add cc-forge/leadout && claude plugin install leadout@leadout`,
-   with the in-session `/plugin` equivalent below it.
-4. Table of the five commands plus `all`.
-5. A real audit report excerpt (from an actual run, with date and repo).
-6. "Case study" with `TODO(...)` for before/after numbers of a real repo (the author
-   fills them; never invented).
-7. "Project rules": no vote/star requests, no star exchanges, no multiple accounts, no
-   identical cross-posts, never publishes on your behalf, always asks before writing.
-8. Requirements (Python 3.9+, gh, optional ffmpeg/gifski), privacy (no telemetry; GitHub
-   calls via your gh only; star history stores no usernames).
-9. Roadmap, Contributing, License.
+1. First screen, nothing else above the fold: name, one sentence, the demo
+   (`docs/demo.png`, or the GIF once it exists: a real `/leadout:audit` run, no SVG-only
+   demo since the rubric gives SVG 0.5) and the install command
+   `claude plugin marketplace add cc-forge/leadout && claude plugin install leadout@leadout`.
+2. Commands: two columns, command and one line; details in `docs/commands.md`.
+3. Real audits: a table of public repositories of different types, with date and rubric
+   version, the JSON outputs in `docs/audits/<date>/`. Real, reproducible data only:
+   no stars, downloads or users of leadout itself.
+4. Project rules, privacy, requirements, development, roadmap: three lines each at most,
+   the rest in `docs/` behind a link (`docs/rules.md`).
+5. Contributing, License.
+No "Case study" section until real before/after numbers exist: a table of `TODO(...)`
+is never shown in public.
 
 ---
 
@@ -1556,7 +1554,8 @@ Run `audit.py` (online) on three public repos of different types and fix what br
 
 ## 17. Open items
 
-- Case-study numbers in the README: provided by the author only.
+- Case study in the README: add it only with real before/after numbers from a launch,
+  provided by the author (removed from the public README until then).
 - Fill `templates/launch/subreddits.json` after reading each community's live rules page (Reddit
   blocked automated reads on 2026-11-25).
 - Optional: record traffic and stargazer-page fixtures from a repository the owner can

@@ -345,6 +345,19 @@ class DetectTests(unittest.TestCase):
                          "library")
         self.assertEqual(self.kind(["notes.txt"]), "other")
 
+    def test_skill_folders_do_not_override_a_cli(self):
+        # cli/cli ships skills/*/SKILL.md next to its Go command
+        self.assertEqual(self.kind(["go.mod", "cmd/gh/main.go", "skills/gh/SKILL.md"]), "cli")
+        self.assertEqual(self.kind(["skills/a/SKILL.md", "README.md"]), "claude-plugin")
+
+    def test_python_library_with_a_command(self):
+        py = {"pyproject.toml": {"name": "Flask", "scripts": ["flask"]}}
+        lib = detect.detect({"files": ["pyproject.toml"], "manifests": py,
+                             "readme": {"text": "```python\nfrom flask import Flask\n```"}})
+        tool = detect.detect({"files": ["pyproject.toml"], "manifests": py,
+                              "readme": {"text": "```sh\nflask run\n```"}})
+        self.assertEqual((lib["type"], tool["type"]), ("library", "cli"))
+
     def test_flutter_desktop_in_pub_workspace(self):
         # localsend layout: workspace pubspec at the root, the Flutter app in app/
         files = ["pubspec.yaml", "Cargo.toml", "app/pubspec.yaml", "app/linux/my_application.cc"]

@@ -77,14 +77,18 @@ def detect(facts: dict) -> dict:
     setup = (m.get("setup.py") or {}).get("console_scripts") or (
         m.get("setup.cfg") or {}).get("console_scripts")
     wrangler = [v for k, v in m.items() if k.startswith("wrangler.")]
+    # A Python package whose README shows `import name` is a library even when it also
+    # installs a command (flask); a tool whose README only shows the command stays a CLI.
+    pyname = (py.get("name") or (m.get("setup.py") or {}).get("name") or "")
+    readme = (facts.get("readme") or {}).get("text") or ""
+    py_imported = bool(pyname) and re.search(
+        r"(?m)^\s*(?:>>>\s*)?(?:from|import)\s+" + re.escape(pyname.replace("-", "_")) + r"\b",
+        readme, re.IGNORECASE) is not None
 
     checks = [
         ("claude-plugin", [
             (".claude-plugin/plugin.json", ".claude-plugin/plugin.json" in fs),
             (".claude-plugin/marketplace.json", ".claude-plugin/marketplace.json" in fs),
-            ("SKILL.md at root", "SKILL.md" in fs),
-            ("skills/*/SKILL.md", any(re.fullmatch(r"skills/[^/]+/SKILL\.md", f)
-                                      for f in files)),
         ]),
         ("desktop-app", [
             ("src-tauri/", any(f.startswith("src-tauri/") for f in files)),
@@ -116,7 +120,7 @@ def detect(facts: dict) -> dict:
             ("Go package main", "main.go" in fs or any(
                 re.fullmatch(r"cmd/[^/]+/main\.go", f) for f in files)),
             ("package.json bin", bool(pkg.get("bin"))),
-            ("pyproject scripts", bool(py.get("scripts")) or bool(setup)),
+            ("pyproject scripts", (bool(py.get("scripts")) or bool(setup)) and not py_imported),
             # ponytail: any file in bin/ counts; executable bits are not in RepoFacts
             ("bin/ scripts", any(re.fullmatch(r"bin/[^/]+", f) and not f.endswith(".md")
                                  for f in files)),
@@ -132,6 +136,13 @@ def detect(facts: dict) -> dict:
             ("composer.json", "composer.json" in fs),
             ("Java build file", any(f in fs for f in ("pom.xml", "build.gradle",
                                                      "build.gradle.kts"))),
+        ]),
+        # Bare skill folders also ship inside CLIs and apps (cli/cli has skills/*/SKILL.md):
+        # they decide the type only when nothing above matched.
+        ("claude-plugin", [
+            ("SKILL.md at root", "SKILL.md" in fs),
+            ("skills/*/SKILL.md", any(re.fullmatch(r"skills/[^/]+/SKILL\.md", f)
+                                      for f in files)),
         ]),
     ]
     ptype, evidence = "other", []

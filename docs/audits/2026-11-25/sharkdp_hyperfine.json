@@ -1,0 +1,432 @@
+{
+  "as_of": "2026-11-25",
+  "categories": [
+    {
+      "id": "readme",
+      "max": 35.0,
+      "points": 32.0,
+      "title": "README"
+    },
+    {
+      "id": "metadata",
+      "max": 20.0,
+      "points": 16.2,
+      "title": "Metadata"
+    },
+    {
+      "id": "distribution",
+      "max": 15.0,
+      "points": 15.0,
+      "title": "Distribution"
+    },
+    {
+      "id": "community",
+      "max": 15.0,
+      "points": 1.5,
+      "title": "Community"
+    },
+    {
+      "id": "health",
+      "max": 15.0,
+      "points": 14.0,
+      "title": "Health"
+    }
+  ],
+  "checks": [
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "README.md found.",
+      "id": "readme.exists",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README file exists"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "First paragraph is 33 characters.",
+      "id": "readme.tagline",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README opens with one sentence that says what the project does"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "Media in the first 50 lines: 9a5a45d3-df3f-4e0e-8cc9-5d8153f39e48 (line 5).",
+      "id": "readme.visual_demo",
+      "lost": 0.0,
+      "phase": "visuals",
+      "points": 7.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README shows a demo GIF, video or screenshot near the top"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "\"Installation\": the first code block is 1 command.",
+      "id": "readme.install",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README installs in one command"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "\"Usage\" has a code block, table or image.",
+      "id": "readme.usage",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README has a usage section with an example"
+    },
+    {
+      "category": "readme",
+      "effort": "low",
+      "evidence": "No contributing section or link.",
+      "id": "readme.contributing",
+      "lost": 3.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "README tells people how to contribute"
+    },
+    {
+      "category": "readme",
+      "effort": "medium",
+      "evidence": "1864 words.",
+      "id": "readme.length",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "README length is between 300 and 5000 words"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "Description is 32 characters.",
+      "id": "meta.description",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository description is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "6 topics (want 5), 5 pertinent; not pertinent: terminal.",
+      "id": "meta.topics",
+      "lost": 0.9,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 0.83,
+      "status": "partial",
+      "title": "Repository has at least 5 pertinent topics"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "No homepage URL.",
+      "id": "meta.homepage",
+      "lost": 3.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Repository homepage URL is set"
+    },
+    {
+      "category": "metadata",
+      "effort": "medium",
+      "evidence": "A custom social preview is set.",
+      "id": "meta.social_preview",
+      "lost": 0.0,
+      "phase": "visuals",
+      "points": 4.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Repository has a custom social preview image"
+    },
+    {
+      "category": "metadata",
+      "effort": "low",
+      "evidence": "License: Apache-2.0.",
+      "id": "meta.license",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "License is recognised by GitHub"
+    },
+    {
+      "category": "distribution",
+      "effort": "medium",
+      "evidence": "The README installs from a registry: brew install hyperfine.",
+      "id": "dist.release",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project is installable from a release or a package registry"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "Latest release v2.0.0 is semver.",
+      "id": "dist.semver",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Releases use semantic version tags"
+    },
+    {
+      "category": "distribution",
+      "effort": "low",
+      "evidence": "CHANGELOG.md found.",
+      "id": "dist.changelog",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 4.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Changes are documented in a changelog or release notes"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No CONTRIBUTING found.",
+      "id": "comm.contributing",
+      "lost": 3.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "CONTRIBUTING file exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No CODE_OF_CONDUCT found.",
+      "id": "comm.code_of_conduct",
+      "lost": 2.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Code of conduct exists"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No issue templates found.",
+      "id": "comm.issue_templates",
+      "lost": 3.0,
+      "phase": "fix",
+      "points": 3.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Issue templates exist"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No pull request template found.",
+      "id": "comm.pr_template",
+      "lost": 2.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Pull request template exists"
+    },
+    {
+      "category": "community",
+      "effort": "medium",
+      "evidence": "Label \"good first issue\" exists but no open issue has it.",
+      "id": "comm.good_first_issue",
+      "lost": 1.5,
+      "phase": "manual",
+      "points": 3.0,
+      "score": 0.5,
+      "status": "partial",
+      "title": "Open issues are labelled for first-time contributors"
+    },
+    {
+      "category": "community",
+      "effort": "low",
+      "evidence": "No SECURITY.md found.",
+      "id": "comm.security",
+      "lost": 2.0,
+      "phase": "fix",
+      "points": 2.0,
+      "score": 0.0,
+      "status": "fail",
+      "title": "Security policy exists"
+    },
+    {
+      "category": "health",
+      "effort": "high",
+      "evidence": "Last commit 44 days ago (2026-10-12).",
+      "id": "health.recent_commit",
+      "lost": 0.0,
+      "phase": "manual",
+      "points": 6.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "Project had a commit in the last 90 days"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "The latest default-branch run succeeded (2026-11-24).",
+      "id": "health.ci",
+      "lost": 0.0,
+      "phase": "fix",
+      "points": 5.0,
+      "score": 1.0,
+      "status": "pass",
+      "title": "CI runs and passes on the default branch"
+    },
+    {
+      "category": "health",
+      "effort": "medium",
+      "evidence": "10 of 39 open issues have no reply after 7 days.",
+      "id": "health.issue_response",
+      "lost": 1.0,
+      "phase": "manual",
+      "points": 4.0,
+      "score": 0.74,
+      "status": "partial",
+      "title": "Open issues get an answer within 7 days"
+    }
+  ],
+  "coverage": 100,
+  "detection": {
+    "evidence": [
+      "Cargo binary"
+    ],
+    "frameworks": [],
+    "language": "Rust",
+    "overridden": false,
+    "type": "cli"
+  },
+  "fixes": [
+    {
+      "effort": "low",
+      "gain": 3.0,
+      "id": "comm.contributing",
+      "phase": "fix",
+      "rank": 1,
+      "text": "Add a CONTRIBUTING.md that explains how to set up, test and submit changes. No CONTRIBUTING found."
+    },
+    {
+      "effort": "low",
+      "gain": 3.0,
+      "id": "comm.issue_templates",
+      "phase": "fix",
+      "rank": 2,
+      "text": "Add issue templates for bug reports and feature requests in .github/ISSUE_TEMPLATE/. No issue templates found."
+    },
+    {
+      "effort": "low",
+      "gain": 3.0,
+      "id": "meta.homepage",
+      "phase": "fix",
+      "rank": 3,
+      "text": "Set the repository homepage to the docs, website or package page. No homepage URL."
+    },
+    {
+      "effort": "low",
+      "gain": 3.0,
+      "id": "readme.contributing",
+      "phase": "fix",
+      "rank": 4,
+      "text": "Add a Contributing section or a link to CONTRIBUTING.md. No contributing section or link."
+    },
+    {
+      "effort": "low",
+      "gain": 2.0,
+      "id": "comm.code_of_conduct",
+      "phase": "fix",
+      "rank": 5,
+      "text": "Add a CODE_OF_CONDUCT.md (for example the Contributor Covenant). No CODE_OF_CONDUCT found."
+    },
+    {
+      "effort": "low",
+      "gain": 2.0,
+      "id": "comm.pr_template",
+      "phase": "fix",
+      "rank": 6,
+      "text": "Add a .github/PULL_REQUEST_TEMPLATE.md with a short checklist. No pull request template found."
+    },
+    {
+      "effort": "low",
+      "gain": 2.0,
+      "id": "comm.security",
+      "phase": "fix",
+      "rank": 7,
+      "text": "Add a SECURITY.md that says how to report a vulnerability privately. No SECURITY.md found."
+    },
+    {
+      "effort": "low",
+      "gain": 0.9,
+      "id": "meta.topics",
+      "phase": "fix",
+      "rank": 8,
+      "text": "Add at least 5 topics that match the language, type and domain of the project. 6 topics (want 5), 5 pertinent; not pertinent: terminal."
+    },
+    {
+      "effort": "medium",
+      "gain": 1.5,
+      "id": "comm.good_first_issue",
+      "phase": "manual",
+      "rank": 9,
+      "text": "Create a 'good first issue' label and apply it to a few small, well-described issues. Label \"good first issue\" exists but no open issue has it."
+    },
+    {
+      "effort": "medium",
+      "gain": 1.0,
+      "id": "health.issue_response",
+      "phase": "manual",
+      "rank": 10,
+      "text": "Answer or label the open issues that have no reply. 10 of 39 open issues have no reply after 7 days."
+    }
+  ],
+  "grade": "B",
+  "project_type": "cli",
+  "rubric": {
+    "name": "leadout default",
+    "sha256": "40da5f042ee03076a92d7ef95b9963ae00a7b7dd7c46e9f4006cf4f432f69dd0",
+    "version": "1.0.0"
+  },
+  "schema": 1,
+  "score": 79,
+  "target": {
+    "kind": "remote",
+    "path": null,
+    "slug": "sharkdp/hyperfine"
+  },
+  "warnings": []
+}
