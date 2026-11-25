@@ -1,0 +1,18 @@
+{
+  "body": {
+    "data": {
+      "repository": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        },
+        "usesCustomOpenGraphImage": true
+      }
+    }
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

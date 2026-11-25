@@ -1,0 +1,2980 @@
+{
+  "body": [
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-11-23T17:51:05Z",
+          "digest": "sha256:75a5184bfc41be92b16a8506721761e8437634fe71df92c5fa0f3f4d8320cfb0",
+          "download_count": 2341,
+          "id": 783956018,
+          "label": "",
+          "name": "LocalSend-1.19.0-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84uujgy",
+          "size": 39516499,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:07Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956018"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-11-23T17:51:07Z",
+          "digest": "sha256:bdc69f794ef493dbcf437f2ba8d959ece1712eff50f3f6274970f11c5bdb1bce",
+          "download_count": 22713,
+          "id": 783956142,
+          "label": "",
+          "name": "LocalSend-1.19.0-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84uujiu",
+          "size": 46760593,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:09Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956142"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-11-24T15:12:20Z",
+          "digest": "sha256:591d88e67a1879ee05a343a7d7eb2b9d4450b1d373cf760c31c3f756c45678c3",
+          "download_count": 2090,
+          "id": 787678041,
+          "label": "",
+          "name": "LocalSend-1.19.0-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84u8wNZ",
+          "size": 128817443,
+          "state": "uploaded",
+          "updated_at": "2026-11-24T15:13:02Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/787678041"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-11-23T17:51:09Z",
+          "digest": "sha256:6eabd6a6074b2f03632cf521244d4d972bfdd4b9e9dfd201002cb9240930359b",
+          "download_count": 424,
+          "id": 783956244,
+          "label": "",
+          "name": "LocalSend-1.19.0-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84uujkU",
+          "size": 49115738,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:12Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956244"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-11-23T17:51:25Z",
+          "digest": "sha256:8a54f1dc0f70ef4d9fa3037a29e8713d5580c461675fae9a5ba59b39010513c3",
+          "download_count": 266,
+          "id": 783956935,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84uujvH",
+          "size": 24608686,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:26Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956935"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:18Z",
+          "digest": "sha256:33100c9633200ee4619d3846db75ce1a1a161cc97395a54416bc17625449a534",
+          "download_count": 124,
+          "id": 783956658,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uujqy",
+          "size": 32289155,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:19Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956658"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2026-11-23T17:51:32Z",
+          "digest": "sha256:e72ce88383a32beec9701583c22e298037f7683f9590cea7b3a281f58c2ec2b3",
+          "download_count": 712,
+          "id": 783957278,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84uuj0e",
+          "size": 61752512,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:35Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957278"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-x86-64.AppImage.zsync",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-11-23T17:51:35Z",
+          "digest": "sha256:18a5864f8c0eb8ff15e09aa3fa28a6e7a41368ee82537afe6a3378c76ceb4498",
+          "download_count": 162,
+          "id": 783957444,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-x86-64.AppImage.zsync",
+          "node_id": "RA_kwDOIoAhg84uuj3E",
+          "size": 211318,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:35Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957444"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-11-23T17:51:22Z",
+          "digest": "sha256:f2cc2d1f8a2542799576e4c1cc61ed1f35c6a7dba2f375870e8500eab6fbfe66",
+          "download_count": 1243,
+          "id": 783956799,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84uujs_",
+          "size": 24632546,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:23Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956799"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-x86-64.rpm",
+          "content_type": "application/x-rpm",
+          "created_at": "2026-11-23T17:51:28Z",
+          "digest": "sha256:06ff8b12d6edb8a361151d46c652bd465e6df88ee20aec25ec78e913eee1b135",
+          "download_count": 259,
+          "id": 783957096,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-x86-64.rpm",
+          "node_id": "RA_kwDOIoAhg84uujxo",
+          "size": 18170328,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:29Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957096"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:14Z",
+          "digest": "sha256:b62c6a53d3b4a5e3b02b426040af806f9ff7bd8bf971c4ea1cc157c383233ea3",
+          "download_count": 283,
+          "id": 783956429,
+          "label": "",
+          "name": "LocalSend-1.19.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uujnN",
+          "size": 31942900,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:15Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783956429"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-windows-arm-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2026-11-23T17:51:41Z",
+          "digest": "sha256:581f4daa9bc2a8ae1015abd0090d0b3f434a805ce7bf578eae67265866678309",
+          "download_count": 221,
+          "id": 783957716,
+          "label": "",
+          "name": "LocalSend-1.19.0-windows-arm-64.zip",
+          "node_id": "RA_kwDOIoAhg84uuj7U",
+          "size": 24534315,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:42Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957716"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-windows-x86-64.exe",
+          "content_type": "application/vnd.microsoft.portable-executable",
+          "created_at": "2026-11-23T17:51:44Z",
+          "digest": "sha256:0df76352124634c8d998867b813cb5ae96613f4a3b6e52d8d3e497dba63c01e0",
+          "download_count": 28668,
+          "id": 783957879,
+          "label": "",
+          "name": "LocalSend-1.19.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84uuj93",
+          "size": 19907936,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:46Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957879"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2026-11-23T17:51:38Z",
+          "digest": "sha256:1b131a225e30bb46c7b4ffee23577716b2d0605108aded27899375033ff69abc",
+          "download_count": 5798,
+          "id": 783957554,
+          "label": "",
+          "name": "LocalSend-1.19.0-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84uuj4y",
+          "size": 26092132,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:39Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783957554"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2026-11-23T18:29:54Z",
+          "digest": "sha256:5645789cc976298b893267c025f0945d8673baed3bb302a201eb8b96991e43d4",
+          "download_count": 15241,
+          "id": 784077660,
+          "label": null,
+          "name": "LocalSend-1.19.0.dmg",
+          "node_id": "RA_kwDOIoAhg84uvBNc",
+          "size": 52878051,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T18:30:21Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/784077660"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-linux-arm-64-musl.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:54Z",
+          "digest": "sha256:8e9223d2e84713bc60917a8459f1157ac48ee3dd3924ebed86e3dc71b0472957",
+          "download_count": 76,
+          "id": 783958322,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-linux-arm-64-musl.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uukEy",
+          "size": 4724167,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:55Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958322"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:50Z",
+          "digest": "sha256:e92f955a17c5c5233c9bbeb8701c50da4033c8f239ee3c3e77fe74d7d33265b0",
+          "download_count": 106,
+          "id": 783958103,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uukBX",
+          "size": 4662977,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:51Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958103"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-linux-x86-64-musl.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:52Z",
+          "digest": "sha256:34eb91b63cadc494619081827d005a6048401945a0fa541846bea128192ff5bc",
+          "download_count": 80,
+          "id": 783958190,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-linux-x86-64-musl.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uukCu",
+          "size": 4813234,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:53Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958190"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-11-23T17:51:48Z",
+          "digest": "sha256:9076909a259288ae6458a04a4e032f4b6b0c9073cb446a106448aa393fe5f5a2",
+          "download_count": 162,
+          "id": 783958021,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uukAF",
+          "size": 4769168,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:48Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958021"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-macos-arm-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-11-23T18:39:02Z",
+          "digest": "sha256:9e5e526906f96e5e07d7da6d19f66f26932de11913c1ed73892af82135e6a300",
+          "download_count": 109,
+          "id": 784105522,
+          "label": null,
+          "name": "LocalSend-CLI-1.19.0-macos-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uvIAy",
+          "size": 4129166,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T18:39:04Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/784105522"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-macos-x86-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-11-23T18:39:07Z",
+          "digest": "sha256:ae1e4f7bcc00efbdfa0124229b10b6094f18887fdc5ec90a43eb881e48e6b2aa",
+          "download_count": 84,
+          "id": 784105813,
+          "label": null,
+          "name": "LocalSend-CLI-1.19.0-macos-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84uvIFV",
+          "size": 4423454,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T18:39:10Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/784105813"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-windows-arm-64.exe",
+          "content_type": "application/vnd.microsoft.portable-executable",
+          "created_at": "2026-11-23T17:51:59Z",
+          "digest": "sha256:c81534f72f08aa3fafa23438aa62e92ebbbfdd1fde2c7e0956b18f3f80cd8390",
+          "download_count": 170,
+          "id": 783958538,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-windows-arm-64.exe",
+          "node_id": "RA_kwDOIoAhg84uukIK",
+          "size": 8369376,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:52:00Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958538"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-CLI-1.19.0-windows-x86-64.exe",
+          "content_type": "application/vnd.microsoft.portable-executable",
+          "created_at": "2026-11-23T17:51:57Z",
+          "digest": "sha256:000b0ad5430fcaacd9ff1b4667c07ddf03a5690c41c7a6062a1ec191e42390cb",
+          "download_count": 621,
+          "id": 783958404,
+          "label": "",
+          "name": "LocalSend-CLI-1.19.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84uukGE",
+          "size": 9788648,
+          "state": "uploaded",
+          "updated_at": "2026-11-23T17:51:57Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/783958404"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/455784052/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "This release also added the rpm package for the first time (e.g. for Fedora users).\r\nPlease note a breaking change in the CLI when sending files.\r\n\r\n- feat: make sending checksums opt-in (@Tienisto)\r\n- feat: format timestamps using system date and time settings (@ShlomoCode)\r\n- feat: add keyboard shortcuts to accept or decline incoming transfers (@Tienisto)\r\n- feat: restore hashtag codes for connecting to devices (@Tienisto)\r\n- feat: show an HTTPS badge in the device list tile when encryption is enabled (@Tienisto)\r\n- feat: show inbound/outbound reachability per device to help diagnose firewall issues (@Tienisto)\r\n- feat: add a copy button to the log screens (@ShlomoCode)\r\n- feat: add a Cancel button to the device name dialog (@ShlomoCode)\r\n- feat: group the changelog by release and type, and show what's new after an update (@ShlomoCode)\r\n- feat(cli): send text using --text, including input from stdin (@Tienisto)\r\n- feat(cli)!: replace `--file` with the `send` command for sending files and directories (@otanim)\r\n- feat(cli): add builds for Alpine Linux (@julianxhokaxhiu)\r\n- feat(desktop): add an option to keep the LocalSend window above other windows (@ShlomoCode)\r\n- feat(macos): use native window restoration to keep partially off-screen windows near their saved position (@ShlomoCode)\r\n- feat(linux): support delta updates for the AppImage (@ShlomoCode)\r\n- feat(linux): add x86_64 rpm package to release workflow (@basil)\r\n- feat(linux): add software rendering toggle with automatic fallback after a rendering crash (@Tienisto)\r\n- security: limit simultaneous incoming connections to prevent resource exhaustion (@Tienisto)\r\n- security: prevent senders without a client certificate from impersonating favorite devices while sharing via link (@Tienisto)\r\n- security(cli): sanitize remote text before displaying it in the terminal (@Tienisto)\r\n- perf: reduce memory use during file transfers (@luojiyin1987)\r\n- fix: strip request URLs from HTTP client errors so the PIN is not exposed (@Tienisto)\r\n- fix: prevent a startup crash with legacy Quick Save settings (@ShlomoCode)\r\n- fix: show the real error when a file cannot be read while sending, instead of transferring it as an empty file (@leopalmieri-spec)\r\n- fix: bound inline text previews to prevent large-message freezes (@kneeyard126)\r\n- fix: rank link-local IPv6 channels after IPv4 when choosing an address to dial (@Tienisto)\r\n- fix: limit connection setup for pinned HTTP clients to 5 seconds (@Tienisto)\r\n- fix: let cancellation interrupt reading prepare-upload and upload responses (@Tienisto)\r\n- fix: stop a send session that was cancelled while prepare-upload was answering (@Tienisto)\r\n- fix: avoid directory name collisions when receiving files (@ShlomoCode)\r\n- fix: accept PINs containing special characters (@ShlomoCode)\r\n- fix: release wakelock when a transfer fails (@bunnysayzz)\r\n- fix: normalize filenames to NFC so Korean jamo display correctly on Windows (@GhagSagar23)\r\n- fix: show the actual save location path for receiving files (@ShlomoCode)\r\n- fix: allow scrolling in the edit favorites dialog (@samdelong)\r\n- fix: validate the port when adding or editing a favorite device (@ShlomoCode)\r\n- fix: show an error when web share translations fail to load (@ShlomoCode)\r\n- fix: keep device name unchanged when cancelling the dialog (@ShlomoCode)\r\n- fix: close favorite editor after confirming changes (@ShlomoCode)\r\n- fix: pressing Enter now confirms file renaming (@ShlomoCode)\r\n- fix: avoid adding a trailing dot when renaming files without an extension (@ShlomoCode)\r\n- fix: hide unsupported troubleshooting options (@ShlomoCode)\r\n- fix: apply zero-padding when numbering renamed files (@A-M-D-R-3-W)\r\n- fix: avoid division by zero on the progress page when a file fails in the millisecond the session starts (@Tienisto)\r\n- fix: keep the message input dialog usable with large text and an open keyboard (@ArtemChikolaev)\r\n- fix: preserve the extension case and leading dot when numbering duplicate file names (@lingyicute)\r\n- fix(cli): cancel pending web shortcuts when pressing non-character keys (@ShlomoCode)\r\n- fix(desktop): respect custom error-403.html even when web sharing is disabled (@Tienisto)\r\n- fix(mobile): prevent incomplete cache cleanup (@ShlomoCode)\r\n- fix(android): allow receiving files with the same name after moving them to Trash (@ShlomoCode)\r\n- fix(android): preserve file modification times when saving media to the gallery (@ShlomoCode)\r\n- fix(android): keep file names when saving to a custom folder (@Tienisto)\r\n- fix(android): can't open files with unrecognized extensions (@ShlomoCode)\r\n- fix(android): avoid display flashes when opening or closing the app on some Android TVs (@ShlomoCode)\r\n- fix(android): use the phone's configured name or model when selecting \"Use system name\" in settings (@ShlomoCode)\r\n- fix(android): show an error when loading the installed apps list fails (@ShlomoCode)\r\n- fix(ios): show LocalSend in the share menu on iOS 14 and 15 (@ShlomoCode)\r\n- fix(ios): send shared links as text instead of two TXT files (@ShlomoCode)\r\n- fix(macos): prevent intermittent MissingPluginException during startup (@ShlomoCode)\r\n- fix(macos): file sharing via Share Extension doesn't work in DMG builds (@ShlomoCode, @vdmkotai)\r\n- fix(macos): make Command+W close the window reliably (@ShlomoCode)\r\n- fix(windows): fix LocalSend not opening after installation via WinGet (@ShlomoCode)\r\n- fix(windows): correct the MSIX helper architecture in ARM64 builds (@Tienisto)\r\n- fix(windows): sign the embedded uninstaller as well as the installer (@Tienisto)\r\n- fix(windows): close the running app and remove autostart, the Send to shortcut and firewall rules on uninstall (@Tienisto)\r\n- fix(windows): show the LocalSend icon in the Share Sheet and \"Share with\" menu (@ShlomoCode)\r\n- fix(linux): prevent .deb startup failure when legacy AppIndicator is installed (@Tienisto)\r\n- fix(linux): load bundled Rust library relative to the executable (@ShlomoCode)\r\n- fix(linux): add EGL and GLES dependencies to deb package (@ShlomoCode)\r\n- fix(linux): require glibc 2.34 when installing the DEB package (@ShlomoCode)\r\n- fix(linux): Flatpak drag-and-drop for files outside Downloads (@loucass)\r\n- fix(linux): keep keyboard shortcuts working when Num Lock is enabled (@ShlomoCode)\r\n- fix(linux): respect `XDG_CONFIG_HOME`, safely remove the desktop entry, and set its icon (@vicajilau)\r\n- fix(linux): install rpm icon without setuid, set StartupWMClass and require libappindicator-gtk3 (@Tienisto)\r\n- fix(linux): name rpm desktop file after the application id so KWin shows the app icon (@Tienisto)\r\n- fix(linux): wrong window icon in deb installations on KDE Wayland (@Tienisto)\r\n- fix(linux): tray icon fails to load in Snap installations (@vicajilau)\r\n- fix(linux): show the AppImage icon in the GNOME dash (@ShlomoCode)\r\n- fix(linux): restore the dock icon for deb installations (@vicajilau)\r\n- fix(linux): show \"LocalSend\" as title in the system tray (@Josephur)\r\n- fix(linux): match the native title bar to the app theme (@ShlomoCode)\r\n- fix(linux): don't show the farewell message during deb upgrades or reinstalls (@ShlomoCode)\r\n- i18n: add Kyrgyz (@nidara-duo)",
+      "created_at": "2026-11-23T22:16:59Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.19.0",
+      "id": 455784052,
+      "immutable": false,
+      "mentions_count": 19,
+      "name": "v1.19.0",
+      "node_id": "RE_kwDOIoAhg84bKrZ0",
+      "prerelease": false,
+      "published_at": "2026-11-24T15:18:46Z",
+      "reactions": {
+        "+1": 95,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 1,
+        "heart": 36,
+        "hooray": 29,
+        "laugh": 13,
+        "rocket": 24,
+        "total_count": 198,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/455784052/reactions"
+      },
+      "tag_name": "v1.19.0",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.19.0",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2026-11-24T20:17:03Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/455784052/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/455784052",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.19.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-21T13:33:25Z",
+          "digest": "sha256:222b02d2813578a574cd3fbcfa7b8ff317d4887edb9ca0fb7b292816d222dc63",
+          "download_count": 34935,
+          "id": 523783691,
+          "label": "",
+          "name": "LocalSend-1.18.2-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84fOE4L",
+          "size": 39333444,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:27Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783691"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-21T13:33:28Z",
+          "digest": "sha256:82ec3568fba2aa5295b9aae8b76f701d7a4703d86b9f8bad749472038fbaeab3",
+          "download_count": 279244,
+          "id": 523783717,
+          "label": "",
+          "name": "LocalSend-1.18.2-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84fOE4l",
+          "size": 46558706,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:30Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783717"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-21T13:55:33Z",
+          "digest": "sha256:ca08306fbedad33790efa02240bc530c3f248e69a1a1ea780fa553f68202f436",
+          "download_count": 30003,
+          "id": 523808324,
+          "label": null,
+          "name": "LocalSend-1.18.2-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84fOK5E",
+          "size": 128293112,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:56:01Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523808324"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-21T13:33:31Z",
+          "digest": "sha256:93e30ddbf84121ad2048c5a61763f2b37738f593699a9f0cf39a8404177aa05b",
+          "download_count": 12942,
+          "id": 523783756,
+          "label": "",
+          "name": "LocalSend-1.18.2-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84fOE5M",
+          "size": 48939435,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:33Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783756"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-08-21T13:33:49Z",
+          "digest": "sha256:bbd8347b7979f936d3bae176a3f0d9b81431605707c585270d6240f7670feb1f",
+          "download_count": 9836,
+          "id": 523784037,
+          "label": "",
+          "name": "LocalSend-1.18.2-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84fOE9l",
+          "size": 24662482,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:51Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523784037"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-21T13:33:41Z",
+          "digest": "sha256:dd61f74f1ce3f4e25aca41cd3ce650d6a99353d7baba81a8139807275b88e606",
+          "download_count": 4273,
+          "id": 523783891,
+          "label": "",
+          "name": "LocalSend-1.18.2-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOE7T",
+          "size": 32354331,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:42Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783891"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2026-08-21T13:33:55Z",
+          "digest": "sha256:19f21613d1834f6caa69517113670461a3f10b80a2a315f86548c0663d9c0aaf",
+          "download_count": 40544,
+          "id": 523784111,
+          "label": "",
+          "name": "LocalSend-1.18.2-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84fOE-v",
+          "size": 66471104,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:58Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523784111"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-08-21T13:33:45Z",
+          "digest": "sha256:cc42a4f3eacdcb25ec31f0016b1272acb003145ab30484db8965450e20c72cd2",
+          "download_count": 137200,
+          "id": 523783947,
+          "label": "",
+          "name": "LocalSend-1.18.2-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84fOE8L",
+          "size": 24665458,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:46Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783947"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-21T13:33:36Z",
+          "digest": "sha256:287690a9a8eb6da9c83cc97b3e3030ac67daf32a7331fcf307d0939300658d16",
+          "download_count": 26177,
+          "id": 523783843,
+          "label": "",
+          "name": "LocalSend-1.18.2-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOE6j",
+          "size": 32011656,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:33:38Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523783843"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-arm-64.zip",
+          "content_type": "application/x-zip-compressed",
+          "created_at": "2026-09-12T02:27:39Z",
+          "digest": "sha256:e441259257f24557e1b21f15783af106b70229e36e789a2525b6726841fb7bc1",
+          "download_count": 12980,
+          "id": 558449352,
+          "label": null,
+          "name": "LocalSend-1.18.2-windows-arm-64.zip",
+          "node_id": "RA_kwDOIoAhg84hSULI",
+          "size": 24414965,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:27:48Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558449352"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64-unsigned.exe",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-08-24T14:42:50Z",
+          "digest": "sha256:f53856750ad087a17b996309171262fa7d89071c350e0dc5df6530f34dd8a2ae",
+          "download_count": 175456,
+          "id": 527740028,
+          "label": null,
+          "name": "LocalSend-1.18.2-windows-x86-64-unsigned.exe",
+          "node_id": "RA_kwDOIoAhg84fdKx8",
+          "size": 18960550,
+          "state": "uploaded",
+          "updated_at": "2026-08-24T14:42:59Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/527740028"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:28:24Z",
+          "digest": "sha256:122783e6abb4b0a1f1603d896f46a03aeda3004479ebd3175cab4ddac6b60919",
+          "download_count": 1339731,
+          "id": 558450807,
+          "label": null,
+          "name": "LocalSend-1.18.2-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSUh3",
+          "size": 19901144,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:28:30Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558450807"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.zip",
+          "content_type": "application/x-zip-compressed",
+          "created_at": "2026-09-12T02:28:05Z",
+          "digest": "sha256:737aab1829d901e1d798cddd1e5fdc06ba9dfcc9ea50cfe3805e047005d5e71a",
+          "download_count": 243060,
+          "id": 558450374,
+          "label": null,
+          "name": "LocalSend-1.18.2-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84hSUbG",
+          "size": 26113764,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:28:21Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558450374"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2026-08-21T13:52:32Z",
+          "digest": "sha256:126860d56f6f49b11845f601aac51de27a49b16d2b48102415da91e0e37e5155",
+          "download_count": 876999,
+          "id": 523804730,
+          "label": null,
+          "name": "LocalSend-1.18.2.dmg",
+          "node_id": "RA_kwDOIoAhg84fOKA6",
+          "size": 52700247,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:52:46Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523804730"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-21T13:34:12Z",
+          "digest": "sha256:b003e9837743470f7a423ca1205e664031ce3d2e865acc692f3e47577ea93f6d",
+          "download_count": 2010,
+          "id": 523784365,
+          "label": "",
+          "name": "LocalSend-CLI-1.18.2-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOFCt",
+          "size": 4639269,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:34:12Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523784365"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-21T13:34:09Z",
+          "digest": "sha256:f5a986e0b4701b9aafeb9747225a2f3e314e97aba61b3dd7c9d076226f512b08",
+          "download_count": 4811,
+          "id": 523784304,
+          "label": "",
+          "name": "LocalSend-CLI-1.18.2-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOFBw",
+          "size": 4762297,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T13:34:09Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523784304"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-macos-arm-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-21T14:00:30Z",
+          "digest": "sha256:c375664d632a3065c135e712175fb336ceff1613e5e54ee3e04911db82e1b0fc",
+          "download_count": 3112,
+          "id": 523813386,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.2-macos-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOMIK",
+          "size": 4105018,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T14:00:32Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523813386"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-macos-x86-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-21T14:00:32Z",
+          "digest": "sha256:bef783d8abce9e903a2e9bbb60471df206a22fc9840e831cc63e8221054488e6",
+          "download_count": 2075,
+          "id": 523813424,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.2-macos-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84fOMIw",
+          "size": 4397211,
+          "state": "uploaded",
+          "updated_at": "2026-08-21T14:00:34Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/523813424"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-windows-arm-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:59:56Z",
+          "digest": "sha256:0ff4c4c90ea68f0cc586b5a08c900f89bf71c02a454c78cd035bc3c4fc879bf7",
+          "download_count": 2639,
+          "id": 558490107,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.2-windows-arm-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSeH7",
+          "size": 8355328,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T03:00:00Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558490107"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-CLI-1.18.2-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:59:53Z",
+          "digest": "sha256:ca0b267e7457324b3664a935de4e4956da701a7fa1045f6f99c72602f7f8dc38",
+          "download_count": 11144,
+          "id": 558490043,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.2-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSeG7",
+          "size": 9725952,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:59:56Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558490043"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/374422528/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "This release fixes compatibility issues with 1.17.0 and earlier.\r\nNote: The Windows binaries have been updated to include a signature.\r\n\r\n- feat: drag and drop files into the \"Receive via link\" browser page\r\n- feat(desktop): allow customizing the web share pages by placing HTML files in a `web` folder next to the executable\r\n- feat(cli): add version info to the Windows executable\r\n- feat(linux): set actual version in the AppImage\r\n- security: do not follow HTTP redirects sent by peers\r\n- fix: restore compatibility with 1.17.0 and earlier versions on missing multicast networks\r\n- fix: devices running 1.17.0 and earlier could not add 1.18.0+ device as favorite\r\n- fix: ignore proxies, fixes \"TLS info not found\" when a system proxy (e.g. Shadowrocket) is enabled\r\n- fix: automatically restart the HTTP / multicast server when it dies or when the app resumes\r\n- fix: drag and drop with a mix of folders and files\r\n- fix: during transfer, add bottom padding when Advanced is open (@Chethan616)\r\n- fix: do not crash at startup when the executable path cannot be resolved (@Shlomo116)\r\n- fix(android): ignore unknown or invalid file modification times when reading files\r\n- i18n: add Armenian",
+      "created_at": "2026-08-21T13:07:53Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.18.2",
+      "id": 374422528,
+      "immutable": false,
+      "mentions_count": 2,
+      "name": "v1.18.2",
+      "node_id": "RE_kwDOIoAhg84WUTwA",
+      "prerelease": false,
+      "published_at": "2026-08-21T14:02:01Z",
+      "reactions": {
+        "+1": 175,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 22,
+        "heart": 57,
+        "hooray": 49,
+        "laugh": 18,
+        "rocket": 30,
+        "total_count": 351,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/374422528/reactions"
+      },
+      "tag_name": "v1.18.2",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.18.2",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2026-09-12T03:00:00Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/374422528/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/374422528",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.18.2"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.1/LocalSend-1.18.1-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-12T13:03:35Z",
+          "digest": "sha256:11398bf9637a7364d2a322e2524222a5910c64f4f3f9ca6d2cf144e29a8b6053",
+          "download_count": 4543,
+          "id": 511582968,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84efiL4",
+          "size": 39208952,
+          "state": "uploaded",
+          "updated_at": "2026-08-12T13:03:49Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/511582968"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.1/LocalSend-1.18.1-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-12T13:03:03Z",
+          "digest": "sha256:6268f296558cd8fbd114490bda443567d8cbd7e6c2f452b5f006c4b7a9948070",
+          "download_count": 24755,
+          "id": 511582534,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84efiFG",
+          "size": 46467598,
+          "state": "uploaded",
+          "updated_at": "2026-08-12T13:03:35Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/511582534"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.1/LocalSend-1.18.1-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-12T13:02:16Z",
+          "digest": "sha256:913645e3963e060d75625f6d322e6f4e48ef44a317ab9ec52c0007ac11dbb13a",
+          "download_count": 5745,
+          "id": 511581837,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84efh6N",
+          "size": 127903992,
+          "state": "uploaded",
+          "updated_at": "2026-08-12T13:03:03Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/511581837"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.1/LocalSend-1.18.1-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-12T13:02:00Z",
+          "digest": "sha256:7e5aeabe150fbe629313b04d0cf5ed25f645b8a98cefcea8b82c593808b6717a",
+          "download_count": 2810,
+          "id": 511581583,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84efh2P",
+          "size": 48831807,
+          "state": "uploaded",
+          "updated_at": "2026-08-12T13:02:16Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/511581583"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/369242058/assets",
+      "author": {
+        "login": "Tienisto"
+      },
+      "body": "Android+iOS only hotfix update. See [1.18.0](https://github.com/localsend/localsend/releases/tag/v1.18.0) for the full release.\r\n\r\n- fix: revert button icon sizes to 24\r\n- fix: when sending a message that is accepted immediately, a ghost device list tile appears\r\n- fix(mobile): when sending a link message, the \"Open\" button overflows\r\n- fix(android): add missing ACCESS_LOCAL_NETWORK permission that is required for Android 17+\r\n- i18n: add Belarusian (@pavel-miniutka), Irish (@aindriu80)",
+      "created_at": "2026-08-11T16:21:10Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.18.1",
+      "id": 369242058,
+      "immutable": false,
+      "mentions_count": 2,
+      "name": "v1.18.1",
+      "node_id": "RE_kwDOIoAhg84WAi_K",
+      "prerelease": false,
+      "published_at": "2026-08-12T13:11:17Z",
+      "reactions": {
+        "+1": 112,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 10,
+        "heart": 43,
+        "hooray": 41,
+        "laugh": 14,
+        "rocket": 23,
+        "total_count": 243,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/369242058/reactions"
+      },
+      "tag_name": "v1.18.1",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.18.1",
+      "target_commitish": "main",
+      "updated_at": "2026-08-12T13:11:17Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/369242058/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/369242058",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.18.1"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-10T21:17:01Z",
+          "digest": "sha256:6a5358ae80d2673d34e15ecf603132a02771e87099f76ec98bde9460f295dac4",
+          "download_count": 2068,
+          "id": 509268905,
+          "label": "",
+          "name": "LocalSend-1.18.0-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84eWtOp",
+          "size": 39033432,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:02Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509268905"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-10T21:17:03Z",
+          "digest": "sha256:5aff1c04bdd55c45c8a1fe1404f5eb9fa7ae8c0bb2d2994b49b644ae7cc90899",
+          "download_count": 12078,
+          "id": 509268957,
+          "label": "",
+          "name": "LocalSend-1.18.0-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84eWtPd",
+          "size": 46271582,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:24Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509268957"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-10T21:53:44Z",
+          "digest": "sha256:6c1b5654e4b0c5b7571f4522f3cc16f537e53e46f1002a8dc3cbcf8da7d5cfa0",
+          "download_count": 2504,
+          "id": 509303602,
+          "label": null,
+          "name": "LocalSend-1.18.0-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84eW1sy",
+          "size": 127375608,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:54:17Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509303602"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-10T21:17:25Z",
+          "digest": "sha256:23f0f27269a5279332ac515c3ddfa95d72b73b06471056717f6902b8b363868d",
+          "download_count": 1470,
+          "id": 509269340,
+          "label": "",
+          "name": "LocalSend-1.18.0-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84eWtVc",
+          "size": 48636871,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:26Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269340"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-08-10T21:17:34Z",
+          "digest": "sha256:eb24e724fbdf830c8fb07dfc66b76b8a649923d083278305a63d5d539db4b606",
+          "download_count": 2591,
+          "id": 509269512,
+          "label": "",
+          "name": "LocalSend-1.18.0-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84eWtYI",
+          "size": 24545108,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:36Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269512"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-10T21:17:30Z",
+          "digest": "sha256:20b581d62d4d5e3ad4e6ecb1a3142cc7b86ada775b46d9edbd7ced7e37b8696c",
+          "download_count": 569,
+          "id": 509269449,
+          "label": "",
+          "name": "LocalSend-1.18.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWtXJ",
+          "size": 32261100,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:31Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269449"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2026-08-10T21:17:37Z",
+          "digest": "sha256:c873bd1480f9756e117ccca668a698bed9e506447884059a7d37d5d64fb65fe2",
+          "download_count": 4609,
+          "id": 509269551,
+          "label": "",
+          "name": "LocalSend-1.18.0-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84eWtYv",
+          "size": 66397376,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:39Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269551"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2026-08-10T21:17:32Z",
+          "digest": "sha256:dae68192ad43a59a68df06454eb5fa4e9a9f86a343fe430165efd8b18863d0f4",
+          "download_count": 36138,
+          "id": 509269481,
+          "label": "",
+          "name": "LocalSend-1.18.0-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84eWtXp",
+          "size": 24582872,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:33Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269481"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2026-08-10T21:17:28Z",
+          "digest": "sha256:5054f970dda73787a95fcd706dac62cdfb810ff4bde8c5a20f1332ee5d908afb",
+          "download_count": 2569,
+          "id": 509269384,
+          "label": "",
+          "name": "LocalSend-1.18.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWtWI",
+          "size": 31908325,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:17:29Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509269384"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-arm-64.zip",
+          "content_type": "application/x-zip-compressed",
+          "created_at": "2026-09-12T02:37:51Z",
+          "digest": "sha256:1933a2be94b01fc5631c424cf8ad83f5e71dcccaa35f4ef0065393c99765ae14",
+          "download_count": 94,
+          "id": 558463018,
+          "label": null,
+          "name": "LocalSend-1.18.0-windows-arm-64.zip",
+          "node_id": "RA_kwDOIoAhg84hSXgq",
+          "size": 24305037,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:38:00Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558463018"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:38:00Z",
+          "digest": "sha256:201e8a517f9cd1aa24ca5513b4c4f0d10f21b6bb4d849560b3fcab8c786b17bc",
+          "download_count": 955,
+          "id": 558463166,
+          "label": null,
+          "name": "LocalSend-1.18.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSXi-",
+          "size": 19828216,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:38:07Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558463166"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0-windows-x86-64.zip",
+          "content_type": "application/x-zip-compressed",
+          "created_at": "2026-09-12T02:37:44Z",
+          "digest": "sha256:135fc466976775ca044b64f6fd90b63e71f60a20ef6c20dd533bc276bfb545e8",
+          "download_count": 3385,
+          "id": 558462867,
+          "label": null,
+          "name": "LocalSend-1.18.0-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84hSXeT",
+          "size": 25980657,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:37:51Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558462867"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2026-08-10T21:31:23Z",
+          "digest": "sha256:93ab884c2703a0fabd72611097b2616c0def86c4256cea2add7a0ff36dd76b3a",
+          "download_count": 126801,
+          "id": 509281820,
+          "label": null,
+          "name": "LocalSend-1.18.0.dmg",
+          "node_id": "RA_kwDOIoAhg84eWwYc",
+          "size": 52491458,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:31:40Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509281820"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.1-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-11T22:38:02Z",
+          "digest": "sha256:11398bf9637a7364d2a322e2524222a5910c64f4f3f9ca6d2cf144e29a8b6053",
+          "download_count": 243,
+          "id": 510730420,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84ecSC0",
+          "size": 39208952,
+          "state": "uploaded",
+          "updated_at": "2026-08-11T22:39:23Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/510730420"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.1-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-11T22:37:46Z",
+          "digest": "sha256:6268f296558cd8fbd114490bda443567d8cbd7e6c2f452b5f006c4b7a9948070",
+          "download_count": 17253,
+          "id": 510730140,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84ecR-c",
+          "size": 46467598,
+          "state": "uploaded",
+          "updated_at": "2026-08-11T22:39:23Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/510730140"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.1-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-11T22:05:21Z",
+          "digest": "sha256:913645e3963e060d75625f6d322e6f4e48ef44a317ab9ec52c0007ac11dbb13a",
+          "download_count": 638,
+          "id": 510696720,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84ecJ0Q",
+          "size": 127903992,
+          "state": "uploaded",
+          "updated_at": "2026-08-11T22:05:51Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/510696720"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.1-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2026-08-11T22:38:12Z",
+          "digest": "sha256:7e5aeabe150fbe629313b04d0cf5ed25f645b8a98cefcea8b82c593808b6717a",
+          "download_count": 350,
+          "id": 510730559,
+          "label": null,
+          "name": "LocalSend-1.18.1-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84ecSE_",
+          "size": 48831807,
+          "state": "uploaded",
+          "updated_at": "2026-08-11T22:39:23Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/510730559"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.2-no-proxy.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2026-08-13T13:38:00Z",
+          "digest": "sha256:9cde1a5f4e79fff5dac639c89c866d0d13f5172f3aef752a1ece7eb05d8e9415",
+          "download_count": 301,
+          "id": 513032287,
+          "label": null,
+          "name": "LocalSend-1.18.2-no-proxy.dmg",
+          "node_id": "RA_kwDOIoAhg84elEBf",
+          "size": 52605704,
+          "state": "uploaded",
+          "updated_at": "2026-08-13T13:38:26Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/513032287"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-linux-arm-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-10T21:39:33Z",
+          "digest": "sha256:962bf50a393247922c248a1dbfac1442393e500211127e1be922531fc9f46fd2",
+          "download_count": 347,
+          "id": 509289823,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWyVf",
+          "size": 4629372,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:39:47Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509289823"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-linux-x86-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-10T21:39:51Z",
+          "digest": "sha256:d47fe4688b277f86c4af6ca924fdcbf88fe40c0ef909b69f609b2cb431d74174",
+          "download_count": 544,
+          "id": 509290254,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWycO",
+          "size": 4768899,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:40:12Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509290254"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-macos-arm-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-10T21:34:35Z",
+          "digest": "sha256:03dfe20c8739c82ca1f39392608cd1e87117caeae0a92d925fe492e51d889d31",
+          "download_count": 446,
+          "id": 509284975,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-macos-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWxJv",
+          "size": 4092992,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:34:37Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509284975"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-macos-x86-64.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-08-10T21:34:42Z",
+          "digest": "sha256:222cf897f82230db7ba729e75d99694a3c4850284fad1224f8227125f7ef0766",
+          "download_count": 319,
+          "id": 509285069,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-macos-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84eWxLN",
+          "size": 4404212,
+          "state": "uploaded",
+          "updated_at": "2026-08-10T21:34:44Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/509285069"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-windows-arm-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:38:11Z",
+          "digest": "sha256:f1a21be8607e418b89367747ca41a7aaaa03831895d4cb9f461b31165ef81d9b",
+          "download_count": 220,
+          "id": 558463349,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-windows-arm-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSXl1",
+          "size": 8359648,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:38:15Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558463349"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-CLI-1.18.0-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2026-09-12T02:38:07Z",
+          "digest": "sha256:f7eabadabec91a8ec4c7c020b434b62bc1d7cbdc710bf8433cfe121d27697cda",
+          "download_count": 527,
+          "id": 558463270,
+          "label": null,
+          "name": "LocalSend-CLI-1.18.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84hSXkm",
+          "size": 9733856,
+          "state": "uploaded",
+          "updated_at": "2026-09-12T02:38:11Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/558463270"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/368202091/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "This release is also the first release of the CLI. It uses the same Rust library as the Flutter app.\r\nThe Rust rewrite of the core networking and file I/O logic is complete. You should notice that in improved transfer speeds.\r\nNote: The Windows binaries have been updated to include a signature.\r\n\r\n### Summary\r\n\r\n- feat(cli): initial CLI release\r\n- feat: receive via link\r\n- feat: custom color theme via color picker\r\n- feat: ipv6 support\r\n- feat: checksum support (enabled by default)\r\n- feat: automatically accept files by favorite devices by default\r\n- feat: use decimal units for file sizes (1 GB = 1000 MB) to match macOS, iOS, Android, and Linux\r\n- feat: enable starting text share via command line using `--text` or `-t` flags (@guilhermetiscoski)\r\n- feat: improve remaining time formatting for long transfers (@ShlomoCode)\r\n- feat: change duplicate file naming from \"file-1.txt\" to \"file (1).txt\" format (@kartoshka95)\r\n- feat(android, ios, macos): respect system-wide animation preferences on first app startup (@nitheesh-daram)\r\n- feat(android): run file transfer in background\r\n- feat(android): add quick settings tile for instant app launch (@Voltra)\r\n- feat(windows): add LocalSend to share sheet (@chenxdust)\r\n- feat(macos): implement button to quickly open firewall settings from troubleshoot page (@ShlomoCode)\r\n- feat(macos): add Command+Comma shortcut to open settings (@ShlomoCode)\r\n- feat(macos): use user-friendly ComputerName instead of the technical hostname (@ShlomoCode)\r\n- feat(macos): enable Dock icon text-drop even when the app is not running (@ShlomoCode)\r\n- feat(linux): use native window decorations instead of large GTK3 headerbar (@nixigaj)\r\n- perf: faster transfers for slow receiving devices\r\n- fix: receiving / sending many files no longer freeze / lag\r\n- fix: release wake lock after file transfer completes to allow device sleep (@kartoshka95)\r\n- fix: text message content displayed three times in history dialog (@ew-sirenko)\r\n- fix: text message content size calculation (@ew-sirenko)\r\n- fix: save DNG files to image gallery (@ShlomoCode)\r\n- fix(ios, android): prevent transfer error by saving unsupported media formats to folder instead of gallery (@ShlomoCode)\r\n- fix(android): share to LocalSend sometimes doesn't work\r\n- fix(android): preserve location metadata when sharing media (@ShlomoCode)\r\n- fix(macos): prevent Dock icon from briefly appearing during autostart when \"Start hidden\" is enabled (@ShlomoCode)\r\n- fix(macos): Dock icon drag-and-drop and Share Extension working again (@ShlomoCode)\r\n- fix(linux): add CJK font support for Chinese, Japanese, and Korean text (@Mr-Ebonycat)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n\r\nWindows binaries are signed according to the [Code signing policy](https://github.com/localsend/localsend/blob/main/CODE_SIGNING.md).\r\n",
+      "created_at": "2026-08-10T21:33:06Z",
+      "discussion_url": "https://github.com/localsend/localsend/discussions/3271",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.18.0",
+      "id": 368202091,
+      "immutable": false,
+      "mentions_count": 4,
+      "name": "v1.18.0",
+      "node_id": "RE_kwDOIoAhg84V8lFr",
+      "prerelease": false,
+      "published_at": "2026-08-10T22:04:13Z",
+      "reactions": {
+        "+1": 238,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 27,
+        "heart": 84,
+        "hooray": 116,
+        "laugh": 30,
+        "rocket": 55,
+        "total_count": 550,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/368202091/reactions"
+      },
+      "tag_name": "v1.18.0",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.18.0",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2026-09-12T02:39:04Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/368202091/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/368202091",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.18.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2025-02-19T15:37:12Z",
+          "digest": null,
+          "download_count": 135097,
+          "id": 230667541,
+          "label": "",
+          "name": "LocalSend-1.17.0-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84Nv7UV",
+          "size": 17127455,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:13Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667541"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2025-02-19T15:37:13Z",
+          "digest": null,
+          "download_count": 531944,
+          "id": 230667545,
+          "label": "",
+          "name": "LocalSend-1.17.0-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84Nv7UZ",
+          "size": 17491108,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:14Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667545"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2025-02-20T01:20:14Z",
+          "digest": null,
+          "download_count": 70671,
+          "id": 230812815,
+          "label": null,
+          "name": "LocalSend-1.17.0-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84NweyP",
+          "size": 42929474,
+          "state": "uploaded",
+          "updated_at": "2025-02-20T01:20:28Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230812815"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2025-02-19T15:37:14Z",
+          "digest": null,
+          "download_count": 68101,
+          "id": 230667548,
+          "label": "",
+          "name": "LocalSend-1.17.0-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84Nv7Uc",
+          "size": 17729207,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:15Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667548"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2025-02-19T15:37:21Z",
+          "digest": null,
+          "download_count": 39109,
+          "id": 230667578,
+          "label": "",
+          "name": "LocalSend-1.17.0-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84Nv7U6",
+          "size": 10841168,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:22Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667578"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2025-02-19T15:37:18Z",
+          "digest": null,
+          "download_count": 24326,
+          "id": 230667555,
+          "label": "",
+          "name": "LocalSend-1.17.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84Nv7Uj",
+          "size": 15880907,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:19Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667555"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2025-02-19T15:37:24Z",
+          "digest": null,
+          "download_count": 118640,
+          "id": 230667603,
+          "label": "",
+          "name": "LocalSend-1.17.0-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84Nv7VT",
+          "size": 49558720,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:25Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667603"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2025-02-19T15:37:20Z",
+          "digest": null,
+          "download_count": 394448,
+          "id": 230667556,
+          "label": "",
+          "name": "LocalSend-1.17.0-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84Nv7Uk",
+          "size": 11709940,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:20Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667556"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2025-02-19T15:37:16Z",
+          "digest": null,
+          "download_count": 65598,
+          "id": 230667553,
+          "label": "",
+          "name": "LocalSend-1.17.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84Nv7Uh",
+          "size": 16337945,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:17Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667553"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2025-02-20T00:04:15Z",
+          "digest": null,
+          "download_count": 4962774,
+          "id": 230793886,
+          "label": null,
+          "name": "LocalSend-1.17.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84NwaKe",
+          "size": 14895464,
+          "state": "uploaded",
+          "updated_at": "2025-02-20T00:04:21Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230793886"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2025-02-19T15:37:26Z",
+          "digest": null,
+          "download_count": 766867,
+          "id": 230667614,
+          "label": "",
+          "name": "LocalSend-1.17.0-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84Nv7Ve",
+          "size": 18766124,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T15:37:27Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230667614"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2025-02-19T23:19:45Z",
+          "digest": null,
+          "download_count": 973113,
+          "id": 230783487,
+          "label": null,
+          "name": "LocalSend-1.17.0.dmg",
+          "node_id": "RA_kwDOIoAhg84NwXn_",
+          "size": 32493186,
+          "state": "uploaded",
+          "updated_at": "2025-02-19T23:20:12Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/230783487"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/201219093/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "### Summary\r\n\r\nA small interim release before WebRTC is stable (https://github.com/localsend/localsend/pull/2204)\r\n\r\n- feat: add advanced setting to filter network interfaces (@Tienisto)\r\n- feat(mobile): swipe gesture to select multiple media files (@Tienisto)\r\n- feat(windows): when pasting an image, automatically convert it to PNG (@BrianMwit)\r\n- feat(android): add option to open gallery when image/video was automatically saved (@Tienisto)\r\n- fix: path traversal vulnerability when saving files (@Tienisto)\r\n- fix: black screen when tapping on \"Back\" twice in \"Share via link\" (@Tienisto)\r\n- fix(macos): window disappears on command key when minimize to tray is enabled (@Tienisto)\r\n- fix(windows): do not poll local IP resulting in unwanted location permissions (@Tienisto)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2025-02-19T15:22:33Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.17.0",
+      "id": 201219093,
+      "immutable": false,
+      "mentions_count": 2,
+      "name": "v1.17.0",
+      "node_id": "RE_kwDOIoAhg84L_lwV",
+      "prerelease": false,
+      "published_at": "2025-02-20T01:23:55Z",
+      "reactions": {
+        "+1": 390,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 36,
+        "heart": 99,
+        "hooray": 71,
+        "laugh": 46,
+        "rocket": 57,
+        "total_count": 699,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/201219093/reactions"
+      },
+      "tag_name": "v1.17.0",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.17.0",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2025-02-20T01:23:55Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/201219093/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/201219093",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.17.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-04T23:39:59Z",
+          "digest": null,
+          "download_count": 25845,
+          "id": 204138398,
+          "label": "",
+          "name": "LocalSend-1.16.1-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84MKuee",
+          "size": 16704053,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:00Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138398"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-04T23:40:00Z",
+          "digest": null,
+          "download_count": 172697,
+          "id": 204138402,
+          "label": "",
+          "name": "LocalSend-1.16.1-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84MKuei",
+          "size": 17202055,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:01Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138402"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-04T23:47:20Z",
+          "digest": null,
+          "download_count": 12293,
+          "id": 204139667,
+          "label": null,
+          "name": "LocalSend-1.16.1-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84MKuyT",
+          "size": 42107439,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:48:09Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204139667"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-04T23:40:01Z",
+          "digest": null,
+          "download_count": 15731,
+          "id": 204138403,
+          "label": "",
+          "name": "LocalSend-1.16.1-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84MKuej",
+          "size": 17411440,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:02Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138403"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-11-04T23:40:08Z",
+          "digest": null,
+          "download_count": 7497,
+          "id": 204138418,
+          "label": "",
+          "name": "LocalSend-1.16.1-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84MKuey",
+          "size": 10985260,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:08Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138418"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-11-04T23:40:05Z",
+          "digest": null,
+          "download_count": 4900,
+          "id": 204138411,
+          "label": "",
+          "name": "LocalSend-1.16.1-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84MKuer",
+          "size": 16188259,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:05Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138411"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2024-11-04T23:40:10Z",
+          "digest": null,
+          "download_count": 16928,
+          "id": 204138426,
+          "label": "",
+          "name": "LocalSend-1.16.1-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84MKue6",
+          "size": 54359232,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:11Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138426"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-11-04T23:40:06Z",
+          "digest": null,
+          "download_count": 46926,
+          "id": 204138415,
+          "label": "",
+          "name": "LocalSend-1.16.1-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84MKuev",
+          "size": 11804928,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:07Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138415"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-11-04T23:40:03Z",
+          "digest": null,
+          "download_count": 10653,
+          "id": 204138407,
+          "label": "",
+          "name": "LocalSend-1.16.1-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84MKuen",
+          "size": 16546210,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:04Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138407"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2024-11-04T23:42:56Z",
+          "digest": null,
+          "download_count": 687367,
+          "id": 204138803,
+          "label": null,
+          "name": "LocalSend-1.16.1-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84MKukz",
+          "size": 14679432,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:43:02Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138803"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2024-11-04T23:40:12Z",
+          "digest": null,
+          "download_count": 178277,
+          "id": 204138431,
+          "label": "",
+          "name": "LocalSend-1.16.1-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84MKue_",
+          "size": 18562913,
+          "state": "uploaded",
+          "updated_at": "2024-11-04T23:40:13Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204138431"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2024-11-05T00:13:22Z",
+          "digest": null,
+          "download_count": 68654,
+          "id": 204144069,
+          "label": null,
+          "name": "LocalSend-1.16.1.dmg",
+          "node_id": "RA_kwDOIoAhg84MKv3F",
+          "size": 35738192,
+          "state": "uploaded",
+          "updated_at": "2024-11-05T00:14:13Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/204144069"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/183484223/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "### Summary\r\n\r\n- feat: show exact error message when using IP address dialog or favorite dialog (@Tienisto)\r\n- feat(desktop): highlight file when tapping \"Show in folder\" (@Tienisto)\r\n- fix(android): properly close app on back gesture (@Tienisto)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2024-11-04T23:25:53Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.16.1",
+      "id": 183484223,
+      "immutable": false,
+      "mentions_count": 1,
+      "name": "v1.16.1",
+      "node_id": "RE_kwDOIoAhg84K778_",
+      "prerelease": false,
+      "published_at": "2024-11-05T00:14:52Z",
+      "reactions": {
+        "+1": 166,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 12,
+        "heart": 43,
+        "hooray": 40,
+        "laugh": 16,
+        "rocket": 26,
+        "total_count": 303,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/183484223/reactions"
+      },
+      "tag_name": "v1.16.1",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.16.1",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2024-11-05T00:14:52Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/183484223/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/183484223",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.16.1"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-03T01:50:45Z",
+          "digest": null,
+          "download_count": 1353,
+          "id": 203701890,
+          "label": "",
+          "name": "LocalSend-1.16.0-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84MJD6C",
+          "size": 16783259,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:45Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701890"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-03T01:50:46Z",
+          "digest": null,
+          "download_count": 8454,
+          "id": 203701893,
+          "label": "",
+          "name": "LocalSend-1.16.0-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84MJD6F",
+          "size": 17266225,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:46Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701893"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-03T02:37:42Z",
+          "digest": null,
+          "download_count": 1031,
+          "id": 203711311,
+          "label": null,
+          "name": "LocalSend-1.16.0-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84MJGNP",
+          "size": 42353102,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T02:37:56Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203711311"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-11-03T01:50:46Z",
+          "digest": null,
+          "download_count": 1975,
+          "id": 203701895,
+          "label": "",
+          "name": "LocalSend-1.16.0-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84MJD6H",
+          "size": 17477103,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:47Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701895"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-11-03T01:50:55Z",
+          "digest": null,
+          "download_count": 561,
+          "id": 203701933,
+          "label": "",
+          "name": "LocalSend-1.16.0-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84MJD6t",
+          "size": 11026816,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:55Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701933"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-11-03T01:50:51Z",
+          "digest": null,
+          "download_count": 351,
+          "id": 203701919,
+          "label": "",
+          "name": "LocalSend-1.16.0-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84MJD6f",
+          "size": 16248696,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:52Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701919"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2024-11-03T01:50:57Z",
+          "digest": null,
+          "download_count": 911,
+          "id": 203701938,
+          "label": "",
+          "name": "LocalSend-1.16.0-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84MJD6y",
+          "size": 49784000,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:59Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701938"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-11-03T01:50:53Z",
+          "digest": null,
+          "download_count": 1445,
+          "id": 203701925,
+          "label": "",
+          "name": "LocalSend-1.16.0-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84MJD6l",
+          "size": 11838828,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:53Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701925"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-11-03T01:50:49Z",
+          "digest": null,
+          "download_count": 527,
+          "id": 203701911,
+          "label": "",
+          "name": "LocalSend-1.16.0-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84MJD6X",
+          "size": 16610834,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:50:49Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701911"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2024-11-03T02:53:30Z",
+          "digest": null,
+          "download_count": 18729,
+          "id": 203714404,
+          "label": null,
+          "name": "LocalSend-1.16.0-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84MJG9k",
+          "size": 14713552,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T02:53:36Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203714404"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2024-11-03T01:51:00Z",
+          "digest": null,
+          "download_count": 7807,
+          "id": 203701948,
+          "label": "",
+          "name": "LocalSend-1.16.0-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84MJD68",
+          "size": 18588770,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T01:51:01Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203701948"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.16.0/LocalSend-1.16.0.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2024-11-03T02:11:19Z",
+          "digest": null,
+          "download_count": 4696,
+          "id": 203707671,
+          "label": null,
+          "name": "LocalSend-1.16.0.dmg",
+          "node_id": "RA_kwDOIoAhg84MJFUX",
+          "size": 35821722,
+          "state": "uploaded",
+          "updated_at": "2024-11-03T02:11:45Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/203707671"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/183234395/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "Windows 7 is no longer supported to keep up with the latest updates from Flutter.\r\nLocalSend now uses Rust as HTTP client ([rhttp](https://pub.dev/packages/rhttp)). This improves performance when the sending device is the bottleneck (e.g. Android to Windows). The receiver is still written in Dart. In the future, we might also rewrite it in Rust to achieve the best performance.\r\n\r\n### Summary\r\n\r\n- feat: improve transfer speed if the sending device is the bottleneck by using Rust as HTTP client and multithreading (@Tienisto)\r\n- feat: add option to automatically receive files only from favorites (@Davte)\r\n- feat: only automatically finish when files are either successfully received or skipped (@Tienisto)\r\n- feat: improve various padding and spacing issues in RTL languages (@ShlomoCode)\r\n- feat: persist \"advanced settings\" toggle (@Nolle10)\r\n- feat: add alias-regeneration button and alias update dialog (@Nolle10)\r\n- feat(macos): drag-and-drop files and text into menu bar icon (@ShlomoCode)\r\n- feat(macos): drag-and-drop text into the app icon (@ShlomoCode)\r\n- feat(macos): include LocalSend as a share target in the share menu (@ShlomoCode)\r\n- feat(macos): starts hidden in menu bar instead of being minimized when autostart is enabled (@ShlomoCode)\r\n- feat(macos): show error and success state in the app icon (@ShlomoCode, @Tienisto)\r\n- feat(macos): also have autostart option in sandboxed version (App Store) (@ShlomoCode)\r\n- feat(macos): LocalSend installed via dmg installer is sandboxed (@Tienisto)\r\n- feat(android): enable clipboard button (@Seidko)\r\n- feat(ios): enable clipboard button (@AnessZurba)\r\n- fix(macos): reopen app from launchpad after minimizing to menu bar should make window visible (@ShlomoCode)\r\n- fix(macos): persist write access to download location after app restart (@ShlomoCode)\r\n- docs: @thatLeaflet, @GlgApr, @BigPebble123\r\n- i18n: add Malaysian (@Gloridust), Slovak (@dodog)\r\n- i18n: @Flitskikker, @tatsumain, @gdonisi, @UnifeGi, @Matthaiks, @graphemecluster, @dodog, @multipetros, @faea726, @sergd88, @Amereyeu, @vic-blt, @esaracho, @farshad991, @nidexingg, @LoboGuardian, @Neo1102, @gidano, @nebojsatomic, @BryanJames16, @ArthurLobopro, @ShlomoCode, @ilius, @sf0nt, @dz0ny, @LandOfDar, @protheeuz, @GlgApr, @manuelzzz, @louipa, @erelado, @Gloridust, @Olivetti, @Nolle10, @gavindang2911, @albanobattistella, @AmerDje, @plinkr, @ERy03, @gmourahub, @Scienticious, @LivioZ, @soya-daizu, @furkanipek, @Nixuge, @BigPebble123\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2024-11-03T03:10:48Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.16.0",
+      "id": 183234395,
+      "immutable": false,
+      "mentions_count": 51,
+      "name": "v1.16.0",
+      "node_id": "RE_kwDOIoAhg84K6-9b",
+      "prerelease": false,
+      "published_at": "2024-11-03T03:16:06Z",
+      "reactions": {
+        "+1": 159,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 15,
+        "heart": 53,
+        "hooray": 45,
+        "laugh": 24,
+        "rocket": 42,
+        "total_count": 338,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/183234395/reactions"
+      },
+      "tag_name": "v1.16.0",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.16.0",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2024-11-03T03:16:06Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/183234395/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/183234395",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.16.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-08-20T01:12:27Z",
+          "digest": null,
+          "download_count": 14510,
+          "id": 187019403,
+          "label": "",
+          "name": "LocalSend-1.15.4-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84LJbCL",
+          "size": 14116043,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:28Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019403"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-08-20T01:12:28Z",
+          "digest": null,
+          "download_count": 122861,
+          "id": 187019410,
+          "label": "",
+          "name": "LocalSend-1.15.4-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84LJbCS",
+          "size": 14250715,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:29Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019410"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-08-20T01:24:25Z",
+          "digest": null,
+          "download_count": 7077,
+          "id": 187021688,
+          "label": null,
+          "name": "LocalSend-1.15.4-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84LJbl4",
+          "size": 34258764,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:24:36Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187021688"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-08-20T01:12:29Z",
+          "digest": null,
+          "download_count": 9094,
+          "id": 187019414,
+          "label": "",
+          "name": "LocalSend-1.15.4-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84LJbCW",
+          "size": 14378971,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:30Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019414"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-08-20T01:12:37Z",
+          "digest": null,
+          "download_count": 4133,
+          "id": 187019437,
+          "label": "",
+          "name": "LocalSend-1.15.4-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84LJbCt",
+          "size": 8788500,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:38Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019437"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-08-20T01:12:34Z",
+          "digest": null,
+          "download_count": 2490,
+          "id": 187019426,
+          "label": "",
+          "name": "LocalSend-1.15.4-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84LJbCi",
+          "size": 12921131,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:34Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019426"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2024-08-20T01:12:40Z",
+          "digest": null,
+          "download_count": 9878,
+          "id": 187019448,
+          "label": "",
+          "name": "LocalSend-1.15.4-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84LJbC4",
+          "size": 46970048,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:41Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019448"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-08-20T01:12:36Z",
+          "digest": null,
+          "download_count": 32739,
+          "id": 187019434,
+          "label": "",
+          "name": "LocalSend-1.15.4-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84LJbCq",
+          "size": 9458620,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:36Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019434"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-08-20T01:12:31Z",
+          "digest": null,
+          "download_count": 5798,
+          "id": 187019422,
+          "label": "",
+          "name": "LocalSend-1.15.4-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84LJbCe",
+          "size": 13222171,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:32Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019422"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2024-08-20T01:18:00Z",
+          "digest": null,
+          "download_count": 420657,
+          "id": 187020348,
+          "label": null,
+          "name": "LocalSend-1.15.4-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84LJbQ8",
+          "size": 12763648,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:18:06Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187020348"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2024-08-20T01:12:43Z",
+          "digest": null,
+          "download_count": 132304,
+          "id": 187019462,
+          "label": "",
+          "name": "LocalSend-1.15.4-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84LJbDG",
+          "size": 15858888,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:12:44Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187019462"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2024-08-20T01:44:36Z",
+          "digest": null,
+          "download_count": 40228,
+          "id": 187025810,
+          "label": null,
+          "name": "LocalSend-1.15.4.dmg",
+          "node_id": "RA_kwDOIoAhg84LJcmS",
+          "size": 24597272,
+          "state": "uploaded",
+          "updated_at": "2024-08-20T01:44:50Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/187025810"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/170968970/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "### Summary\r\n\r\n- feat: add button to retry a failed file transfer (@Tienisto)\r\n- feat: show tooltip on the \"Scan\" button (@Tienisto)\r\n- feat: treat any URI as link, so it becomes clickable on receiver (e.g. file://, obsidian://) (@Tienisto)\r\n- feat(mobile): adjust button width in send tab to indicate that it's scrollable (@Tienisto)\r\n- feat(windows): title bar color should match the system theme (@FutoTan)\r\n- fix: memory leak when sending files (regression in 1.15.0, 1.15.2 only fixed receiving files) (@Tienisto)\r\n- fix(windows): LocalSend window is invisible at app start (@Tienisto)\r\n- i18n: distinguish between \"Exit\" and \"Quit\" depending on the platform (@sergd88)\r\n- i18n: add Hindi (@rishi-singh26)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2024-08-20T00:58:01Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.15.4",
+      "id": 170968970,
+      "immutable": false,
+      "mentions_count": 4,
+      "name": "v1.15.4",
+      "node_id": "RE_kwDOIoAhg84KMMeK",
+      "prerelease": false,
+      "published_at": "2024-08-20T01:49:57Z",
+      "reactions": {
+        "+1": 149,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 8,
+        "heart": 31,
+        "hooray": 25,
+        "laugh": 15,
+        "rocket": 14,
+        "total_count": 242,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/170968970/reactions"
+      },
+      "tag_name": "v1.15.4",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.15.4",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2024-08-20T01:49:57Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/170968970/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/170968970",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.15.4"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-29T14:37:23Z",
+          "digest": null,
+          "download_count": 4176,
+          "id": 182548843,
+          "label": "",
+          "name": "LocalSend-1.15.3-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84K4Xlr",
+          "size": 14136539,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:24Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548843"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-29T14:37:24Z",
+          "digest": null,
+          "download_count": 36086,
+          "id": 182548844,
+          "label": "",
+          "name": "LocalSend-1.15.3-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84K4Xls",
+          "size": 14271954,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:25Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548844"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-29T14:51:18Z",
+          "digest": null,
+          "download_count": 2187,
+          "id": 182551274,
+          "label": null,
+          "name": "LocalSend-1.15.3-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84K4YLq",
+          "size": 34324300,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:51:33Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182551274"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-29T14:37:25Z",
+          "digest": null,
+          "download_count": 2472,
+          "id": 182548853,
+          "label": "",
+          "name": "LocalSend-1.15.3-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84K4Xl1",
+          "size": 14394993,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:25Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548853"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-07-29T14:37:33Z",
+          "digest": null,
+          "download_count": 1273,
+          "id": 182548889,
+          "label": "",
+          "name": "LocalSend-1.15.3-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84K4XmZ",
+          "size": 8807892,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:33Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548889"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-07-29T14:37:29Z",
+          "digest": null,
+          "download_count": 699,
+          "id": 182548884,
+          "label": "",
+          "name": "LocalSend-1.15.3-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84K4XmU",
+          "size": 12940409,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:30Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548884"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2024-07-29T14:37:36Z",
+          "digest": null,
+          "download_count": 2997,
+          "id": 182548898,
+          "label": "",
+          "name": "LocalSend-1.15.3-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84K4Xmi",
+          "size": 51619008,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:37Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548898"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-07-29T14:37:31Z",
+          "digest": null,
+          "download_count": 10539,
+          "id": 182548885,
+          "label": "",
+          "name": "LocalSend-1.15.3-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84K4XmV",
+          "size": 9461116,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:31Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548885"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-07-29T14:37:27Z",
+          "digest": null,
+          "download_count": 1604,
+          "id": 182548872,
+          "label": "",
+          "name": "LocalSend-1.15.3-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84K4XmI",
+          "size": 13248443,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:28Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548872"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2024-07-29T14:55:30Z",
+          "digest": null,
+          "download_count": 99698,
+          "id": 182552378,
+          "label": null,
+          "name": "LocalSend-1.15.3-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84K4Yc6",
+          "size": 12788472,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:55:36Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182552378"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2024-07-29T14:37:38Z",
+          "digest": null,
+          "download_count": 31107,
+          "id": 182548901,
+          "label": "",
+          "name": "LocalSend-1.15.3-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84K4Xml",
+          "size": 15884928,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:37:39Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182548901"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.3/LocalSend-1.15.3.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2024-07-29T14:41:09Z",
+          "digest": null,
+          "download_count": 10727,
+          "id": 182549648,
+          "label": null,
+          "name": "LocalSend-1.15.3.dmg",
+          "node_id": "RA_kwDOIoAhg84K4XyQ",
+          "size": 24647215,
+          "state": "uploaded",
+          "updated_at": "2024-07-29T14:41:29Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182549648"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/167668466/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "A small release that primarily fixes an important bug on Android.\r\n\r\nFor Windows users (same as 1.15.0): To properly support autostart / start hidden, the msix installer has been removed. Please migrate to the EXE installer and uninstall the MSIX version.\r\n\r\n### Summary\r\n\r\n- feat: reduce receive history length to 30 items to increase performance (@Tienisto)\r\n- feat: show error message when initialization fails for better debugging (@Tienisto)\r\n- fix(android): properly close app on back gesture (@Tienisto)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2024-07-29T14:16:20Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.15.3",
+      "id": 167668466,
+      "immutable": false,
+      "mentions_count": 1,
+      "name": "v1.15.3",
+      "node_id": "RE_kwDOIoAhg84J_mry",
+      "prerelease": false,
+      "published_at": "2024-07-29T15:03:41Z",
+      "reactions": {
+        "+1": 85,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 7,
+        "heart": 22,
+        "hooray": 20,
+        "laugh": 11,
+        "rocket": 13,
+        "total_count": 158,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/167668466/reactions"
+      },
+      "tag_name": "v1.15.3",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.15.3",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2024-07-29T15:17:38Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/167668466/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/167668466",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.15.3"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-android--fix-back-gesture.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-27T15:07:35Z",
+          "digest": null,
+          "download_count": 881,
+          "id": 182204918,
+          "label": null,
+          "name": "LocalSend-1.15.2-android--fix-back-gesture.apk",
+          "node_id": "RA_kwDOIoAhg84K3Dn2",
+          "size": 34216179,
+          "state": "uploaded",
+          "updated_at": "2024-07-27T15:07:53Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/182204918"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-android-arm32v7.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-25T14:55:20Z",
+          "digest": null,
+          "download_count": 1101,
+          "id": 181801535,
+          "label": null,
+          "name": "LocalSend-1.15.2-android-arm32v7.apk",
+          "node_id": "RA_kwDOIoAhg84K1hI_",
+          "size": 14125425,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T14:55:25Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181801535"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-android-arm64v8.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-25T14:55:13Z",
+          "digest": null,
+          "download_count": 8227,
+          "id": 181801513,
+          "label": null,
+          "name": "LocalSend-1.15.2-android-arm64v8.apk",
+          "node_id": "RA_kwDOIoAhg84K1hIp",
+          "size": 14258504,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T14:55:18Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181801513"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-android-google-play.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-25T12:52:38Z",
+          "digest": null,
+          "download_count": 840,
+          "id": 181780515,
+          "label": null,
+          "name": "LocalSend-1.15.2-android-google-play.apk",
+          "node_id": "RA_kwDOIoAhg84K1cAj",
+          "size": 34312012,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:52:56Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181780515"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-android-x64.apk",
+          "content_type": "application/vnd.android.package-archive",
+          "created_at": "2024-07-25T14:55:05Z",
+          "digest": null,
+          "download_count": 1161,
+          "id": 181801502,
+          "label": null,
+          "name": "LocalSend-1.15.2-android-x64.apk",
+          "node_id": "RA_kwDOIoAhg84K1hIe",
+          "size": 14387019,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T14:55:11Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181801502"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-linux-arm-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-07-25T12:21:39Z",
+          "digest": null,
+          "download_count": 529,
+          "id": 181774924,
+          "label": "",
+          "name": "LocalSend-1.15.2-linux-arm-64.deb",
+          "node_id": "RA_kwDOIoAhg84K1apM",
+          "size": 8805992,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:40Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774924"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-linux-arm-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-07-25T12:21:36Z",
+          "digest": null,
+          "download_count": 253,
+          "id": 181774920,
+          "label": "",
+          "name": "LocalSend-1.15.2-linux-arm-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84K1apI",
+          "size": 12935508,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:37Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774920"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-linux-x86-64.AppImage",
+          "content_type": "application/x-appimage",
+          "created_at": "2024-07-25T12:21:41Z",
+          "digest": null,
+          "download_count": 1072,
+          "id": 181774926,
+          "label": "",
+          "name": "LocalSend-1.15.2-linux-x86-64.AppImage",
+          "node_id": "RA_kwDOIoAhg84K1apO",
+          "size": 51610816,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:42Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774926"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-linux-x86-64.deb",
+          "content_type": "application/vnd.debian.binary-package",
+          "created_at": "2024-07-25T12:21:38Z",
+          "digest": null,
+          "download_count": 3686,
+          "id": 181774921,
+          "label": "",
+          "name": "LocalSend-1.15.2-linux-x86-64.deb",
+          "node_id": "RA_kwDOIoAhg84K1apJ",
+          "size": 9464956,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:38Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774921"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-linux-x86-64.tar.gz",
+          "content_type": "application/gzip",
+          "created_at": "2024-07-25T12:21:34Z",
+          "digest": null,
+          "download_count": 447,
+          "id": 181774918,
+          "label": "",
+          "name": "LocalSend-1.15.2-linux-x86-64.tar.gz",
+          "node_id": "RA_kwDOIoAhg84K1apG",
+          "size": 13238590,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:35Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774918"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-windows-x86-64.exe",
+          "content_type": "application/x-msdownload",
+          "created_at": "2024-07-25T12:33:18Z",
+          "digest": null,
+          "download_count": 24153,
+          "id": 181776978,
+          "label": null,
+          "name": "LocalSend-1.15.2-windows-x86-64.exe",
+          "node_id": "RA_kwDOIoAhg84K1bJS",
+          "size": 12782904,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:33:24Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181776978"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2-windows-x86-64.zip",
+          "content_type": "application/zip",
+          "created_at": "2024-07-25T12:21:44Z",
+          "digest": null,
+          "download_count": 7717,
+          "id": 181774935,
+          "label": "",
+          "name": "LocalSend-1.15.2-windows-x86-64.zip",
+          "node_id": "RA_kwDOIoAhg84K1apX",
+          "size": 15876172,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:21:45Z",
+          "uploader": {
+            "login": "github-actions[bot]"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181774935"
+        },
+        {
+          "browser_download_url": "https://github.com/localsend/localsend/releases/download/v1.15.2/LocalSend-1.15.2.dmg",
+          "content_type": "application/x-diskcopy",
+          "created_at": "2024-07-25T12:49:52Z",
+          "digest": null,
+          "download_count": 3599,
+          "id": 181779967,
+          "label": null,
+          "name": "LocalSend-1.15.2.dmg",
+          "node_id": "RA_kwDOIoAhg84K1b3_",
+          "size": 24626188,
+          "state": "uploaded",
+          "updated_at": "2024-07-25T12:50:09Z",
+          "uploader": {
+            "login": "Tienisto"
+          },
+          "url": "https://api.github.com/repos/localsend/localsend/releases/assets/181779967"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/localsend/localsend/releases/167120451/assets",
+      "author": {
+        "login": "github-actions[bot]"
+      },
+      "body": "For Windows users (same as 1.15.0): To properly support autostart / start hidden, the msix installer has been removed. Please migrate to the EXE installer and uninstall the MSIX version.\r\n\r\n### Summary\r\n\r\n- feat: extract network scanning to separate threads, scanning should not cause UI lags anymore (@Tienisto)\r\n- feat(windows): use bigger icon for the installer (@Tienisto)\r\n- fix: memory leak when receiving files, properly receive files that exceed available RAM (@Tienisto)\r\n- fix(android): save files outside of Download folder (@Tienisto)\r\n- fix(windows): use correct portable settings file when started via autostart (@Tienisto)\r\n- fix(windows): make installer work on arm64 (@Tienisto)\r\n\r\n[Full Changelog](https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md)\r\n",
+      "created_at": "2024-07-25T12:13:07Z",
+      "draft": false,
+      "html_url": "https://github.com/localsend/localsend/releases/tag/v1.15.2",
+      "id": 167120451,
+      "immutable": false,
+      "mentions_count": 1,
+      "name": "v1.15.2",
+      "node_id": "RE_kwDOIoAhg84J9g5D",
+      "prerelease": false,
+      "published_at": "2024-07-25T13:00:32Z",
+      "reactions": {
+        "+1": 75,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 5,
+        "heart": 21,
+        "hooray": 13,
+        "laugh": 10,
+        "rocket": 4,
+        "total_count": 128,
+        "url": "https://api.github.com/repos/localsend/localsend/releases/167120451/reactions"
+      },
+      "tag_name": "v1.15.2",
+      "tarball_url": "https://api.github.com/repos/localsend/localsend/tarball/v1.15.2",
+      "target_commitish": "refs/heads/main",
+      "updated_at": "2024-07-27T15:07:53Z",
+      "upload_url": "https://uploads.github.com/repos/localsend/localsend/releases/167120451/assets{?name,label}",
+      "url": "https://api.github.com/repos/localsend/localsend/releases/167120451",
+      "zipball_url": "https://api.github.com/repos/localsend/localsend/zipball/v1.15.2"
+    }
+  ],
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

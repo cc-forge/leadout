@@ -1,0 +1,717 @@
+{
+  "body": {
+    "sha": "c5161524980522320c7d3425e714cc0965a869a5",
+    "tree": [
+      {
+        "mode": "040000",
+        "path": ".github",
+        "sha": "f4ccfb462510701658a935ef610bd89535368891",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/f4ccfb462510701658a935ef610bd89535368891"
+      },
+      {
+        "mode": "100644",
+        "path": ".github/dependabot.yml",
+        "sha": "0fe8d6c67a31428ee8dc0f483f1b25ae5b92bb24",
+        "size": 285,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0fe8d6c67a31428ee8dc0f483f1b25ae5b92bb24"
+      },
+      {
+        "mode": "040000",
+        "path": ".github/workflows",
+        "sha": "725cda15ed567233213349e7a0234f700839b2a9",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/725cda15ed567233213349e7a0234f700839b2a9"
+      },
+      {
+        "mode": "100644",
+        "path": ".github/workflows/CICD.yml",
+        "sha": "977f7410db75f7f3eab49c9eb11d0a5246434c4e",
+        "size": 15334,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/977f7410db75f7f3eab49c9eb11d0a5246434c4e"
+      },
+      {
+        "mode": "100644",
+        "path": ".gitignore",
+        "sha": "0196246bddf5f5422c0cdef17741c6566661b944",
+        "size": 21,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0196246bddf5f5422c0cdef17741c6566661b944"
+      },
+      {
+        "mode": "100644",
+        "path": "CHANGELOG.md",
+        "sha": "d8fbf8755fef6422136e3f7710b91f0b062b21ca",
+        "size": 22149,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/d8fbf8755fef6422136e3f7710b91f0b062b21ca"
+      },
+      {
+        "mode": "100644",
+        "path": "CITATION.cff",
+        "sha": "a3422cf7ddaaf5b8874c2b9cff3284eb9998cbd0",
+        "size": 477,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/a3422cf7ddaaf5b8874c2b9cff3284eb9998cbd0"
+      },
+      {
+        "mode": "100644",
+        "path": "Cargo.lock",
+        "sha": "2b712c720649944ac2a88e64723f191ac56d5256",
+        "size": 31497,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/2b712c720649944ac2a88e64723f191ac56d5256"
+      },
+      {
+        "mode": "100644",
+        "path": "Cargo.toml",
+        "sha": "0b06967b6acb81b5b960bfe5cc4d6fbd2e7cf417",
+        "size": 2277,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0b06967b6acb81b5b960bfe5cc4d6fbd2e7cf417"
+      },
+      {
+        "mode": "100644",
+        "path": "LICENSE-APACHE",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "mode": "100644",
+        "path": "LICENSE-MIT",
+        "sha": "ad784ac3e1a933e8dd8094d434bcb25ea7557e29",
+        "size": 1105,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/ad784ac3e1a933e8dd8094d434bcb25ea7557e29"
+      },
+      {
+        "mode": "100644",
+        "path": "README.md",
+        "sha": "10d5ac1a9224477c0df5dc1934acb21374c2dba0",
+        "size": 17214,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/10d5ac1a9224477c0df5dc1934acb21374c2dba0"
+      },
+      {
+        "mode": "100644",
+        "path": "build.rs",
+        "sha": "0c3fe354dbf452d1dbcf1b922a9578a16eebfa73",
+        "size": 584,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0c3fe354dbf452d1dbcf1b922a9578a16eebfa73"
+      },
+      {
+        "mode": "040000",
+        "path": "doc",
+        "sha": "d7fc8f7bf11122cf93fe7317e503e47b72968566",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/d7fc8f7bf11122cf93fe7317e503e47b72968566"
+      },
+      {
+        "mode": "100644",
+        "path": "doc/execution-order.png",
+        "sha": "845a302fea39473e52322563588eb872b6473102",
+        "size": 88282,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/845a302fea39473e52322563588eb872b6473102"
+      },
+      {
+        "mode": "100644",
+        "path": "doc/execution-order.svg",
+        "sha": "9c5f333e34e2dde920513a96c055ef62a536146a",
+        "size": 48960,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/9c5f333e34e2dde920513a96c055ef62a536146a"
+      },
+      {
+        "mode": "100644",
+        "path": "doc/histogram.png",
+        "sha": "55b0af2d661c341a40deabbc3e9afb3e83a1875d",
+        "size": 11108,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/55b0af2d661c341a40deabbc3e9afb3e83a1875d"
+      },
+      {
+        "mode": "100644",
+        "path": "doc/hyperfine.1",
+        "sha": "e4ded4321ffec0a0b29e1ca70815bdd692818073",
+        "size": 13052,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/e4ded4321ffec0a0b29e1ca70815bdd692818073"
+      },
+      {
+        "mode": "100644",
+        "path": "doc/whisker.png",
+        "sha": "5a4f5c0f1c92c65bc844b6f79adf47fa55a0f38e",
+        "size": 5217,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/5a4f5c0f1c92c65bc844b6f79adf47fa55a0f38e"
+      },
+      {
+        "mode": "100644",
+        "path": "pyproject.toml",
+        "sha": "d4fe449fe99815cf2346064dbb1ab923b9e551b9",
+        "size": 873,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/d4fe449fe99815cf2346064dbb1ab923b9e551b9"
+      },
+      {
+        "mode": "040000",
+        "path": "scripts",
+        "sha": "35b018c7357f2477dace348372e3d5b005f88d7c",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/35b018c7357f2477dace348372e3d5b005f88d7c"
+      },
+      {
+        "mode": "100644",
+        "path": "scripts/README.md",
+        "sha": "9875a5e5ae1b588edd9f9d2803caa0d6d74f81ae",
+        "size": 1270,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/9875a5e5ae1b588edd9f9d2803caa0d6d74f81ae"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/advanced_statistics.py",
+        "sha": "a5212e06f23cd2dacbcaf6f15d3b905442d76190",
+        "size": 2062,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/a5212e06f23cd2dacbcaf6f15d3b905442d76190"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/plot_benchmark_comparison.py",
+        "sha": "6d191c9db10e61e52afe7a4c37b5216193d2a81d",
+        "size": 2615,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/6d191c9db10e61e52afe7a4c37b5216193d2a81d"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/plot_histogram.py",
+        "sha": "62a2954d2a44323f91d54861a39db1e103239fab",
+        "size": 3363,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/62a2954d2a44323f91d54861a39db1e103239fab"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/plot_parametrized.py",
+        "sha": "47eb8143006b0d99eb972e000ee776471df9adeb",
+        "size": 3783,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/47eb8143006b0d99eb972e000ee776471df9adeb"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/plot_progression.py",
+        "sha": "c1de074fef50d01fdde8f1fe85ce28a8a4d36bbc",
+        "size": 2555,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/c1de074fef50d01fdde8f1fe85ce28a8a4d36bbc"
+      },
+      {
+        "mode": "100644",
+        "path": "scripts/plot_utils.py",
+        "sha": "1eed2aab27a2331d8e571d26f058baeec1e40f23",
+        "size": 2398,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/1eed2aab27a2331d8e571d26f058baeec1e40f23"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/plot_whisker.py",
+        "sha": "fc27c93f378818ed7d2dc63c41a70d8a29b20f75",
+        "size": 2465,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/fc27c93f378818ed7d2dc63c41a70d8a29b20f75"
+      },
+      {
+        "mode": "100644",
+        "path": "scripts/ruff.toml",
+        "sha": "ff5e2343e697e6ae53d95bdab1b8733e577e0823",
+        "size": 68,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/ff5e2343e697e6ae53d95bdab1b8733e577e0823"
+      },
+      {
+        "mode": "100755",
+        "path": "scripts/welch_ttest.py",
+        "sha": "35a260549933891b213d181d5b32af5e46bf631d",
+        "size": 1675,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/35a260549933891b213d181d5b32af5e46bf631d"
+      },
+      {
+        "mode": "040000",
+        "path": "src",
+        "sha": "1ed6d68a7d1a3c894a2ba20188623b10bbd0b6fe",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/1ed6d68a7d1a3c894a2ba20188623b10bbd0b6fe"
+      },
+      {
+        "mode": "040000",
+        "path": "src/benchmark",
+        "sha": "6a88dd483ccbf4cb0b69e5cf1608b6822a0e5d01",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/6a88dd483ccbf4cb0b69e5cf1608b6822a0e5d01"
+      },
+      {
+        "mode": "100644",
+        "path": "src/benchmark/benchmark_result.rs",
+        "sha": "3ac3d41c8f0550afc5ec0d021020ce57009597fc",
+        "size": 1864,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/3ac3d41c8f0550afc5ec0d021020ce57009597fc"
+      },
+      {
+        "mode": "100644",
+        "path": "src/benchmark/executor.rs",
+        "sha": "23d239b1ec3e9b10e5f0d33fe753726bbf52018e",
+        "size": 13067,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/23d239b1ec3e9b10e5f0d33fe753726bbf52018e"
+      },
+      {
+        "mode": "100644",
+        "path": "src/benchmark/measurement.rs",
+        "sha": "5c27a1f7655b95800ae0a363106dd7f7fca2a8c6",
+        "size": 5340,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/5c27a1f7655b95800ae0a363106dd7f7fca2a8c6"
+      },
+      {
+        "mode": "100644",
+        "path": "src/benchmark/mod.rs",
+        "sha": "dd0198592fce3f8b221e94e04f8e0f3d892d4808",
+        "size": 15902,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/dd0198592fce3f8b221e94e04f8e0f3d892d4808"
+      },
+      {
+        "mode": "100644",
+        "path": "src/benchmark/scheduler.rs",
+        "sha": "1335fcba0e73f77bafd7cb4f0036526de64758c5",
+        "size": 4289,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/1335fcba0e73f77bafd7cb4f0036526de64758c5"
+      },
+      {
+        "mode": "100644",
+        "path": "src/cli.rs",
+        "sha": "b01a8945796669944dbbd64bbff19f0482d6efdb",
+        "size": 21974,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/b01a8945796669944dbbd64bbff19f0482d6efdb"
+      },
+      {
+        "mode": "100644",
+        "path": "src/command.rs",
+        "sha": "f694b45e39099e3ae352e60bd442a5f60a640cac",
+        "size": 22623,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/f694b45e39099e3ae352e60bd442a5f60a640cac"
+      },
+      {
+        "mode": "100644",
+        "path": "src/error.rs",
+        "sha": "8e9e167886f7b359de93487ee7e196694bca0465",
+        "size": 2671,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/8e9e167886f7b359de93487ee7e196694bca0465"
+      },
+      {
+        "mode": "040000",
+        "path": "src/export",
+        "sha": "891eebdb38f7a7270c27cc58fa543bd6de0d1e49",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/891eebdb38f7a7270c27cc58fa543bd6de0d1e49"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/asciidoc.rs",
+        "sha": "ac6b18a0d05d487fd101386b8c5358bfe694c8db",
+        "size": 1930,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/ac6b18a0d05d487fd101386b8c5358bfe694c8db"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/csv.rs",
+        "sha": "7ebdde498c696fd37ec8f2681d17930b9238ee19",
+        "size": 8748,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/7ebdde498c696fd37ec8f2681d17930b9238ee19"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/json.rs",
+        "sha": "52cd5636952a172ab9e51fbbd3a793483da28805",
+        "size": 2512,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/52cd5636952a172ab9e51fbbd3a793483da28805"
+      },
+      {
+        "mode": "040000",
+        "path": "src/export/json",
+        "sha": "98194d8ccb58107f192f1c38378e014ef6e26fdb",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/98194d8ccb58107f192f1c38378e014ef6e26fdb"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/json/metadata.rs",
+        "sha": "93b3161c884b5056c50003c70dec87b495c13d0f",
+        "size": 1396,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/93b3161c884b5056c50003c70dec87b495c13d0f"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/markdown.rs",
+        "sha": "e9e4875dbdda21a47c917d35e7c284fa39e082b4",
+        "size": 2195,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/e9e4875dbdda21a47c917d35e7c284fa39e082b4"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/markup.rs",
+        "sha": "c061fcbc1f10099ca172d14c14dbdc6746824300",
+        "size": 3432,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/c061fcbc1f10099ca172d14c14dbdc6746824300"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/mod.rs",
+        "sha": "06c28c964e68175c827d10bdd7b4a741067b2498",
+        "size": 5112,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/06c28c964e68175c827d10bdd7b4a741067b2498"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/orgmode.rs",
+        "sha": "70388ab43c4f2d3491f0a4f23f0f813bad62aeb8",
+        "size": 1254,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/70388ab43c4f2d3491f0a4f23f0f813bad62aeb8"
+      },
+      {
+        "mode": "100644",
+        "path": "src/export/tests.rs",
+        "sha": "b3f70a8511a2967427a04b44a80965989bba21f5",
+        "size": 18934,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/b3f70a8511a2967427a04b44a80965989bba21f5"
+      },
+      {
+        "mode": "100644",
+        "path": "src/main.rs",
+        "sha": "a07d8a24701fc55c808f703f8917fea25fc0be9b",
+        "size": 3488,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/a07d8a24701fc55c808f703f8917fea25fc0be9b"
+      },
+      {
+        "mode": "100644",
+        "path": "src/metric.rs",
+        "sha": "894b37c9914e0e7e4172b934d32954f2b82c0612",
+        "size": 17171,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/894b37c9914e0e7e4172b934d32954f2b82c0612"
+      },
+      {
+        "mode": "100644",
+        "path": "src/options.rs",
+        "sha": "d2d41305a002ee8b6b68dbf8f04ee9cb7a752cef",
+        "size": 17684,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/d2d41305a002ee8b6b68dbf8f04ee9cb7a752cef"
+      },
+      {
+        "mode": "100644",
+        "path": "src/outlier_detection.rs",
+        "sha": "e672c26f555a23744aff5afc6136489c6857d5b7",
+        "size": 2603,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/e672c26f555a23744aff5afc6136489c6857d5b7"
+      },
+      {
+        "mode": "040000",
+        "path": "src/output",
+        "sha": "7fab37cfe879bd1477c73367806ee12f77fcfe88",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/7fab37cfe879bd1477c73367806ee12f77fcfe88"
+      },
+      {
+        "mode": "100644",
+        "path": "src/output/mod.rs",
+        "sha": "37aa2c69869262c4dcc01edf71c83aaeb8c91cc3",
+        "size": 361,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/37aa2c69869262c4dcc01edf71c83aaeb8c91cc3"
+      },
+      {
+        "mode": "100644",
+        "path": "src/output/progress_bar.rs",
+        "sha": "89758744289e0b9b3535759d0e6079d5e5d9cbce",
+        "size": 2679,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/89758744289e0b9b3535759d0e6079d5e5d9cbce"
+      },
+      {
+        "mode": "100644",
+        "path": "src/output/report.rs",
+        "sha": "87d13a39a7139695b1abe9bc325ff04fdcd417a8",
+        "size": 7342,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/87d13a39a7139695b1abe9bc325ff04fdcd417a8"
+      },
+      {
+        "mode": "100644",
+        "path": "src/output/warnings.rs",
+        "sha": "1a7023118369cbaa980125da86c46b88669e65f0",
+        "size": 3466,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/1a7023118369cbaa980125da86c46b88669e65f0"
+      },
+      {
+        "mode": "040000",
+        "path": "src/parameter",
+        "sha": "b94fe9cdc6343823d78ced17a98446cc10f7e2ab",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/b94fe9cdc6343823d78ced17a98446cc10f7e2ab"
+      },
+      {
+        "mode": "100644",
+        "path": "src/parameter/mod.rs",
+        "sha": "579a3bf3be0a3b3451a31933874ee7bc2e1a14cb",
+        "size": 579,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/579a3bf3be0a3b3451a31933874ee7bc2e1a14cb"
+      },
+      {
+        "mode": "100644",
+        "path": "src/parameter/range_step.rs",
+        "sha": "88ed76597ef07bfe0fcb58a64923a351fbdae66e",
+        "size": 4652,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/88ed76597ef07bfe0fcb58a64923a351fbdae66e"
+      },
+      {
+        "mode": "100644",
+        "path": "src/parameter/tokenize.rs",
+        "sha": "b474d066b02a3e387a50a2883706d4b210d07962",
+        "size": 1751,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/b474d066b02a3e387a50a2883706d4b210d07962"
+      },
+      {
+        "mode": "040000",
+        "path": "src/quantity",
+        "sha": "5ba78b5a8f4bbceb308fa5ca7df93312b30ac3f7",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/5ba78b5a8f4bbceb308fa5ca7df93312b30ac3f7"
+      },
+      {
+        "mode": "100644",
+        "path": "src/quantity/mod.rs",
+        "sha": "fb16d208bbb1d06292cd044dec4b9df49df71196",
+        "size": 1938,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/fb16d208bbb1d06292cd044dec4b9df49df71196"
+      },
+      {
+        "mode": "100644",
+        "path": "src/quantity/statistics.rs",
+        "sha": "6bef3a0cc6dc60e3a8eff06a70173c287c5a680f",
+        "size": 6848,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/6bef3a0cc6dc60e3a8eff06a70173c287c5a680f"
+      },
+      {
+        "mode": "100644",
+        "path": "src/shell_syntax.rs",
+        "sha": "043b8b5d7678c1ff0491627bdb95d8f69fbd9a9d",
+        "size": 9435,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/043b8b5d7678c1ff0491627bdb95d8f69fbd9a9d"
+      },
+      {
+        "mode": "040000",
+        "path": "src/timer",
+        "sha": "3e73313e2e61758e2f4e3db1a721441147c03768",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/3e73313e2e61758e2f4e3db1a721441147c03768"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/linux_counters.rs",
+        "sha": "8b5c63bcf2ef7b5232e54cf967c781d0dc41ff0f",
+        "size": 3763,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/8b5c63bcf2ef7b5232e54cf967c781d0dc41ff0f"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/macos_counters.rs",
+        "sha": "91b80c4f0a6cd3a9ba26ac624f993cee86243c6a",
+        "size": 1944,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/91b80c4f0a6cd3a9ba26ac624f993cee86243c6a"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/mod.rs",
+        "sha": "541d7f5ba3de64ab765c323c25f92476efeacaeb",
+        "size": 3614,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/541d7f5ba3de64ab765c323c25f92476efeacaeb"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/unix_timer.rs",
+        "sha": "63591eed6906b057d7c33e3f537ff156b3563936",
+        "size": 2569,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/63591eed6906b057d7c33e3f537ff156b3563936"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/wall_clock_timer.rs",
+        "sha": "3a7233a5d36a07e90147d2911fa297f9d1cd72f8",
+        "size": 476,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/3a7233a5d36a07e90147d2911fa297f9d1cd72f8"
+      },
+      {
+        "mode": "100644",
+        "path": "src/timer/windows_timer.rs",
+        "sha": "3a79e40f66146040992e4668fb5b641371c1e8ed",
+        "size": 5126,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/3a79e40f66146040992e4668fb5b641371c1e8ed"
+      },
+      {
+        "mode": "040000",
+        "path": "src/util",
+        "sha": "6e61e361e54b7bda2c9017fb574239c6310c01e9",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/6e61e361e54b7bda2c9017fb574239c6310c01e9"
+      },
+      {
+        "mode": "100644",
+        "path": "src/util/exit_code.rs",
+        "sha": "9ad30b5832fbcab43d773dc65dda3cd898f2d25e",
+        "size": 743,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/9ad30b5832fbcab43d773dc65dda3cd898f2d25e"
+      },
+      {
+        "mode": "100644",
+        "path": "src/util/mod.rs",
+        "sha": "e229c24b2b155ad7c2f5a9da0bb9b4b7bbab0c39",
+        "size": 74,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/e229c24b2b155ad7c2f5a9da0bb9b4b7bbab0c39"
+      },
+      {
+        "mode": "100644",
+        "path": "src/util/number.rs",
+        "sha": "124a04c338c9158af6db129ee5f705286109b181",
+        "size": 1102,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/124a04c338c9158af6db129ee5f705286109b181"
+      },
+      {
+        "mode": "100644",
+        "path": "src/util/randomized_environment_offset.rs",
+        "sha": "0491a398e24bd4a5a5d138e45a9cc324dc03bd97",
+        "size": 391,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0491a398e24bd4a5a5d138e45a9cc324dc03bd97"
+      },
+      {
+        "mode": "040000",
+        "path": "tests",
+        "sha": "8252af9c8e90f03bf6fa52dcdd3ebddbc8748ae9",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/8252af9c8e90f03bf6fa52dcdd3ebddbc8748ae9"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/common.rs",
+        "sha": "27fa2a4a1f315ce759852139b90d41277d75e996",
+        "size": 333,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/27fa2a4a1f315ce759852139b90d41277d75e996"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/example_input_file.txt",
+        "sha": "0d924b8b921cdadf932ecac194ee92598fa9d601",
+        "size": 28,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/0d924b8b921cdadf932ecac194ee92598fa9d601"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/execution_order_tests.rs",
+        "sha": "df324637a78f25458653cf1ba43584100fc42e78",
+        "size": 14911,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/df324637a78f25458653cf1ba43584100fc42e78"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/integration_tests.rs",
+        "sha": "7b7cc2ff935e797388dac62d5c45dddfa19867ca",
+        "size": 41204,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/7b7cc2ff935e797388dac62d5c45dddfa19867ca"
+      },
+      {
+        "mode": "040000",
+        "path": "tests/snapshots",
+        "sha": "209031f4b35969430c6cf9485c058ac959b36487",
+        "type": "tree",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/209031f4b35969430c6cf9485c058ac959b36487"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/snapshots/integration_tests__json_export_basic.snap",
+        "sha": "aeb249d8c46f0d1442ed0a4aeb5e2350809ade74",
+        "size": 4998,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/aeb249d8c46f0d1442ed0a4aeb5e2350809ade74"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/snapshots/integration_tests__json_export_parameterized_with_reference.snap",
+        "sha": "c2451d0c62b2e7b5a9d00f24cf23be055b87bd2c",
+        "size": 5219,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/c2451d0c62b2e7b5a9d00f24cf23be055b87bd2c"
+      },
+      {
+        "mode": "100644",
+        "path": "tests/snapshots/integration_tests__json_export_single_run.snap",
+        "sha": "603e85878cb8222a0a2fe8fde2188327345a8d6a",
+        "size": 2181,
+        "type": "blob",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs/603e85878cb8222a0a2fe8fde2188327345a8d6a"
+      }
+    ],
+    "truncated": false,
+    "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/c5161524980522320c7d3425e714cc0965a869a5"
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

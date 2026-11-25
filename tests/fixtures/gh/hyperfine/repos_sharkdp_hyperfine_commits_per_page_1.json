@@ -1,0 +1,44 @@
+{
+  "body": [
+    {
+      "author": {
+        "login": "cyncui"
+      },
+      "comments_url": "https://api.github.com/repos/sharkdp/hyperfine/commits/c5161524980522320c7d3425e714cc0965a869a5/comments",
+      "commit": {
+        "author": {
+          "date": "2026-10-09T16:06:51Z",
+          "name": "cynthia cui"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2026-10-12T08:33:47Z",
+          "name": "David Peter"
+        },
+        "message": "test(integration): ignore ambient forced color",
+        "tree": {
+          "sha": "1b13e3507b0c9ea0cef00b00750c947261c51f33",
+          "url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees/1b13e3507b0c9ea0cef00b00750c947261c51f33"
+        },
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/git/commits/c5161524980522320c7d3425e714cc0965a869a5"
+      },
+      "committer": {
+        "login": "sharkdp"
+      },
+      "html_url": "https://github.com/sharkdp/hyperfine/commit/c5161524980522320c7d3425e714cc0965a869a5",
+      "node_id": "C_kwDOBv62x9oAKGM1MTYxNTI0OTgwNTIyMzIwYzdkMzQyNWU3MTRjYzA5NjVhODY5YTU",
+      "parents": [
+        {
+          "html_url": "https://github.com/sharkdp/hyperfine/commit/b33755fe1fca8bcc1f182c773ca3ab040bfe517d",
+          "sha": "b33755fe1fca8bcc1f182c773ca3ab040bfe517d",
+          "url": "https://api.github.com/repos/sharkdp/hyperfine/commits/b33755fe1fca8bcc1f182c773ca3ab040bfe517d"
+        }
+      ],
+      "sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "url": "https://api.github.com/repos/sharkdp/hyperfine/commits/c5161524980522320c7d3425e714cc0965a869a5"
+    }
+  ],
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

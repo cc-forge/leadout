@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Local stats history and caches written by leadout itself
+.leadout/
+# Tooling state from the local machine, not part of the plugin
+.claude-flow/

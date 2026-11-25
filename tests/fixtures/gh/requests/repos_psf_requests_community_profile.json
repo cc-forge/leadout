@@ -1,0 +1,45 @@
+{
+  "body": {
+    "content_reports_enabled": true,
+    "description": "A simple, yet elegant, HTTP library.",
+    "documentation": "https://requests.readthedocs.io/en/latest/",
+    "files": {
+      "code_of_conduct": {
+        "html_url": "https://github.com/psf/requests/blob/main/.github/CODE_OF_CONDUCT.md",
+        "key": "other",
+        "name": "Other",
+        "url": "https://api.github.com/repos/psf/requests/community/code_of_conduct"
+      },
+      "code_of_conduct_file": {
+        "html_url": "https://github.com/psf/requests/blob/main/.github/CODE_OF_CONDUCT.md",
+        "url": "https://api.github.com/repos/psf/requests/contents/.github/CODE_OF_CONDUCT.md"
+      },
+      "contributing": {
+        "html_url": "https://github.com/psf/requests/blob/main/.github/CONTRIBUTING.md",
+        "url": "https://api.github.com/repos/psf/requests/contents/.github/CONTRIBUTING.md"
+      },
+      "issue_template": {
+        "html_url": "https://github.com/psf/requests/blob/main/.github/ISSUE_TEMPLATE.md",
+        "url": "https://api.github.com/repos/psf/requests/contents/.github/ISSUE_TEMPLATE.md"
+      },
+      "license": {
+        "html_url": "https://github.com/psf/requests/blob/main/LICENSE",
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "node_id": "MDc6TGljZW5zZTI=",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pull_request_template": null,
+      "readme": {
+        "html_url": "https://github.com/psf/requests/blob/main/README.md",
+        "url": "https://api.github.com/repos/psf/requests/contents/README.md"
+      }
+    },
+    "health_percentage": 100,
+    "updated_at": "2019-02-04T15:23:12Z"
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

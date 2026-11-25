@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "note": "These timings are common practice, not measured data.",
+  "reference_zone": "America/New_York",
+  "slots": [
+    {"offset_days": -14, "time": null, "what": "Run the audit; fix until the score is at least 80"},
+    {"offset_days": -7, "time": null, "what": "Visuals done; dev.to draft ready; launch kit lint passes"},
+    {"offset_days": -1, "time": null, "what": "Release published; run stats.py collect for a baseline"},
+    {"offset_days": 0, "time": "08:00", "what": "Submit Show HN and post the first comment (Tuesday to Thursday preferred)"},
+    {"offset_days": 0, "time": "10:00", "what": "Post the X thread (about 2 hours after Show HN)"},
+    {"offset_days": 1, "time": null, "what": "One subreddit per day from D+1, each with its own post (see reddit.md)"},
+    {"offset_days": 3, "time": null, "what": "Publish the dev.to post"},
+    {"offset_days": 7, "time": null, "what": "Open awesome-list pull requests, only for lists whose quality bar the project meets"},
+    {"offset_days": 14, "time": null, "what": "Run stats.py report --launch-date D"}
+  ]
+}

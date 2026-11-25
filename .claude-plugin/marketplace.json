@@ -1,0 +1,20 @@
+{
+  "name": "leadout",
+  "owner": {
+    "name": "cc-forge",
+    "url": "https://github.com/cc-forge"
+  },
+  "metadata": {
+    "description": "Marketplace for the leadout plugin."
+  },
+  "plugins": [
+    {
+      "name": "leadout",
+      "source": "./",
+      "description": "Take a GitHub repository from finished code to launched and measured: audit, fix, visuals, launch kit and post-launch stats.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": ["github", "readme", "audit", "launch", "stats"]
+    }
+  ]
+}

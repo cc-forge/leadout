@@ -1,0 +1,23 @@
+{
+  "body": {
+    "_links": {
+      "git": "https://api.github.com/repos/localsend/localsend/git/blobs/aa78542254fab0b705f489b0997048a5d3d8fdf3",
+      "html": "https://github.com/localsend/localsend/blob/main/Cargo.toml",
+      "self": "https://api.github.com/repos/localsend/localsend/contents/Cargo.toml?ref=main"
+    },
+    "content": "W3dvcmtzcGFjZV0KcmVzb2x2ZXIgPSAiMyIKbWVtYmVycyA9IFsKICAgICJj\nbGkiLAogICAgInBhY2thZ2VzL2NvcmUiLAogICAgInBhY2thZ2VzL2xvY2Fs\nc2VuZF9pc29sYXRlcy9ydXN0IiwKICAgICJzZXJ2ZXIiLApdCgojIFByb2Zp\nbGVzIGFyZSBvbmx5IGhvbm9yZWQgaW4gdGhlIHdvcmtzcGFjZSByb290IG1h\nbmlmZXN0LgoKIyBGdWxsIGRlYnVnaW5mbyBkb21pbmF0ZXMgdGFyZ2V0LyBz\naXplOyBsaW5lIHRhYmxlcyBrZWVwIGJhY2t0cmFjZXMgdXNhYmxlLgpbcHJv\nZmlsZS5kZXZdCmRlYnVnID0gImxpbmUtdGFibGVzLW9ubHkiCgojIFJTQSBr\nZXkgZ2VuZXJhdGlvbiBpcyBiaWdudW0taGVhdnkgYW5kIHRha2VzIH4xMHgg\nbG9uZ2VyIHVub3B0aW1pemVkOwojIGtlZXAgdGhlIGNyeXB0byBjcmF0ZXMg\nb3B0aW1pemVkIGluIGRldiBzbyB0ZXN0cyBzdGF5IGZhc3QuCltwcm9maWxl\nLmRldi5wYWNrYWdlLnJzYV0Kb3B0LWxldmVsID0gMgoKW3Byb2ZpbGUuZGV2\nLnBhY2thZ2UubnVtLWJpZ2ludC1kaWddCm9wdC1sZXZlbCA9IDIK\n",
+    "download_url": "https://raw.githubusercontent.com/localsend/localsend/main/Cargo.toml",
+    "encoding": "base64",
+    "git_url": "https://api.github.com/repos/localsend/localsend/git/blobs/aa78542254fab0b705f489b0997048a5d3d8fdf3",
+    "html_url": "https://github.com/localsend/localsend/blob/main/Cargo.toml",
+    "name": "Cargo.toml",
+    "path": "Cargo.toml",
+    "sha": "aa78542254fab0b705f489b0997048a5d3d8fdf3",
+    "size": 534,
+    "type": "file",
+    "url": "https://api.github.com/repos/localsend/localsend/contents/Cargo.toml?ref=main"
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

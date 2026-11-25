@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "name": "leadout default",
+  "version": "1.0.0",
+  "effort_levels": {"low": 1, "medium": 2, "high": 3},
+  "grades": [[90, "A"], [75, "B"], [60, "C"], [40, "D"], [0, "F"]],
+  "categories": [
+    {"id": "readme", "title": "README"},
+    {"id": "metadata", "title": "Metadata"},
+    {"id": "distribution", "title": "Distribution"},
+    {"id": "community", "title": "Community"},
+    {"id": "health", "title": "Health"}
+  ],
+  "checks": [
+    {
+      "id": "readme.exists", "category": "readme", "type": "readme_exists",
+      "title": "README file exists",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "fix": "Add a README.md at the repository root."
+    },
+    {
+      "id": "readme.tagline", "category": "readme", "type": "readme_tagline",
+      "title": "README opens with one sentence that says what the project does",
+      "weight": 6, "effort": "low", "phase": "fix",
+      "params": {"max_lines": 15, "min_chars": 20, "max_chars": 300},
+      "fix": "Open the README with a single sentence: what it is, for whom, and the main benefit."
+    },
+    {
+      "id": "readme.visual_demo", "category": "readme", "type": "readme_visual",
+      "title": "README shows a demo GIF, video or screenshot near the top",
+      "weight": 7, "effort": "medium", "phase": "visuals",
+      "params": {"max_lines": 50},
+      "fix": "Add a demo GIF or screenshot in the first screen of the README."
+    },
+    {
+      "id": "readme.install", "category": "readme", "type": "readme_install",
+      "title": "README installs in one command",
+      "weight": 6, "effort": "low", "phase": "fix", "skip_types": ["website"],
+      "fix": "Add an Installation section whose first code block is a single command."
+    },
+    {
+      "id": "readme.usage", "category": "readme", "type": "readme_usage",
+      "title": "README has a usage section with an example",
+      "weight": 5, "effort": "medium", "phase": "fix",
+      "fix": "Add a Usage section with a runnable example, a table of commands or a screenshot."
+    },
+    {
+      "id": "readme.contributing", "category": "readme", "type": "readme_contributing",
+      "title": "README tells people how to contribute",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "fix": "Add a Contributing section or a link to CONTRIBUTING.md."
+    },
+    {
+      "id": "readme.length", "category": "readme", "type": "readme_length",
+      "title": "README length is between 300 and 5000 words",
+      "weight": 5, "effort": "medium", "phase": "fix",
+      "params": {"min_words": 300, "max_words": 5000},
+      "fix": "Bring the README to 300-5000 words: explain the problem, features, install and usage."
+    },
+    {
+      "id": "meta.description", "category": "metadata", "type": "meta_description",
+      "title": "Repository description is set",
+      "weight": 5, "effort": "low", "phase": "fix",
+      "fix": "Set a repository description of 10-350 characters that says what the project does."
+    },
+    {
+      "id": "meta.topics", "category": "metadata", "type": "meta_topics",
+      "title": "Repository has at least 5 pertinent topics",
+      "weight": 5, "effort": "low", "phase": "fix",
+      "params": {"min_count": 5},
+      "fix": "Add at least 5 topics that match the language, type and domain of the project."
+    },
+    {
+      "id": "meta.homepage", "category": "metadata", "type": "meta_homepage",
+      "title": "Repository homepage URL is set",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "fix": "Set the repository homepage to the docs, website or package page."
+    },
+    {
+      "id": "meta.social_preview", "category": "metadata", "type": "meta_social_preview",
+      "title": "Repository has a custom social preview image",
+      "weight": 4, "effort": "medium", "phase": "visuals",
+      "fix": "Upload a 1280x640 social preview image in the repository settings."
+    },
+    {
+      "id": "meta.license", "category": "metadata", "type": "meta_license",
+      "title": "License is recognised by GitHub",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "fix": "Add a standard LICENSE file (for example MIT or Apache-2.0) that GitHub recognises."
+    },
+    {
+      "id": "dist.release", "category": "distribution", "type": "dist_release",
+      "title": "Project is installable from a release or a package registry",
+      "weight": 6, "effort": "medium", "phase": "fix", "skip_types": ["website"],
+      "fix": "Publish a release with downloadable assets, or document the registry install command."
+    },
+    {
+      "id": "dist.semver", "category": "distribution", "type": "dist_semver",
+      "title": "Releases use semantic version tags",
+      "weight": 5, "effort": "low", "phase": "fix", "skip_types": ["website"],
+      "fix": "Tag releases with semantic versions such as v1.2.0."
+    },
+    {
+      "id": "dist.changelog", "category": "distribution", "type": "dist_changelog",
+      "title": "Changes are documented in a changelog or release notes",
+      "weight": 4, "effort": "low", "phase": "fix",
+      "fix": "Add a CHANGELOG.md or write release notes for each release."
+    },
+    {
+      "id": "comm.contributing", "category": "community", "type": "comm_file",
+      "title": "CONTRIBUTING file exists",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "params": {"file": "contributing"},
+      "fix": "Add a CONTRIBUTING.md that explains how to set up, test and submit changes."
+    },
+    {
+      "id": "comm.code_of_conduct", "category": "community", "type": "comm_file",
+      "title": "Code of conduct exists",
+      "weight": 2, "effort": "low", "phase": "fix",
+      "params": {"file": "code_of_conduct"},
+      "fix": "Add a CODE_OF_CONDUCT.md (for example the Contributor Covenant)."
+    },
+    {
+      "id": "comm.issue_templates", "category": "community", "type": "comm_file",
+      "title": "Issue templates exist",
+      "weight": 3, "effort": "low", "phase": "fix",
+      "params": {"file": "issue_template"},
+      "fix": "Add issue templates for bug reports and feature requests in .github/ISSUE_TEMPLATE/."
+    },
+    {
+      "id": "comm.pr_template", "category": "community", "type": "comm_file",
+      "title": "Pull request template exists",
+      "weight": 2, "effort": "low", "phase": "fix",
+      "params": {"file": "pull_request_template"},
+      "fix": "Add a .github/PULL_REQUEST_TEMPLATE.md with a short checklist."
+    },
+    {
+      "id": "comm.good_first_issue", "category": "community", "type": "comm_gfi",
+      "title": "Open issues are labelled for first-time contributors",
+      "weight": 3, "effort": "medium", "phase": "manual",
+      "fix": "Create a 'good first issue' label and apply it to a few small, well-described issues."
+    },
+    {
+      "id": "comm.security", "category": "community", "type": "comm_file",
+      "title": "Security policy exists",
+      "weight": 2, "effort": "low", "phase": "fix",
+      "params": {"file": "security"},
+      "fix": "Add a SECURITY.md that says how to report a vulnerability privately."
+    },
+    {
+      "id": "health.recent_commit", "category": "health", "type": "health_recent_commit",
+      "title": "Project had a commit in the last 90 days",
+      "weight": 6, "effort": "high", "phase": "manual",
+      "params": {"fresh_days": 90, "stale_days": 365},
+      "fix": "Ship a recent commit before launching, so visitors see an active project."
+    },
+    {
+      "id": "health.ci", "category": "health", "type": "health_ci",
+      "title": "CI runs and passes on the default branch",
+      "weight": 5, "effort": "medium", "phase": "fix",
+      "fix": "Add a CI workflow that runs the tests, and keep the default branch green."
+    },
+    {
+      "id": "health.issue_response", "category": "health", "type": "health_issue_response",
+      "title": "Open issues get an answer within 7 days",
+      "weight": 4, "effort": "medium", "phase": "manual",
+      "params": {"response_days": 7, "tolerance": 0.1},
+      "fix": "Answer or label the open issues that have no reply."
+    }
+  ]
+}

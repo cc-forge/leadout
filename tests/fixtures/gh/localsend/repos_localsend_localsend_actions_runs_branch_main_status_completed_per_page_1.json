@@ -1,0 +1,782 @@
+{
+  "body": {
+    "total_count": 539,
+    "workflow_runs": [
+      {
+        "actor": {
+          "login": "dependabot[bot]"
+        },
+        "artifacts_url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546/artifacts",
+        "cancel_url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546/cancel",
+        "check_suite_id": 123356943393,
+        "check_suite_node_id": "CS_kwDOIoAhg88AAAAcuKWUIQ",
+        "check_suite_url": "https://api.github.com/repos/localsend/localsend/check-suites/123356943393",
+        "conclusion": "success",
+        "created_at": "2026-11-25T10:02:38Z",
+        "display_title": "github_actions in /. - Update #1729988856",
+        "event": "dynamic",
+        "head_branch": "main",
+        "head_commit": {
+          "author": {
+            "name": "Tien Nam Do"
+          },
+          "committer": {
+            "name": "GitHub"
+          },
+          "id": "44f48f18a5503c43873570ff489d27ff1983e198",
+          "message": "ci: build android with JDK 21 to match F-Droid (#3758)",
+          "timestamp": "2026-11-23T22:16:59Z",
+          "tree_id": "bced5d530072d4854e0f192dedd1e792c137f56e"
+        },
+        "head_repository": {
+          "archive_url": "https://api.github.com/repos/localsend/localsend/{archive_format}{/ref}",
+          "assignees_url": "https://api.github.com/repos/localsend/localsend/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/localsend/localsend/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/localsend/localsend/branches{/branch}",
+          "collaborators_url": "https://api.github.com/repos/localsend/localsend/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/localsend/localsend/comments{/number}",
+          "commits_url": "https://api.github.com/repos/localsend/localsend/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/localsend/localsend/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/localsend/localsend/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/localsend/localsend/contributors",
+          "deployments_url": "https://api.github.com/repos/localsend/localsend/deployments",
+          "description": "An open-source cross-platform alternative to AirDrop",
+          "downloads_url": "https://api.github.com/repos/localsend/localsend/downloads",
+          "events_url": "https://api.github.com/repos/localsend/localsend/events",
+          "fork": false,
+          "forks_url": "https://api.github.com/repos/localsend/localsend/forks",
+          "full_name": "localsend/localsend",
+          "git_commits_url": "https://api.github.com/repos/localsend/localsend/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/localsend/localsend/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/localsend/localsend/git/tags{/sha}",
+          "hooks_url": "https://api.github.com/repos/localsend/localsend/hooks",
+          "html_url": "https://github.com/localsend/localsend",
+          "id": 578822531,
+          "issue_comment_url": "https://api.github.com/repos/localsend/localsend/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/localsend/localsend/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/localsend/localsend/issues{/number}",
+          "keys_url": "https://api.github.com/repos/localsend/localsend/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/localsend/localsend/labels{/name}",
+          "languages_url": "https://api.github.com/repos/localsend/localsend/languages",
+          "merges_url": "https://api.github.com/repos/localsend/localsend/merges",
+          "milestones_url": "https://api.github.com/repos/localsend/localsend/milestones{/number}",
+          "name": "localsend",
+          "node_id": "R_kgDOIoAhgw",
+          "notifications_url": "https://api.github.com/repos/localsend/localsend/notifications{?since,all,participating}",
+          "owner": {
+            "login": "localsend"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/localsend/localsend/pulls{/number}",
+          "releases_url": "https://api.github.com/repos/localsend/localsend/releases{/id}",
+          "stargazers_url": "https://api.github.com/repos/localsend/localsend/stargazers",
+          "statuses_url": "https://api.github.com/repos/localsend/localsend/statuses/{sha}",
+          "subscribers_url": "https://api.github.com/repos/localsend/localsend/subscribers",
+          "subscription_url": "https://api.github.com/repos/localsend/localsend/subscription",
+          "tags_url": "https://api.github.com/repos/localsend/localsend/tags",
+          "teams_url": "https://api.github.com/repos/localsend/localsend/teams",
+          "trees_url": "https://api.github.com/repos/localsend/localsend/git/trees{/sha}",
+          "url": "https://api.github.com/repos/localsend/localsend"
+        },
+        "head_sha": "44f48f18a5503c43873570ff489d27ff1983e198",
+        "html_url": "https://github.com/localsend/localsend/actions/runs/45591140546",
+        "id": 45591140546,
+        "jobs_url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546/jobs",
+        "logs_url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546/logs",
+        "name": "github_actions in /. - Update #1729988856",
+        "node_id": "WFR_kwLOIoAhg88AAAAKnXGYwg",
+        "path": "dynamic/dependabot/dependabot-updates",
+        "previous_attempt_url": null,
+        "pull_requests": [
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1196725753,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/avkiller/localsend"
+              },
+              "sha": "00bd130173e9f4cbe9bbbd503b20bed72fa8d77f"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 5487254246,
+            "number": 6,
+            "url": "https://api.github.com/repos/avkiller/localsend/pulls/6"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1180386968,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/Spencerx/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4076477553,
+            "number": 15,
+            "url": "https://api.github.com/repos/Spencerx/localsend/pulls/15"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 897083345,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/happymy/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074697379,
+            "number": 97,
+            "url": "https://api.github.com/repos/happymy/localsend/pulls/97"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 810209648,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/noaai/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074679662,
+            "number": 132,
+            "url": "https://api.github.com/repos/noaai/localsend/pulls/132"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1277524762,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/LeeeeeeM/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074625314,
+            "number": 11,
+            "url": "https://api.github.com/repos/LeeeeeeM/localsend/pulls/11"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 862518165,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/annihilatorrrr/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074590108,
+            "number": 113,
+            "url": "https://api.github.com/repos/annihilatorrrr/localsend/pulls/113"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 788448808,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/fenwehome/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074494398,
+            "number": 138,
+            "url": "https://api.github.com/repos/fenwehome/localsend/pulls/138"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1076719359,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/dwongdev/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074431111,
+            "number": 39,
+            "url": "https://api.github.com/repos/dwongdev/localsend/pulls/39"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 891321164,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/mengzhisuoliu/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074296292,
+            "number": 105,
+            "url": "https://api.github.com/repos/mengzhisuoliu/localsend/pulls/105"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 693003935,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/H1d3r/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074165520,
+            "number": 163,
+            "url": "https://api.github.com/repos/H1d3r/localsend/pulls/163"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 912249280,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/Little-Star888/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4074013917,
+            "number": 76,
+            "url": "https://api.github.com/repos/Little-Star888/localsend/pulls/76"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 607715168,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/nkh0472/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4073952641,
+            "number": 125,
+            "url": "https://api.github.com/repos/nkh0472/localsend/pulls/125"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 760186508,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/ACay047/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4073892613,
+            "number": 81,
+            "url": "https://api.github.com/repos/ACay047/localsend/pulls/81"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 980667471,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/ellipszist/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4073872458,
+            "number": 62,
+            "url": "https://api.github.com/repos/ellipszist/localsend/pulls/62"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 689573067,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/nagyist/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4073828675,
+            "number": 93,
+            "url": "https://api.github.com/repos/nagyist/localsend/pulls/93"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 708396253,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/amishakov/localsend"
+              },
+              "sha": "f813d4a90d5ba27158ef2ae41b9b8d91c237c21a"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4073761656,
+            "number": 64,
+            "url": "https://api.github.com/repos/amishakov/localsend/pulls/64"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1015225445,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/bhardwajRahul/localsend"
+              },
+              "sha": "9bbab2ff0d12bf4e15957e571cc8b57e572e8834"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 4057663985,
+            "number": 56,
+            "url": "https://api.github.com/repos/bhardwajRahul/localsend/pulls/56"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 862061101,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/Superoldman96/localsend"
+              },
+              "sha": "84315575094ba9b4a4bbe9a03c58a60c62eb9b5b"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 3343182160,
+            "number": 50,
+            "url": "https://api.github.com/repos/Superoldman96/localsend/pulls/50"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 902239126,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/17lai/localsend"
+              },
+              "sha": "5124525bfafa5049171e1b1b84ecac6ef553d013"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 3343113084,
+            "number": 78,
+            "url": "https://api.github.com/repos/17lai/localsend/pulls/78"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1121459383,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/chrelyonly/localsend"
+              },
+              "sha": "ef459592a1d1c0fd863a9e467cfc75f2420401e0"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 3197861510,
+            "number": 3,
+            "url": "https://api.github.com/repos/chrelyonly/localsend/pulls/3"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 1041054599,
+                "name": "localsend-cli",
+                "url": "https://api.github.com/repos/narain1/localsend-cli"
+              },
+              "sha": "beaa3634bbc85842a9c718de8ea427a12102901f"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 2888673865,
+            "number": 10,
+            "url": "https://api.github.com/repos/narain1/localsend-cli/pulls/10"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 762694130,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/nonomal/localsend"
+              },
+              "sha": "009b28cdfd67af46bbf0606c887395d35e50378c"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1742062826,
+            "number": 1,
+            "url": "https://api.github.com/repos/nonomal/localsend/pulls/1"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 595917650,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/sec-js/localsend"
+              },
+              "sha": "46aae68a8acb4d75e92d6d6eebb8e2508f857997"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1365190598,
+            "number": 90,
+            "url": "https://api.github.com/repos/sec-js/localsend/pulls/90"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 613135901,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/kokizzu/localsend"
+              },
+              "sha": "80819634f32604a462dfe8c4a244b3bfd994d6df"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1364493374,
+            "number": 55,
+            "url": "https://api.github.com/repos/kokizzu/localsend/pulls/55"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 607454233,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/Mu-L/localsend"
+              },
+              "sha": "e82f3811ac69eda2395333c0bf9402482468be10"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1265949121,
+            "number": 13,
+            "url": "https://api.github.com/repos/Mu-L/localsend/pulls/13"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 595345897,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/lambdafunc/localsend"
+              },
+              "sha": "58739fbb36be4a6898e90a2b651d311c6d131520"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1223973777,
+            "number": 2,
+            "url": "https://api.github.com/repos/lambdafunc/localsend/pulls/2"
+          },
+          {
+            "base": {
+              "ref": "main",
+              "repo": {
+                "id": 595622167,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/rizalgowandy/localsend"
+              },
+              "sha": "58739fbb36be4a6898e90a2b651d311c6d131520"
+            },
+            "head": {
+              "ref": "main",
+              "repo": {
+                "id": 578822531,
+                "name": "localsend",
+                "url": "https://api.github.com/repos/localsend/localsend"
+              },
+              "sha": "44f48f18a5503c43873570ff489d27ff1983e198"
+            },
+            "id": 1223863033,
+            "number": 1,
+            "url": "https://api.github.com/repos/rizalgowandy/localsend/pulls/1"
+          }
+        ],
+        "referenced_workflows": [],
+        "repository": {
+          "archive_url": "https://api.github.com/repos/localsend/localsend/{archive_format}{/ref}",
+          "assignees_url": "https://api.github.com/repos/localsend/localsend/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/localsend/localsend/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/localsend/localsend/branches{/branch}",
+          "collaborators_url": "https://api.github.com/repos/localsend/localsend/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/localsend/localsend/comments{/number}",
+          "commits_url": "https://api.github.com/repos/localsend/localsend/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/localsend/localsend/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/localsend/localsend/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/localsend/localsend/contributors",
+          "deployments_url": "https://api.github.com/repos/localsend/localsend/deployments",
+          "description": "An open-source cross-platform alternative to AirDrop",
+          "downloads_url": "https://api.github.com/repos/localsend/localsend/downloads",
+          "events_url": "https://api.github.com/repos/localsend/localsend/events",
+          "fork": false,
+          "forks_url": "https://api.github.com/repos/localsend/localsend/forks",
+          "full_name": "localsend/localsend",
+          "git_commits_url": "https://api.github.com/repos/localsend/localsend/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/localsend/localsend/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/localsend/localsend/git/tags{/sha}",
+          "hooks_url": "https://api.github.com/repos/localsend/localsend/hooks",
+          "html_url": "https://github.com/localsend/localsend",
+          "id": 578822531,
+          "issue_comment_url": "https://api.github.com/repos/localsend/localsend/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/localsend/localsend/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/localsend/localsend/issues{/number}",
+          "keys_url": "https://api.github.com/repos/localsend/localsend/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/localsend/localsend/labels{/name}",
+          "languages_url": "https://api.github.com/repos/localsend/localsend/languages",
+          "merges_url": "https://api.github.com/repos/localsend/localsend/merges",
+          "milestones_url": "https://api.github.com/repos/localsend/localsend/milestones{/number}",
+          "name": "localsend",
+          "node_id": "R_kgDOIoAhgw",
+          "notifications_url": "https://api.github.com/repos/localsend/localsend/notifications{?since,all,participating}",
+          "owner": {
+            "login": "localsend"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/localsend/localsend/pulls{/number}",
+          "releases_url": "https://api.github.com/repos/localsend/localsend/releases{/id}",
+          "stargazers_url": "https://api.github.com/repos/localsend/localsend/stargazers",
+          "statuses_url": "https://api.github.com/repos/localsend/localsend/statuses/{sha}",
+          "subscribers_url": "https://api.github.com/repos/localsend/localsend/subscribers",
+          "subscription_url": "https://api.github.com/repos/localsend/localsend/subscription",
+          "tags_url": "https://api.github.com/repos/localsend/localsend/tags",
+          "teams_url": "https://api.github.com/repos/localsend/localsend/teams",
+          "trees_url": "https://api.github.com/repos/localsend/localsend/git/trees{/sha}",
+          "url": "https://api.github.com/repos/localsend/localsend"
+        },
+        "rerun_url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546/rerun",
+        "run_attempt": 1,
+        "run_number": 230,
+        "run_started_at": "2026-11-25T10:02:38Z",
+        "status": "completed",
+        "triggering_actor": {
+          "login": "dependabot[bot]"
+        },
+        "updated_at": "2026-11-25T10:03:54Z",
+        "url": "https://api.github.com/repos/localsend/localsend/actions/runs/45591140546",
+        "workflow_id": 108111761,
+        "workflow_url": "https://api.github.com/repos/localsend/localsend/actions/workflows/108111761"
+      }
+    ]
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

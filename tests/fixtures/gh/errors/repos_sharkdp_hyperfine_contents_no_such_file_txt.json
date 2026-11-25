@@ -1,0 +1,10 @@
+{
+  "body": {
+    "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+    "message": "Not Found",
+    "status": "404"
+  },
+  "headers": {},
+  "status": 404,
+  "stderr": "gh: Not Found (HTTP 404)\n"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "leadout",
+  "displayName": "leadout",
+  "version": "0.1.0",
+  "description": "Take a GitHub repository from finished code to launched and measured: audit, fix, visuals, launch kit and post-launch stats.",
+  "author": {
+    "name": "cc-forge",
+    "url": "https://github.com/cc-forge"
+  },
+  "homepage": "https://github.com/cc-forge/leadout",
+  "repository": "https://github.com/cc-forge/leadout",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "readme",
+    "audit",
+    "open-source",
+    "launch",
+    "show-hn",
+    "analytics",
+    "stats"
+  ]
+}

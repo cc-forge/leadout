@@ -1,0 +1,23 @@
+{
+  "body": {
+    "_links": {
+      "git": "https://api.github.com/repos/localsend/localsend/git/blobs/1ada831c638ef722ec8ef3b41ebab69b352fd433",
+      "html": "https://github.com/localsend/localsend/blob/main/pubspec.yaml",
+      "self": "https://api.github.com/repos/localsend/localsend/contents/pubspec.yaml?ref=main"
+    },
+    "content": "bmFtZTogX2xvY2Fsc2VuZF93b3Jrc3BhY2UKcHVibGlzaF90bzogbm9uZQoK\nZW52aXJvbm1lbnQ6CiAgc2RrOiBeMy4xMS4wCgp3b3Jrc3BhY2U6CiAgLSBh\ncHAKICAtIHBhY2thZ2VzL2xvY2Fsc2VuZF9pc29sYXRlcwogIC0gcGFja2Fn\nZXMvdHlwZWRfaXNvbGF0ZXMK\n",
+    "download_url": "https://raw.githubusercontent.com/localsend/localsend/main/pubspec.yaml",
+    "encoding": "base64",
+    "git_url": "https://api.github.com/repos/localsend/localsend/git/blobs/1ada831c638ef722ec8ef3b41ebab69b352fd433",
+    "html_url": "https://github.com/localsend/localsend/blob/main/pubspec.yaml",
+    "name": "pubspec.yaml",
+    "path": "pubspec.yaml",
+    "sha": "1ada831c638ef722ec8ef3b41ebab69b352fd433",
+    "size": 153,
+    "type": "file",
+    "url": "https://api.github.com/repos/localsend/localsend/contents/pubspec.yaml?ref=main"
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

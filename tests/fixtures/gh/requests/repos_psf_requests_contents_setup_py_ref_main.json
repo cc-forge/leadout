@@ -1,0 +1,23 @@
+{
+  "body": {
+    "_links": {
+      "git": "https://api.github.com/repos/psf/requests/git/blobs/1095518ac8d7956cdbddad1a245075c742b4915c",
+      "html": "https://github.com/psf/requests/blob/main/setup.py",
+      "self": "https://api.github.com/repos/psf/requests/contents/setup.py?ref=main"
+    },
+    "content": "aW1wb3J0IHN5cwoKaWYgc3lzLnZlcnNpb25faW5mbyA8ICgzLCAxMCk6ICAj\nIG5vcWE6IFVQMDM2CiAgICBzeXMuc3RkZXJyLndyaXRlKCJSZXF1ZXN0cyBy\nZXF1aXJlcyBQeXRob24gMy4xMCBvciBsYXRlci5cbiIpCiAgICBzeXMuZXhp\ndCgxKQoKZnJvbSBzZXR1cHRvb2xzIGltcG9ydCBzZXR1cAoKc2V0dXAoKQo=\n",
+    "download_url": "https://raw.githubusercontent.com/psf/requests/main/setup.py",
+    "encoding": "base64",
+    "git_url": "https://api.github.com/repos/psf/requests/git/blobs/1095518ac8d7956cdbddad1a245075c742b4915c",
+    "html_url": "https://github.com/psf/requests/blob/main/setup.py",
+    "name": "setup.py",
+    "path": "setup.py",
+    "sha": "1095518ac8d7956cdbddad1a245075c742b4915c",
+    "size": 179,
+    "type": "file",
+    "url": "https://api.github.com/repos/psf/requests/contents/setup.py?ref=main"
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

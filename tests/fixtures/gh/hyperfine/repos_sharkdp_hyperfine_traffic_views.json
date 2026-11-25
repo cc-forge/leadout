@@ -1,0 +1,10 @@
+{
+  "body": {
+    "documentation_url": "https://docs.github.com/rest/metrics/traffic#get-page-views",
+    "message": "Must have push access to repository",
+    "status": "403"
+  },
+  "headers": {},
+  "status": 403,
+  "stderr": "gh: Must have push access to repository (HTTP 403)\n"
+}

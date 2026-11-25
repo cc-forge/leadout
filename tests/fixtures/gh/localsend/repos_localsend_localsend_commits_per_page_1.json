@@ -1,0 +1,44 @@
+{
+  "body": [
+    {
+      "author": {
+        "login": "Tienisto"
+      },
+      "comments_url": "https://api.github.com/repos/localsend/localsend/commits/44f48f18a5503c43873570ff489d27ff1983e198/comments",
+      "commit": {
+        "author": {
+          "date": "2026-11-23T22:16:59Z",
+          "name": "Tien Nam Do"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2026-11-23T22:16:59Z",
+          "name": "GitHub"
+        },
+        "message": "ci: build android with JDK 21 to match F-Droid (#3758)",
+        "tree": {
+          "sha": "bced5d530072d4854e0f192dedd1e792c137f56e",
+          "url": "https://api.github.com/repos/localsend/localsend/git/trees/bced5d530072d4854e0f192dedd1e792c137f56e"
+        },
+        "url": "https://api.github.com/repos/localsend/localsend/git/commits/44f48f18a5503c43873570ff489d27ff1983e198"
+      },
+      "committer": {
+        "login": "web-flow"
+      },
+      "html_url": "https://github.com/localsend/localsend/commit/44f48f18a5503c43873570ff489d27ff1983e198",
+      "node_id": "C_kwDOIoAhg9oAKDQ0ZjQ4ZjE4YTU1MDNjNDM4NzM1NzBmZjQ4OWQyN2ZmMTk4M2UxOTg",
+      "parents": [
+        {
+          "html_url": "https://github.com/localsend/localsend/commit/b3b5f647d73e734636014c1cf2b44a7cbafd1fb6",
+          "sha": "b3b5f647d73e734636014c1cf2b44a7cbafd1fb6",
+          "url": "https://api.github.com/repos/localsend/localsend/commits/b3b5f647d73e734636014c1cf2b44a7cbafd1fb6"
+        }
+      ],
+      "sha": "44f48f18a5503c43873570ff489d27ff1983e198",
+      "url": "https://api.github.com/repos/localsend/localsend/commits/44f48f18a5503c43873570ff489d27ff1983e198"
+    }
+  ],
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

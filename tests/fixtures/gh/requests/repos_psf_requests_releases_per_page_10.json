@@ -1,0 +1,741 @@
+{
+  "body": [
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.2/requests-2.34.2-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-05-14T19:27:10Z",
+          "digest": "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+          "download_count": 884,
+          "id": 420408004,
+          "label": null,
+          "name": "requests-2.34.2-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4ZDurE",
+          "size": 73075,
+          "state": "uploaded",
+          "updated_at": "2026-05-14T19:27:11Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/420408004"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.2/requests-2.34.2.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-05-14T19:27:11Z",
+          "digest": "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+          "download_count": 828,
+          "id": 420408021,
+          "label": null,
+          "name": "requests-2.34.2.tar.gz",
+          "node_id": "RA_kwDOABTKOs4ZDurV",
+          "size": 142856,
+          "state": "uploaded",
+          "updated_at": "2026-05-14T19:27:12Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/420408021"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/322757947/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.34.2 (2026-05-14)\r\n-------------------\r\n- Moved `headers` input type back to `Mapping` to avoid invariance issues with `MutableMapping` and inferred dict types. Users calling `Request.headers.update()` may need to narrow typing in their code. (#7441)\r\n\r\n**Full Changelog**: https://github.com/psf/requests/blob/main/HISTORY.md#2342-2026-05-14",
+      "created_at": "2026-05-14T19:21:52Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.34.2",
+      "id": 322757947,
+      "immutable": false,
+      "name": "v2.34.2",
+      "node_id": "RE_kwDOABTKOs4TPOU7",
+      "prerelease": false,
+      "published_at": "2026-05-14T19:27:15Z",
+      "reactions": {
+        "+1": 2,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 2,
+        "hooray": 2,
+        "laugh": 0,
+        "rocket": 0,
+        "total_count": 6,
+        "url": "https://api.github.com/repos/psf/requests/releases/322757947/reactions"
+      },
+      "tag_name": "v2.34.2",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.34.2",
+      "target_commitish": "main",
+      "updated_at": "2026-05-14T19:27:15Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/322757947/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/322757947",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.34.2"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.1/requests-2.34.1-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-05-13T19:23:45Z",
+          "digest": "sha256:bf38a3ff993960d3dd819c08862c40b3c703306eb7c744fcd9f4ddbb95b548f0",
+          "download_count": 40,
+          "id": 419551724,
+          "label": null,
+          "name": "requests-2.34.1-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4ZAdns",
+          "size": 73085,
+          "state": "uploaded",
+          "updated_at": "2026-05-13T19:23:46Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/419551724"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.1/requests-2.34.1.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-05-13T19:23:47Z",
+          "digest": "sha256:0fc5669f2b69704449fe1552360bd2a73a54512dfd03e65529157f1513322beb",
+          "download_count": 116,
+          "id": 419551757,
+          "label": null,
+          "name": "requests-2.34.1.tar.gz",
+          "node_id": "RA_kwDOABTKOs4ZAdoN",
+          "size": 142783,
+          "state": "uploaded",
+          "updated_at": "2026-05-13T19:23:47Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/419551757"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/322083378/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.34.1 (2026-05-13)\r\n-------------------\r\n\r\n**Bugfixes**\r\n- Widened `json` input type from `dict` and `list` to `Mapping`\r\n  and `Sequence`. (#7436)\r\n- Changed `headers` input type to MutableMapping and removed `None` from\r\n  `Request.headers` typing to improve handling for users. (#7431)\r\n- `Response.reason` moved from `str | None` to `str` to improve handling\r\n  for users. (#7437)\r\n- Fixed a bug where some bodies with custom `__getattr__` implementations\r\n  weren't being properly detected as Iterables. (#7433)\r\n\r\n## New Contributors\r\n* @k223kim made their first contribution in https://github.com/psf/requests/pull/7433\r\n\r\n**Full Changelog**: https://github.com/psf/requests/blob/main/HISTORY.md#2341-2026-05-13",
+      "created_at": "2026-05-13T19:17:24Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.34.1",
+      "id": 322083378,
+      "immutable": false,
+      "mentions_count": 1,
+      "name": "v2.34.1",
+      "node_id": "RE_kwDOABTKOs4TMpoy",
+      "prerelease": false,
+      "published_at": "2026-05-13T19:23:51Z",
+      "reactions": {
+        "+1": 2,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 0,
+        "hooray": 4,
+        "laugh": 0,
+        "rocket": 0,
+        "total_count": 6,
+        "url": "https://api.github.com/repos/psf/requests/releases/322083378/reactions"
+      },
+      "tag_name": "v2.34.1",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.34.1",
+      "target_commitish": "main",
+      "updated_at": "2026-05-13T19:23:51Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/322083378/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/322083378",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.34.1"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.0/requests-2.34.0-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-05-11T19:40:23Z",
+          "digest": "sha256:917520a21b767485ce7c588f4ebb917c436b24a31231b44228715eaeb5a52c60",
+          "download_count": 42,
+          "id": 417714959,
+          "label": null,
+          "name": "requests-2.34.0-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4Y5dMP",
+          "size": 73021,
+          "state": "uploaded",
+          "updated_at": "2026-05-11T19:40:23Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/417714959"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.34.0/requests-2.34.0.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-05-11T19:40:21Z",
+          "digest": "sha256:7d62fe92f50eb82c529b0916bb445afa1531a566fc8f35ffdc64446e771b856a",
+          "download_count": 70,
+          "id": 417714933,
+          "label": null,
+          "name": "requests-2.34.0.tar.gz",
+          "node_id": "RA_kwDOABTKOs4Y5dL1",
+          "size": 142436,
+          "state": "uploaded",
+          "updated_at": "2026-05-11T19:40:22Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/417714933"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/320744938/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.34.0 (2026-05-11)\r\n-------------------\r\n\r\n**Announcements**\r\n- Requests 2.34.0 introduces inline types, replacing those provided by\r\n  typeshed. Public API types should be fully compatible with mypy, pyright,\r\n  and ty. **We believe types are comprehensive but if you find issues, please\r\n  report them to the [pinned tracking issue](https://github.com/psf/requests/issues/7271).**\r\n\r\n  Special thanks to @bastimeyer, @cthoyt, @edgarrmondragon, and @srittau for\r\n  helping review and test the types ahead of the release. (#7272)\r\n\r\n**Improvements**\r\n- Digest Auth hashing algorithms have added `usedforsecurity=False` to clarify\r\n  security considerations. (#7310)\r\n- Requests added support for Python 3.15 based on beta1. Downstream projects\r\n  should be able to start testing prior to its release in October. (#7422)\r\n- Requests added support for Python 3.14t. (#7419)\r\n\r\n**Bugfixes**\r\n- ``Response.history`` no longer contains a reference to itself, preventing\r\n  accidental looping when traversing the history list. (#7328)\r\n- Requests no longer performs greedy matching on no_proxy domains. The\r\n  proxy_bypass implementation has been updated with CPython's fix from\r\n  bpo-39057. (#7427)\r\n- Requests no longer incorrectly strips duplicate leading slashes in\r\n  URI paths. This should address user issues with specific presigned\r\n  URLs. Note the full fix requires urllib3 2.7.0+. (#7315)\r\n\r\n## New Contributors\r\n* @cjriches made their first contribution in https://github.com/psf/requests/pull/7365\r\n* @dsanader made their first contribution in https://github.com/psf/requests/pull/7376\r\n* @DimitriPapadopoulos made their first contribution in https://github.com/psf/requests/pull/7393\r\n* @joshua-51 made their first contribution in https://github.com/psf/requests/pull/7416\r\n* @eggsort made their first contribution in https://github.com/psf/requests/pull/7421\r\n* @typhon8 made their first contribution in https://github.com/psf/requests/pull/7315\r\n* @bastimeyer made their first contribution in https://github.com/psf/requests/pull/7425\r\n\r\n**Full Changelog**: https://github.com/psf/requests/blob/main/HISTORY.md#2340-2026-05-11",
+      "created_at": "2026-05-11T19:24:57Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.34.0",
+      "id": 320744938,
+      "immutable": false,
+      "mentions_count": 10,
+      "name": "v2.34.0",
+      "node_id": "RE_kwDOABTKOs4THi3q",
+      "prerelease": false,
+      "published_at": "2026-05-11T19:40:27Z",
+      "reactions": {
+        "+1": 3,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 7,
+        "hooray": 4,
+        "laugh": 0,
+        "rocket": 1,
+        "total_count": 15,
+        "url": "https://api.github.com/repos/psf/requests/releases/320744938/reactions"
+      },
+      "tag_name": "v2.34.0",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.34.0",
+      "target_commitish": "main",
+      "updated_at": "2026-05-11T19:40:27Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/320744938/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/320744938",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.34.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.33.1/requests-2.33.1-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-03-30T16:11:41Z",
+          "digest": "sha256:4e6d1ef462f3626a1f0a0a9c42dd93c63bad33f9f1c1937509b8c5c8718ab56a",
+          "download_count": 180,
+          "id": 384863240,
+          "label": null,
+          "name": "requests-2.33.1-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4W8IwI",
+          "size": 64947,
+          "state": "uploaded",
+          "updated_at": "2026-03-30T16:11:42Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/384863240"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.33.1/requests-2.33.1.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-03-30T16:11:43Z",
+          "digest": "sha256:18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517",
+          "download_count": 275,
+          "id": 384863253,
+          "label": null,
+          "name": "requests-2.33.1.tar.gz",
+          "node_id": "RA_kwDOABTKOs4W8IwV",
+          "size": 134120,
+          "state": "uploaded",
+          "updated_at": "2026-03-30T16:11:44Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/384863253"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/303273336/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.33.1 (2026-03-30)\r\n-------------------\r\n\r\n**Bugfixes**\r\n- Fixed test cleanup for CVE-2026-25645 to avoid leaving unnecessary\r\n  files in the tmp directory. (#7305)\r\n- Fixed Content-Type header parsing for malformed values. (#7309)\r\n- Improved error consistency for malformed header values. (#7308)\r\n\r\n## New Contributors\r\n* @ferdnyc made their first contribution in https://github.com/psf/requests/pull/7277\r\n\r\n**Full Changelog**: https://github.com/psf/requests/blob/main/HISTORY.md#2331-2026-03-30",
+      "created_at": "2026-03-30T16:07:00Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.33.1",
+      "id": 303273336,
+      "immutable": false,
+      "mentions_count": 1,
+      "name": "v2.33.1",
+      "node_id": "RE_kwDOABTKOs4SE5V4",
+      "prerelease": false,
+      "published_at": "2026-03-30T16:12:09Z",
+      "reactions": {
+        "+1": 1,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 2,
+        "hooray": 1,
+        "laugh": 0,
+        "rocket": 0,
+        "total_count": 4,
+        "url": "https://api.github.com/repos/psf/requests/releases/303273336/reactions"
+      },
+      "tag_name": "v2.33.1",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.33.1",
+      "target_commitish": "main",
+      "updated_at": "2026-03-30T16:12:09Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/303273336/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/303273336",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.33.1"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.33.0/requests-2.33.0-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2026-03-25T16:38:14Z",
+          "digest": "sha256:3324635456fa185245e24865e810cecec7b4caf933d7eb133dcde67d48cee69b",
+          "download_count": 170,
+          "id": 381403790,
+          "label": null,
+          "name": "requests-2.33.0-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4Wu8KO",
+          "size": 65017,
+          "state": "uploaded",
+          "updated_at": "2026-03-25T16:38:14Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/381403790"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.33.0/requests-2.33.0.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2026-03-25T16:38:08Z",
+          "digest": "sha256:c7ebc5e8b0f21837386ad0e1c8fe8b829fa5f544d8df3b2253bff14ef29d7652",
+          "download_count": 78,
+          "id": 381403750,
+          "label": null,
+          "name": "requests-2.33.0.tar.gz",
+          "node_id": "RA_kwDOABTKOs4Wu8Jm",
+          "size": 134232,
+          "state": "uploaded",
+          "updated_at": "2026-03-25T16:38:08Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/381403750"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/301316725/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.33.0 (2026-03-25)\r\n--------------------\r\n\r\n**Announcements**\r\n- 📣 Requests is adding inline types. If you have a typed code base that uses Requests, please take a look at #7271. Give it a try, and report any gaps or feedback you may have in the issue. 📣\r\n\r\n**Security**\r\n- CVE-2026-25645 ``requests.utils.extract_zipped_paths`` now extracts contents to a non-deterministic location to prevent malicious file replacement. This does not affect default usage of Requests, only applications calling the utility function directly.\r\n\r\n**Improvements**\r\n- Migrated to a PEP 517 build system using setuptools. (#7012)\r\n\r\n**Bugfixes**\r\n- Fixed an issue where an empty netrc entry could cause malformed authentication to be applied to Requests on Python 3.11+. (#7205)\r\n\r\n**Deprecations**\r\n- Dropped support for Python 3.9 following its end of support. (#7196)\r\n\r\n**Documentation**\r\n- Various typo fixes and doc improvements.\r\n\r\n## New Contributors\r\n* @M0d3v1 made their first contribution in https://github.com/psf/requests/pull/6865\r\n* @aminvakil made their first contribution in https://github.com/psf/requests/pull/7220\r\n* @E8Price made their first contribution in https://github.com/psf/requests/pull/6960\r\n* @mitre88 made their first contribution in https://github.com/psf/requests/pull/7244\r\n* @magsen made their first contribution in https://github.com/psf/requests/pull/6553\r\n* @Rohan5commit made their first contribution in https://github.com/psf/requests/pull/7227\r\n\r\n**Full Changelog**: https://github.com/psf/requests/blob/main/HISTORY.md#2330-2026-03-25",
+      "created_at": "2026-03-25T15:06:17Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.33.0",
+      "id": 301316725,
+      "immutable": false,
+      "mentions_count": 6,
+      "name": "v2.33.0",
+      "node_id": "RE_kwDOABTKOs4R9bp1",
+      "prerelease": false,
+      "published_at": "2026-03-25T16:38:25Z",
+      "reactions": {
+        "+1": 3,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 0,
+        "hooray": 7,
+        "laugh": 0,
+        "rocket": 0,
+        "total_count": 10,
+        "url": "https://api.github.com/repos/psf/requests/releases/301316725/reactions"
+      },
+      "tag_name": "v2.33.0",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.33.0",
+      "target_commitish": "main",
+      "updated_at": "2026-03-25T16:38:25Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/301316725/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/301316725",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.33.0"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.5/requests-2.32.5-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2025-08-18T20:55:21Z",
+          "digest": "sha256:2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6",
+          "download_count": 851,
+          "id": 283795668,
+          "label": null,
+          "name": "requests-2.32.5-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4Q6mDU",
+          "size": 64738,
+          "state": "uploaded",
+          "updated_at": "2025-08-18T20:55:22Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/283795668"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.5/requests-2.32.5.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2025-08-18T20:55:25Z",
+          "digest": "sha256:dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf",
+          "download_count": 744,
+          "id": 283795677,
+          "label": null,
+          "name": "requests-2.32.5.tar.gz",
+          "node_id": "RA_kwDOABTKOs4Q6mDd",
+          "size": 134517,
+          "state": "uploaded",
+          "updated_at": "2025-08-18T20:55:26Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/283795677"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/240717005/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.32.5 (2025-08-18)\r\n-------------------\r\n\r\n**Bugfixes**\r\n\r\n- The SSLContext caching feature originally introduced in 2.32.0 has created\r\n  a new class of issues in Requests that have had negative impact across a number\r\n  of use cases. The Requests team has decided to revert this feature as long term\r\n  maintenance of it is proving to be unsustainable in its current iteration.\r\n\r\n**Deprecations**\r\n- Added support for Python 3.14.\r\n- Dropped support for Python 3.8 following its end of support.",
+      "created_at": "2025-08-18T20:23:20Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.32.5",
+      "id": 240717005,
+      "immutable": false,
+      "name": "v2.32.5",
+      "node_id": "RE_kwDOABTKOs4OWQzN",
+      "prerelease": false,
+      "published_at": "2025-08-18T20:33:27Z",
+      "reactions": {
+        "+1": 10,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 2,
+        "heart": 0,
+        "hooray": 4,
+        "laugh": 0,
+        "rocket": 2,
+        "total_count": 18,
+        "url": "https://api.github.com/repos/psf/requests/releases/240717005/reactions"
+      },
+      "tag_name": "v2.32.5",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.32.5",
+      "target_commitish": "b25c87d7cb8d6a18a37fa12442b5f883f9e41741",
+      "updated_at": "2025-08-19T05:41:32Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/240717005/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/240717005",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.32.5"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.4/requests-2.32.4-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2025-06-09T18:22:02Z",
+          "digest": "sha256:27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c",
+          "download_count": 277,
+          "id": 262386590,
+          "label": null,
+          "name": "requests-2.32.4-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4Po7Oe",
+          "size": 64847,
+          "state": "uploaded",
+          "updated_at": "2025-06-09T18:22:02Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/262386590"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.4/requests-2.32.4.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2025-06-09T18:22:04Z",
+          "digest": "sha256:27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422",
+          "download_count": 307,
+          "id": 262386594,
+          "label": null,
+          "name": "requests-2.32.4.tar.gz",
+          "node_id": "RA_kwDOABTKOs4Po7Oi",
+          "size": 135258,
+          "state": "uploaded",
+          "updated_at": "2025-06-09T18:22:04Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/262386594"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/224111548/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.32.4 (2025-06-10)\r\n-------------------\r\n\r\n**Security**\r\n- CVE-2024-47081 Fixed an issue where a maliciously crafted URL and trusted\r\n  environment will retrieve credentials for the wrong hostname/machine from a\r\n  netrc file. (#6965)\r\n\r\n**Improvements**\r\n- Numerous documentation improvements\r\n\r\n**Deprecations**\r\n- Added support for pypy 3.11 for Linux and macOS. (#6926)\r\n- Dropped support for pypy 3.9 following its end of support. (#6926)",
+      "created_at": "2025-06-09T16:40:33Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.32.4",
+      "id": 224111548,
+      "immutable": false,
+      "name": "v2.32.4",
+      "node_id": "RE_kwDOABTKOs4NW6u8",
+      "prerelease": false,
+      "published_at": "2025-06-09T18:22:07Z",
+      "reactions": {
+        "+1": 8,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 0,
+        "hooray": 3,
+        "laugh": 0,
+        "rocket": 0,
+        "total_count": 11,
+        "url": "https://api.github.com/repos/psf/requests/releases/224111548/reactions"
+      },
+      "tag_name": "v2.32.4",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.32.4",
+      "target_commitish": "main",
+      "updated_at": "2025-06-09T18:22:07Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/224111548/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/224111548",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.32.4"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.3/requests-2.32.3-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2024-05-29T15:39:37Z",
+          "digest": null,
+          "download_count": 1452,
+          "id": 170760513,
+          "label": null,
+          "name": "requests-2.32.3-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4KLZlB",
+          "size": 64928,
+          "state": "uploaded",
+          "updated_at": "2024-05-29T15:39:37Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/170760513"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.3/requests-2.32.3.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2024-05-29T15:39:35Z",
+          "digest": null,
+          "download_count": 2173,
+          "id": 170760508,
+          "label": null,
+          "name": "requests-2.32.3.tar.gz",
+          "node_id": "RA_kwDOABTKOs4KLZk8",
+          "size": 131218,
+          "state": "uploaded",
+          "updated_at": "2024-05-29T15:39:36Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/170760508"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/158021607/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.32.3 (2024-05-29)\r\n-------------------\r\n\r\n**Bugfixes**\r\n- Fixed bug breaking the ability to specify custom SSLContexts in sub-classes of\r\n  HTTPAdapter. (#6716)\r\n- Fixed issue where Requests started failing to run on Python versions compiled\r\n  without the `ssl` module. (#6724)",
+      "created_at": "2024-05-29T15:37:57Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.32.3",
+      "id": 158021607,
+      "immutable": false,
+      "name": "v2.32.3",
+      "node_id": "RE_kwDOABTKOs4Jazfn",
+      "prerelease": false,
+      "published_at": "2024-05-29T15:39:40Z",
+      "reactions": {
+        "+1": 14,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 2,
+        "heart": 0,
+        "hooray": 3,
+        "laugh": 0,
+        "rocket": 4,
+        "total_count": 23,
+        "url": "https://api.github.com/repos/psf/requests/releases/158021607/reactions"
+      },
+      "tag_name": "v2.32.3",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.32.3",
+      "target_commitish": "main",
+      "updated_at": "2024-05-29T15:39:40Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/158021607/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/158021607",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.32.3"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.2/requests-2.32.2-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2024-05-21T18:53:45Z",
+          "digest": null,
+          "download_count": 117,
+          "id": 169256405,
+          "label": null,
+          "name": "requests-2.32.2-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4KFqXV",
+          "size": 63902,
+          "state": "uploaded",
+          "updated_at": "2024-05-21T18:53:45Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/169256405"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.2/requests-2.32.2.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2024-05-21T18:53:43Z",
+          "digest": null,
+          "download_count": 2966,
+          "id": 169256404,
+          "label": null,
+          "name": "requests-2.32.2.tar.gz",
+          "node_id": "RA_kwDOABTKOs4KFqXU",
+          "size": 130327,
+          "state": "uploaded",
+          "updated_at": "2024-05-21T18:53:43Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/169256404"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/156747852/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.32.2 (2024-05-21)\r\n-------------------\r\n\r\n**Deprecations**\r\n- To provide a more stable migration for custom HTTPAdapters impacted\r\n  by the CVE changes in 2.32.0, we've renamed `_get_connection` to\r\n  a new public API, `get_connection_with_tls_context`. Existing custom\r\n  HTTPAdapters will need to migrate their code to use this new API.\r\n  `get_connection` is considered deprecated in all versions of Requests>=2.32.0.\r\n\r\n  A minimal (2-line) example has been provided in the linked PR to ease\r\n  migration, but we strongly urge users to evaluate if their custom adapter\r\n  is subject to the same issue described in CVE-2024-35195. (#6710)",
+      "created_at": "2024-05-21T18:49:58Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.32.2",
+      "id": 156747852,
+      "immutable": false,
+      "name": "v2.32.2",
+      "node_id": "RE_kwDOABTKOs4JV8hM",
+      "prerelease": false,
+      "published_at": "2024-05-21T18:53:48Z",
+      "reactions": {
+        "+1": 13,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 3,
+        "heart": 4,
+        "hooray": 4,
+        "laugh": 0,
+        "rocket": 10,
+        "total_count": 34,
+        "url": "https://api.github.com/repos/psf/requests/releases/156747852/reactions"
+      },
+      "tag_name": "v2.32.2",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.32.2",
+      "target_commitish": "main",
+      "updated_at": "2024-05-21T18:53:48Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/156747852/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/156747852",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.32.2"
+    },
+    {
+      "assets": [
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.1/requests-2.32.1-py3-none-any.whl",
+          "content_type": "application/octet-stream",
+          "created_at": "2024-05-21T18:53:00Z",
+          "digest": null,
+          "download_count": 61,
+          "id": 169256302,
+          "label": null,
+          "name": "requests-2.32.1-py3-none-any.whl",
+          "node_id": "RA_kwDOABTKOs4KFqVu",
+          "size": 63711,
+          "state": "uploaded",
+          "updated_at": "2024-05-21T18:53:00Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/169256302"
+        },
+        {
+          "browser_download_url": "https://github.com/psf/requests/releases/download/v2.32.1/requests-2.32.1.tar.gz",
+          "content_type": "application/x-gzip",
+          "created_at": "2024-05-21T18:52:57Z",
+          "digest": null,
+          "download_count": 60,
+          "id": 169256298,
+          "label": null,
+          "name": "requests-2.32.1.tar.gz",
+          "node_id": "RA_kwDOABTKOs4KFqVq",
+          "size": 129920,
+          "state": "uploaded",
+          "updated_at": "2024-05-21T18:52:58Z",
+          "uploader": {
+            "login": "nateprewitt"
+          },
+          "url": "https://api.github.com/repos/psf/requests/releases/assets/169256298"
+        }
+      ],
+      "assets_url": "https://api.github.com/repos/psf/requests/releases/156747736/assets",
+      "author": {
+        "login": "nateprewitt"
+      },
+      "body": "2.32.1 (2024-05-20)\r\n-------------------\r\n\r\n**Bugfixes**\r\n- Add missing test certs to the sdist distributed on PyPI.",
+      "created_at": "2024-05-20T22:09:05Z",
+      "draft": false,
+      "html_url": "https://github.com/psf/requests/releases/tag/v2.32.1",
+      "id": 156747736,
+      "immutable": false,
+      "name": "v2.32.1",
+      "node_id": "RE_kwDOABTKOs4JV8fY",
+      "prerelease": false,
+      "published_at": "2024-05-21T18:53:03Z",
+      "reactions": {
+        "+1": 4,
+        "-1": 0,
+        "confused": 0,
+        "eyes": 0,
+        "heart": 0,
+        "hooray": 0,
+        "laugh": 0,
+        "rocket": 1,
+        "total_count": 5,
+        "url": "https://api.github.com/repos/psf/requests/releases/156747736/reactions"
+      },
+      "tag_name": "v2.32.1",
+      "tarball_url": "https://api.github.com/repos/psf/requests/tarball/v2.32.1",
+      "target_commitish": "main",
+      "updated_at": "2024-05-21T18:53:03Z",
+      "upload_url": "https://uploads.github.com/repos/psf/requests/releases/156747736/assets{?name,label}",
+      "url": "https://api.github.com/repos/psf/requests/releases/156747736",
+      "zipball_url": "https://api.github.com/repos/psf/requests/zipball/v2.32.1"
+    }
+  ],
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}

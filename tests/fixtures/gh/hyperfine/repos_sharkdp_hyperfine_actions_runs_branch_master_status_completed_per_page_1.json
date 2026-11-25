@@ -1,0 +1,230 @@
+{
+  "body": {
+    "total_count": 163,
+    "workflow_runs": [
+      {
+        "actor": {
+          "login": "dependabot[bot]"
+        },
+        "artifacts_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201/artifacts",
+        "cancel_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201/cancel",
+        "check_suite_id": 122808502538,
+        "check_suite_node_id": "CS_kwDOBv62x88AAAAcl_UJCg",
+        "check_suite_url": "https://api.github.com/repos/sharkdp/hyperfine/check-suites/122808502538",
+        "conclusion": "success",
+        "created_at": "2026-11-24T11:42:01Z",
+        "display_title": "github_actions in /. - Update #1727532222",
+        "event": "dynamic",
+        "head_branch": "master",
+        "head_commit": {
+          "author": {
+            "name": "cynthia cui"
+          },
+          "committer": {
+            "name": "David Peter"
+          },
+          "id": "c5161524980522320c7d3425e714cc0965a869a5",
+          "message": "test(integration): ignore ambient forced color",
+          "timestamp": "2026-10-12T08:33:47Z",
+          "tree_id": "1b13e3507b0c9ea0cef00b00750c947261c51f33"
+        },
+        "head_repository": {
+          "archive_url": "https://api.github.com/repos/sharkdp/hyperfine/{archive_format}{/ref}",
+          "assignees_url": "https://api.github.com/repos/sharkdp/hyperfine/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/sharkdp/hyperfine/branches{/branch}",
+          "collaborators_url": "https://api.github.com/repos/sharkdp/hyperfine/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/sharkdp/hyperfine/comments{/number}",
+          "commits_url": "https://api.github.com/repos/sharkdp/hyperfine/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/sharkdp/hyperfine/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/sharkdp/hyperfine/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/sharkdp/hyperfine/contributors",
+          "deployments_url": "https://api.github.com/repos/sharkdp/hyperfine/deployments",
+          "description": "A command-line benchmarking tool",
+          "downloads_url": "https://api.github.com/repos/sharkdp/hyperfine/downloads",
+          "events_url": "https://api.github.com/repos/sharkdp/hyperfine/events",
+          "fork": false,
+          "forks_url": "https://api.github.com/repos/sharkdp/hyperfine/forks",
+          "full_name": "sharkdp/hyperfine",
+          "git_commits_url": "https://api.github.com/repos/sharkdp/hyperfine/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/sharkdp/hyperfine/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/sharkdp/hyperfine/git/tags{/sha}",
+          "hooks_url": "https://api.github.com/repos/sharkdp/hyperfine/hooks",
+          "html_url": "https://github.com/sharkdp/hyperfine",
+          "id": 117356231,
+          "issue_comment_url": "https://api.github.com/repos/sharkdp/hyperfine/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/sharkdp/hyperfine/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/sharkdp/hyperfine/issues{/number}",
+          "keys_url": "https://api.github.com/repos/sharkdp/hyperfine/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/sharkdp/hyperfine/labels{/name}",
+          "languages_url": "https://api.github.com/repos/sharkdp/hyperfine/languages",
+          "merges_url": "https://api.github.com/repos/sharkdp/hyperfine/merges",
+          "milestones_url": "https://api.github.com/repos/sharkdp/hyperfine/milestones{/number}",
+          "name": "hyperfine",
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMTczNTYyMzE=",
+          "notifications_url": "https://api.github.com/repos/sharkdp/hyperfine/notifications{?since,all,participating}",
+          "owner": {
+            "login": "sharkdp"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/sharkdp/hyperfine/pulls{/number}",
+          "releases_url": "https://api.github.com/repos/sharkdp/hyperfine/releases{/id}",
+          "stargazers_url": "https://api.github.com/repos/sharkdp/hyperfine/stargazers",
+          "statuses_url": "https://api.github.com/repos/sharkdp/hyperfine/statuses/{sha}",
+          "subscribers_url": "https://api.github.com/repos/sharkdp/hyperfine/subscribers",
+          "subscription_url": "https://api.github.com/repos/sharkdp/hyperfine/subscription",
+          "tags_url": "https://api.github.com/repos/sharkdp/hyperfine/tags",
+          "teams_url": "https://api.github.com/repos/sharkdp/hyperfine/teams",
+          "trees_url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees{/sha}",
+          "url": "https://api.github.com/repos/sharkdp/hyperfine"
+        },
+        "head_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+        "html_url": "https://github.com/sharkdp/hyperfine/actions/runs/45386566201",
+        "id": 45386566201,
+        "jobs_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201/jobs",
+        "logs_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201/logs",
+        "name": "github_actions in /. - Update #1727532222",
+        "node_id": "WFR_kwLOBv62x88AAAAKkUAKOQ",
+        "path": "dynamic/dependabot/dependabot-updates",
+        "previous_attempt_url": null,
+        "pull_requests": [
+          {
+            "base": {
+              "ref": "master",
+              "repo": {
+                "id": 118486324,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/stevepentland/hyperfine"
+              },
+              "sha": "83e214e8606409fff614033a968cc9cdccccda63"
+            },
+            "head": {
+              "ref": "master",
+              "repo": {
+                "id": 117356231,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/sharkdp/hyperfine"
+              },
+              "sha": "c5161524980522320c7d3425e714cc0965a869a5"
+            },
+            "id": 1128950175,
+            "number": 263,
+            "url": "https://api.github.com/repos/stevepentland/hyperfine/pulls/263"
+          },
+          {
+            "base": {
+              "ref": "master",
+              "repo": {
+                "id": 523259327,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/xxoolm/hyperfine"
+              },
+              "sha": "83e214e8606409fff614033a968cc9cdccccda63"
+            },
+            "head": {
+              "ref": "master",
+              "repo": {
+                "id": 117356231,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/sharkdp/hyperfine"
+              },
+              "sha": "c5161524980522320c7d3425e714cc0965a869a5"
+            },
+            "id": 1128948654,
+            "number": 10,
+            "url": "https://api.github.com/repos/xxoolm/hyperfine/pulls/10"
+          },
+          {
+            "base": {
+              "ref": "master",
+              "repo": {
+                "id": 337993013,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/em3ndez/hyperfine"
+              },
+              "sha": "272b1076849c7dccf80f145b7251e9d215bac5b9"
+            },
+            "head": {
+              "ref": "master",
+              "repo": {
+                "id": 117356231,
+                "name": "hyperfine",
+                "url": "https://api.github.com/repos/sharkdp/hyperfine"
+              },
+              "sha": "c5161524980522320c7d3425e714cc0965a869a5"
+            },
+            "id": 812560273,
+            "number": 58,
+            "url": "https://api.github.com/repos/em3ndez/hyperfine/pulls/58"
+          }
+        ],
+        "referenced_workflows": [],
+        "repository": {
+          "archive_url": "https://api.github.com/repos/sharkdp/hyperfine/{archive_format}{/ref}",
+          "assignees_url": "https://api.github.com/repos/sharkdp/hyperfine/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/sharkdp/hyperfine/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/sharkdp/hyperfine/branches{/branch}",
+          "collaborators_url": "https://api.github.com/repos/sharkdp/hyperfine/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/sharkdp/hyperfine/comments{/number}",
+          "commits_url": "https://api.github.com/repos/sharkdp/hyperfine/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/sharkdp/hyperfine/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/sharkdp/hyperfine/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/sharkdp/hyperfine/contributors",
+          "deployments_url": "https://api.github.com/repos/sharkdp/hyperfine/deployments",
+          "description": "A command-line benchmarking tool",
+          "downloads_url": "https://api.github.com/repos/sharkdp/hyperfine/downloads",
+          "events_url": "https://api.github.com/repos/sharkdp/hyperfine/events",
+          "fork": false,
+          "forks_url": "https://api.github.com/repos/sharkdp/hyperfine/forks",
+          "full_name": "sharkdp/hyperfine",
+          "git_commits_url": "https://api.github.com/repos/sharkdp/hyperfine/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/sharkdp/hyperfine/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/sharkdp/hyperfine/git/tags{/sha}",
+          "hooks_url": "https://api.github.com/repos/sharkdp/hyperfine/hooks",
+          "html_url": "https://github.com/sharkdp/hyperfine",
+          "id": 117356231,
+          "issue_comment_url": "https://api.github.com/repos/sharkdp/hyperfine/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/sharkdp/hyperfine/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/sharkdp/hyperfine/issues{/number}",
+          "keys_url": "https://api.github.com/repos/sharkdp/hyperfine/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/sharkdp/hyperfine/labels{/name}",
+          "languages_url": "https://api.github.com/repos/sharkdp/hyperfine/languages",
+          "merges_url": "https://api.github.com/repos/sharkdp/hyperfine/merges",
+          "milestones_url": "https://api.github.com/repos/sharkdp/hyperfine/milestones{/number}",
+          "name": "hyperfine",
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMTczNTYyMzE=",
+          "notifications_url": "https://api.github.com/repos/sharkdp/hyperfine/notifications{?since,all,participating}",
+          "owner": {
+            "login": "sharkdp"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/sharkdp/hyperfine/pulls{/number}",
+          "releases_url": "https://api.github.com/repos/sharkdp/hyperfine/releases{/id}",
+          "stargazers_url": "https://api.github.com/repos/sharkdp/hyperfine/stargazers",
+          "statuses_url": "https://api.github.com/repos/sharkdp/hyperfine/statuses/{sha}",
+          "subscribers_url": "https://api.github.com/repos/sharkdp/hyperfine/subscribers",
+          "subscription_url": "https://api.github.com/repos/sharkdp/hyperfine/subscription",
+          "tags_url": "https://api.github.com/repos/sharkdp/hyperfine/tags",
+          "teams_url": "https://api.github.com/repos/sharkdp/hyperfine/teams",
+          "trees_url": "https://api.github.com/repos/sharkdp/hyperfine/git/trees{/sha}",
+          "url": "https://api.github.com/repos/sharkdp/hyperfine"
+        },
+        "rerun_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201/rerun",
+        "run_attempt": 1,
+        "run_number": 389,
+        "run_started_at": "2026-11-24T11:42:01Z",
+        "status": "completed",
+        "triggering_actor": {
+          "login": "dependabot[bot]"
+        },
+        "updated_at": "2026-11-24T11:42:40Z",
+        "url": "https://api.github.com/repos/sharkdp/hyperfine/actions/runs/45386566201",
+        "workflow_id": 108124569,
+        "workflow_url": "https://api.github.com/repos/sharkdp/hyperfine/actions/workflows/108124569"
+      }
+    ]
+  },
+  "headers": {},
+  "status": 200,
+  "stderr": ""
+}
